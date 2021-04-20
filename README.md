@@ -8,6 +8,6 @@ The goal of the project is the construction and programming of a model vehicle f
 
 
 ### 1.2 Project
-For the Project [>click-here<](https://github.com/CEcker94/nxp-aes-documentation) 
+For the Project [>click-here<](https://github.com/CEcker94/nxp-aes-proj) 
 
 The project contains the c-code for the autonomous driving vehicle.
