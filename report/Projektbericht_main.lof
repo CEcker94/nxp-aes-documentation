@@ -1,0 +1,52 @@
+\babel@toc {ngerman}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Grundplatte des Standardbausatzes für das Fahrzeug}}{3}{figure.caption.7}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Grundplatte des Standardbausatzes für das Fahrzeug}}{3}{figure.caption.8}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Obere Ebene des Standardbausatzes für das Fahrzeug}}{4}{figure.caption.9}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Obere Ebene des Standardbausatzes für das Fahrzeug}}{4}{figure.caption.10}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Konstruktionsbild des oberen Stoßstangenteils}}{5}{figure.caption.11}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Konstruktionsbild des unteren Stoßstangenteils}}{5}{figure.caption.12}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Gedrucktes oberes und unteres Stoßstangenteil}}{6}{figure.caption.13}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Konstruktionsbild der Halterung des Ultraschallboards}}{6}{figure.caption.14}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Gedruckte Halterung des Ultraschallboards}}{6}{figure.caption.15}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Draufsicht der Stoßstange und der Ultraschallboard-Halterung}}{6}{figure.caption.16}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Untersicht der Stoßstange und der Ultraschallboard-Halterung}}{7}{figure.caption.17}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Konstruktionsbild der Akku-Halterung}}{7}{figure.caption.18}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Gedruckte Akku-Halterung}}{7}{figure.caption.19}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Konstruktionsbild der Seitenschweller}}{8}{figure.caption.20}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Gedruckte Seitenschweller}}{8}{figure.caption.21}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Montierte Akku-Halterung und Seitenschweller}}{8}{figure.caption.22}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Konstruktionsbild der Controller-Halterung}}{9}{figure.caption.23}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Konstruktionsbild der Platinen-Halterung für die Fahrzeugbedienung}}{9}{figure.caption.24}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Konstruktionsbild der Abdeckung für die Fahrzeugbedienung}}{9}{figure.caption.25}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Konstruktionsbild der Drucktasters}}{9}{figure.caption.26}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Gedruckte Controller-Halterung}}{10}{figure.caption.27}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Gedruckte Drucktaster-Verlängerung}}{10}{figure.caption.28}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Gedruckte Platinen-Abdeckung des Bedienungsboards}}{10}{figure.caption.29}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Gedruckte Platinen-Halterung für das Bedienungs-Board}}{10}{figure.caption.30}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Fertig montierte Controller- und Bedienungs-Board-Halterung}}{11}{figure.caption.31}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Fertig montierte Controller- und Bedienungs-Board-Halterung mit Abdeckung}}{11}{figure.caption.32}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Konstruktionsbild einer Motorcontroller-Halterung}}{12}{figure.caption.33}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Gedruckte Motorcontroller-Halterungen}}{12}{figure.caption.34}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Die auf der Grundplatte montierten Motorcontroller}}{12}{figure.caption.35}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Konstruktionsbild einer einfachen Platinenhalterung}}{13}{figure.caption.36}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Gedruckte Platinenhalterungen}}{13}{figure.caption.37}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Mit den einfachen Platinenhalterungen montierte Verteiler-Platine}}{13}{figure.caption.38}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Kameramontage-Komponente der Kamera-Halterung}}{14}{figure.caption.39}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Stangenmontage-Komponente der Kamera-Halterung}}{14}{figure.caption.40}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Fertig montierte Kamera mit Kamerahalterung}}{15}{figure.caption.43}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Controllerplatine LPCXpresso54608 ~\cite {Semic}}}{16}{figure.caption.44}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Skizze zur Beschaltung eines \ac {ESC}s und \ac {BLDCMot}s}}{17}{figure.caption.48}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Montage der Antriebskomponenten}}{18}{figure.caption.49}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Initialisierungssequenz der \ac {ESC}s}}{19}{figure.caption.50}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Programmierung des Arduino Nano zur \ac {ESC}-Konfiguration}}{20}{figure.caption.51}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Parameter der neuen \ac {ESC}-Konfiguration}}{20}{figure.caption.52}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Relevante Zeilen der Datei \glqq {}drive.h\grqq {}}}{21}{figure.caption.53}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Funktionen BLDC\_Init und CTIMER3\_Init der Datei \glqq {}drive.c\grqq {}}}{22}{figure.caption.55}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Funktion BLDC\_Init\_Task der Datei \glqq {}drive.c\grqq {}}}{23}{figure.caption.56}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Messaufbau zur Prüfung der Spannungsabhängigkeit der \acp {BLDCMot}}}{24}{figure.caption.58}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Servomotor mit Anschlussleitungen~\cite {DIYE}}}{27}{figure.caption.61}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Montage der Lenkungskomponenten}}{28}{figure.caption.62}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Relevante Zeilen der Datei \glqq {}servo.h\grqq {}}}{29}{figure.caption.63}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Funktionen SERVO\_Init, CTIMER1\_Init und SERVO\_Demo der Datei \glqq {}drive.c\grqq {}}}{30}{figure.caption.64}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Schaltplan des Bedienungs-Boards 1}}{32}{figure.caption.65}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Schaltplan des Bedienungs-Boards 2}}{33}{figure.caption.66}%

@@ -1,0 +1,100 @@
+%*********************************************************************
+%*************************** Main Document ***************************
+%*********************************************************************
+
+% Header includes document class and packages
+\input{header/header}
+
+\begin{document}
+
+\pagenumbering{Alph} % Intern werden die Ersten seiten mit Alpha-Stiel nummeriert um Doppelreferenzen zu vermeiden 
+
+% Titlepage
+\input{titlepage/titlepage}
+
+% Set page counter to 2 and page numbering to Roman
+\pagenumbering{Roman}
+\setcounter{page}{2}
+
+% Section 0 Inhalt
+\input{sec0/sec0}
+%***************************Muss noch probegelesen werden
+%***************************Dank schreiben
+
+% Table of contents
+\input{inserts/toc/toc}
+
+% Table of acronyms
+\input{inserts/acronym/acronym}
+
+% Saving page counter value for attachement
+\newcounter{pagecountersaving}
+\setcounter{pagecountersaving}{\value{page}}
+
+% Set page counter to 1 and page numbering to arabic
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Section 1 Einführung
+\input{sec1/sec1}
+%***************************Änderungen in Zielsetzung und Konzept müssen noch probegelesen werden!!
+
+% Section 2 Aufbau des Fahrzeugs
+\input{sec2/sec2}
+%***************************Bild Grundplatte mit Verteilerplatine/Akku/Fahrzeugperipherie fehlt
+%***************************Bild obere Ebene mit Controller/Bedienung/Kamera fehlt
+%***************************Änderungen müssen noch probegelesen werden
+%***************************Bild der montierten ESC-Halterungen fehlt noch
+%***************************Bild der montierten Verteilerplatine mit den einfachen Platinen-Halterungen fehlt noch
+
+% Section 3 Controllerplatine und Programmiertool
+\input{sec3/sec3}
+%***************************Kapitel sollte bereits passen -> nochmal absprechen
+
+% Section 4 Antrieb des Fahrzeugs
+\input{sec4/sec4}
+%***************************Drehzahlmeesung fertig schreiben und Kaopitel durchsprechen
+%***************************Änderungen müssen noch probegelesen werden
+%***************************StopOnBrake Test durchführen
+
+% Section 5 Lenkung des Fahrzeugs
+\input{sec5/sec5}
+%***************************
+
+% Section 6 Bedienungs-Board
+\input{sec6/sec6}
+%***************************
+
+% Section 7 Streckenerkennung des Fahrzeugs
+\input{sec7/sec7}
+%***************************Kapitel muss noch geschrieben werden
+
+% Section 8 Verteilerplatine
+\input{sec8/sec8}
+%***************************Kapitel muss noch geschrieben werden
+
+% Section 9 Regelung
+\input{sec9/sec9}
+%***************************Kapitel muss noch geschrieben werden
+
+% Section 10 Inbetriebnahme des Fahrzeugs
+\input{sec10/sec10}
+%***************************Kapitel muss noch geschrieben werden
+
+% Section 11 Zusammenfassung, Fazit und Ausblick
+\input{sec11/sec11}
+%***************************Kapitel muss am Ende des Semesters neu erstellt werden
+
+\pagenumbering{Roman}
+\setcounter{page} {\thepagecountersaving}
+
+% Table of graphics
+\input{inserts/graphics/graphics}
+
+% Table of sources
+\input{inserts/sources/sources}
+
+% Attachements
+\input{attachement/attachement}
+
+\end{document}

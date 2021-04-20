@@ -1,0 +1,27 @@
+%*****************************************************************
+%*************************** Section 1 ***************************
+%************************** Einfuehrung **************************
+%*****************************************************************
+
+
+%\pagestyle{fancy}
+\rhead{\thepage} \chead{} \lhead{\ref{Sec1}. \nameref{Sec1}}
+\cfoot{}
+
+\section{Einführung}\label{Sec1}
+
+\subsection{Zielsetzung}\label{Sub1Sec1}
+
+Das Ziel der Projektarbeit ist der Aufbau und die Programmierung eines Modellfahrzeugs für den \ac{NXP}-Cup mit einem eigens gebauten, selbstfahrenden Fahrzeug. Bei diesem Wettbewerb müssen die im Maßstab 1:18 angefertigten Fahrzeuge einen Parcours in möglichst kurzer Zeit selbstständig durchfahren. Diese werden von Studenten aus Europa, dem mittleren Osten und Afrika auf Grundbasis eines Bausatzes entwickelt. Die Fahrbahn wird von zwei schwarzen Streifen begrenzt, die auf einem weißen Hintergrund aufgebracht sind. Das Fahrzeug muss diese Begrenzungen erkennen und anhand deren Auswertung die Geschwindigkeit des Fahrzeugs und dessen Lenkwinkel anpassen. Angetrieben wird das Auto mithilfe zweier \acp{BLDCMot}. Die Lenkung wird mittels Servoantrieb und Lenkgestänge realisiert. Auf dem Fahrzeug dürfen beliebig viele Prozessoren und Bauteile von NXP Semiconductors, welche den Wettbewerb ausrichten, verwendet werden~\cite{MWil}. Sind für das eigene Fahrzeug benötigte Komponenten nicht im Portfolio von NXP Semiconductors vorzufinden, können auch eigene oder die Produkte anderer Hersteller verwendet werden. 
+
+\subsection{Konzept}\label{Sub1Sec2}
+
+Zu Beginn soll das Fahrzeug zuerst mit dem Standardbausatz zusammengebaut werden. Die Software wird aus bereits vorhandenen, vorherigen Projekten zusammengesetzt und optimiert. Ein großes Augenmerk liegt dabei auf einem übersichtlicheren Aufbau des Programms und besserer Nachvollziehbarkeit durch Kommentation und eingängigerer Benennung der Funktionen und Parameter.\vspace{11pt}
+
+Die Programmierung soll Stück für Stück vorgenommen werden. Zu Beginn wird die Ansteuerung der \acp{BLDCMot} bearbeitet. Ist der Punkt erreicht, an dem die Motoren angesteuert und die Drehzahl über die Puls-Weiten-Modulation variiert werden kann, soll eine Möglichkeit der Drehzahlerkennung erarbeitet werden. Im Anschluss an die Inbetriebnahme der Antriebe wird die Software für den Servomotor der Lenkung erstellt. Die Bedienung des Fahrzeugs soll über ein Display und einen Dreh-Encoder realisiert werden. Zur Streckenerkennung wird eine Zeilenkamera verwendet. Bei Bedarf kann zusätzlich oder ersatzweise eine größere Kamera eingesetzt werden. Nach der Inbetriebnahme der Einzelkomponenten werden deren Ansteuerung und Auswertung mithilfe einer Regelung verknüpft. Die Software des Fahrzeugs soll am Ende so optimiert werden, dass es schnellstmöglich, aber auch sicher durch den Parcours fährt.\vspace{11pt}
+
+Nach der erfolgreichen Entwicklung des Fahrzeugs für das Durchfahren des Parcours soll für eine zusätzliche Wettbewerbsdisziplin eine Objektdetektion mithilfe eines Ultraschallboards realisiert werden, welches bereits in den vorherigen Semestern von anderen Studierenden entwickelt wurde. Mithilfe dieses Ultraschall-Boards soll das Fahrzeug Hindernisse erkennen und um diese herumfahren können.\vspace{11pt}
+
+Karosserieteile, wie beispielsweise eine  Akkuhalterung oder eine Stoßstange mit der Möglichkeit zur Befestigung des Ultraschallboards, werden mit einem 3D-Druck-Verfahren erstellt. Dafür werden vor allem Teile gedruckt, welche bereits von Herrn Arne Kullina im Rahmen seines Praktikums bei Herrn Prof. Dr. Mathias Rausch im Sommersemester 2020 konstruiert wurden. Für eine übersichtlichere Kabelführung und einfachere De- und Montage wird eine Lochrasterplatine mit Steckkontakten erstellt, an welchen die Einzelmodule angeschlossen werden können.
+
+\newpage

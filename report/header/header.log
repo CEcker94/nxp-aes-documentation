@@ -1,0 +1,157 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  16 MAR 2021 12:12
+entering extended mode
+**./header.tex
+(header.tex
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03>
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
+"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty
+"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count183
+\Gm@cntv=\count184
+\c@Gm@tempcnt=\count185
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+cfg"))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
+sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
+Package: babel 2020/10/06 3.50 The Babel package
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/10/06 3.50 Babel common definitions
+\babel@savecnt=\count186
+\U@D=\dimen147
+\l@babelnohyphens=\language83
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count187
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
+an.ldf"
+Language: ngerman 2020/07/21 v2.12 German support for babel (post-1996 orthogra
+phy)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ngerm
+anb.ldf"
+Language: ngermanb 2020/07/21 v2.12 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 121.
+)))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count188
+\float@exts=\toks19
+\float@box=\box47
+\@float@everytoks=\toks20
+\@floatcapt=\box48
+))
+! Emergency stop.
+<*> ./header.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 2164 strings out of 480202
+ 30976 string characters out of 2877025
+ 321172 words of memory out of 3000000
+ 18755 multiletter control sequences out of 15000+200000
+ 535388 words of font info for 30 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,0n,66p,230b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

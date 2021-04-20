@@ -1,0 +1,54 @@
+%***********************************************************************
+%*************************** Document Header ***************************
+%***********************************************************************
+
+
+% Document formatting
+\documentclass[a4paper,11pt]{article} %document type
+\usepackage[a4paper, left=3cm, right=2.5cm, bottom=3cm]{geometry}  %borders
+\usepackage{fancyhdr} %pagestyle
+\setlength{\headheight}{15pt} %page header height
+\usepackage[normalem]{ulem} %underline not only with line (eg. dotty )
+\usepackage{amsfonts}	%Für Schriftarten
+\usepackage[onehalfspacing]{setspace} %linespace
+\usepackage{indentfirst} %ersten Paragraph des Kapitels einrücken
+
+% Character set and orthography
+\usepackage[utf8]{inputenc} %UTF8, also mit Umlauten
+\usepackage[ngerman]{babel}	%Deutsche Rechtschreibung
+\usepackage[T1]{fontenc}	%Westeuropäische Codierung
+
+% Graphics
+\usepackage{graphicx}
+\usepackage{float} %[H] for placement forcing
+\usepackage{caption} %captionsetup
+
+% Acronyms
+\usepackage[printonlyused]{acronym}
+
+% References
+\usepackage{titleref} %for \ref
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black]{hyperref}
+
+% URL
+\usepackage{url} 
+\newcommand*\oldurlbreaks{}
+\let\oldurlbreaks=\UrlBreaks
+\renewcommand{\UrlBreaks}{\oldurlbreaks\do\a\do\b\do\c\do\d\do\e%
+  \do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q%
+  \do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\?\do\&\do\-}
+ 
+ 
+  
+%\usepackage{ragged2e}	%justification (block)
+%\PassOptionsToPackage{hyphens}{url}
+%\usepackage{scrextend} %Koma Blocksatz
+%\usepackage{tabularx} %Tabellen verwenden
+
+%\usepackage[numbers]{natbib} %Für deutsches Literaturverzeichnis
+
+%\usepackage{blindtext}
+%\usepackage{siunitx}
+%\usepackage{enumitem,amssymb}
+%\newlist{checklist}{itemize}{2}
+%\setlist[checklist]{label=$\square$}

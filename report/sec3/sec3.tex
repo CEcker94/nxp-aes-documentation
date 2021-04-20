@@ -1,0 +1,25 @@
+%*****************************************************************
+%*************************** Section 3 ***************************
+%************* Controllerplatine und Programmiertool *************
+%*****************************************************************
+
+
+\pagestyle{fancy}
+\rhead{\thepage} \chead{} \lhead{\ref{Sec3}. \nameref{Sec3}}
+\cfoot{}
+
+\section{Controllerplatine und Programmiertool}\label{Sec3}
+
+Für dieses Projekt wird die Controllerplatine LPCXpresso54608 von NXP Semiconductors verwendet. Das Herzstück dieser Platine ist der auf dem ARM Cortex-M4 basierende Mikrocontroller LPC54608. Dieser Controller wird wegen seiner schnellen Taktfrequenz und seiner großen Anzahl an Peripherie für die Ansteuerung der Motoren und des Servos sowie für die Sensorik zur Bestimmung des Streckenverlaufs verwendet. Der Vorteil in einer fertigen Controllerplatine liegt darin, dass der Schaltplan, um die Funktionsweise des Controllers sicherzustellen, sowie das dazugehörige Layout professionell erstellt sind, wodurch dieser aufwendige Schritt bei der Entwicklung des Autos entfällt. Außerdem ist darauf bereits ein USB basierter J-Link Debugger zur Programmierung und Fehlersuche verbaut.
+
+\begin{figure}[H] %H für Positionierung hier
+	\includegraphics[width=.90\textwidth]{sec3/images/Controllerplatine} 
+	\centering
+	\captionsetup{width=.95\textwidth}
+	\caption[Controllerplatine LPCXpresso54608 ~\protect\cite{Semic}]{Draufsicht auf die Controllerplatine mit dem Mikrocontroller LPC54608  (in rot hervorgehoben) als Hauptbestandteil ~\protect\cite{Semic}}\centering
+	\label{fig:Controllerplatine}
+\end{figure}
+
+Zur Programmierung des Controllers dient das auf Eclipse basierende Tool \glqq{}MCUXpresso\grqq{}, welches von NXP Semiconductors zur Verfügung gestellt wird. Darin sind die für den verwendeten Controller notwendigen Konfigurationsdateien, wie beispielsweise das Startup-Skript und einige Beispiele, bereits enthalten. Das erleichtert den Einstieg in die Programmierung erheblich. Außerdem kann das Konfigurationstool \glqq{}MCUXpresso Config Tools\grqq{} verwendet werden. Mit diesem kann die Initialisierung der Peripheriebausteine über eine graphische Benutzeroberfläche vorgenommen werden.
+
+\newpage

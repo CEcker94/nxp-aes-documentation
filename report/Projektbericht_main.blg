@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Projektbericht_main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: alphadin.bst
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: Projektbericht_Cites.bib
+Warning--to sort, need author, organization, or key in Semic
+Warning--empty edition in Semic
+Warning--empty address in Semic
+You've used 3 entries,
+            4793 wiz_defined-function locations,
+            906 strings with 6951 characters,
+and the built_in function-call counts, 1103 in all, are:
+= -- 116
+> -- 17
+< -- 13
++ -- 13
+- -- 4
+* -- 64
+:= -- 191
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 11
+chr.to.int$ -- 3
+cite$ -- 7
+duplicate$ -- 42
+empty$ -- 90
+format.name$ -- 12
+if$ -- 230
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 10
+newline$ -- 27
+num.names$ -- 6
+pop$ -- 13
+preamble$ -- 1
+purify$ -- 17
+quote$ -- 0
+skip$ -- 59
+stack$ -- 0
+substring$ -- 46
+swap$ -- 6
+text.length$ -- 4
+text.prefix$ -- 2
+top$ -- 0
+type$ -- 32
+warning$ -- 3
+while$ -- 6
+width$ -- 6
+write$ -- 45
+(There were 3 warnings)
