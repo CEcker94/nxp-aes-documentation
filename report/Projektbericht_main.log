@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  16 JUN 2021 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  16 JUN 2021 10:19
 entering extended mode
 **./Projektbericht_main.tex
 (Projektbericht_main.tex
@@ -1814,7 +1814,21 @@ Package pdftex.def Info: sec7/images/TimingWaveform.png  used on input line 44.
 (pdftex.def)             Requested size: 418.96548pt x 124.32454pt.
  [61 <./sec7/images/CamWaveform.png> <./sec7/images/TimingWaveform.png>] [62]) 
 (sec8/sec8.tex
-[63]) (sec11/sec11.tex [64]) (inserts/graphics/graphics.tex
+<sec8/images/Leistungsverteilerplatine.jpg, id=1228, 1876.00874pt x 2890.8pt>
+File: sec8/images/Leistungsverteilerplatine.jpg Graphic file (type jpg)
+<use sec8/images/Leistungsverteilerplatine.jpg>
+Package pdftex.def Info: sec8/images/Leistungsverteilerplatine.jpg  used on inp
+ut line 23.
+(pdftex.def)             Requested size: 145.09457pt x 223.54947pt.
+<sec8/images/Signalverteilerplatine.jpeg, id=1229, 1606.0pt x 1204.5pt>
+File: sec8/images/Signalverteilerplatine.jpeg Graphic file (type jpg)
+<use sec8/images/Signalverteilerplatine.jpeg>
+Package pdftex.def Info: sec8/images/Signalverteilerplatine.jpeg  used on input
+ line 37.
+(pdftex.def)             Requested size: 308.71106pt x 231.52235pt.
+
+[63 <./sec8/images/Leistungsverteilerplatine.jpg>] [64 <./sec8/images/Signalver
+teilerplatine.jpeg>]) (sec11/sec11.tex [65]) (inserts/graphics/graphics.tex
 (Projektbericht_main.lof [6]
 Overfull \hbox (1.75327pt too wide) in paragraph at lines 70--70
  [][] [][][]\T1/cmr/m/n/10.95 Funktionen SER-VO_Init, CTI-MER1_Init und SER-VO_
@@ -1833,7 +1847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--37
  []
 
 ) [8]) (attachement/attachement.tex [9]
-<attachement/PinAssignment.png, id=1354, 345.08925pt x 690.78075pt>
+<attachement/PinAssignment.png, id=1368, 345.08925pt x 690.78075pt>
 File: attachement/PinAssignment.png Graphic file (type png)
 <use attachement/PinAssignment.png>
 Package pdftex.def Info: attachement/PinAssignment.png  used on input line 28.
@@ -1843,44 +1857,52 @@ Overfull \vbox (25.28302pt too high) has occurred while \output is active []
 
 
 [10 <./attachement/PinAssignment.png>]) (Projektbericht_main.aux)
-Package rerunfilecheck Info: File `Projektbericht_main.out' has not changed.
-(rerunfilecheck)             Checksum: 8AB17295828FA90A2B990B0EC4AFB4B8;4662.
 
+Package rerunfilecheck Warning: File `Projektbericht_main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Projektbericht_main.out':
+(rerunfilecheck)             Before: 6FED638410196CE51F9009EFE4CC2DE4;4663
+(rerunfilecheck)             After:  B21019AD3BA904330B10D6D7244AB544;4674.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40100 strings out of 480202
- 1052739 string characters out of 2877025
- 1432626 words of memory out of 3000000
- 55718 multiletter control sequences out of 15000+200000
+ 40128 strings out of 480202
+ 1053690 string characters out of 2877025
+ 1432710 words of memory out of 3000000
+ 55739 multiletter control sequences out of 15000+200000
  551932 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,13n,90p,2989b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\chris\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\chris\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\chris\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Us
-ers\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.
-pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecrm1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecbx1440.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\chris\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/chris/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chr
-is/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb>
-Output written on Projektbericht_main.pdf (74 pages, 33913208 bytes).
+pdfTeX warning (dest): name{section*.99} has been referenced but does not exi
+st, replaced by a fixed one
+
+ <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+ti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/j
+knappen/ec/dpi600\eccc1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\chris\AppData\Local\MiKTeX\2
+.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\chris\AppData\Loca
+l\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\chris\Ap
+pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\User
+s\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk
+> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
+crm1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
+c/dpi600\ecbx1440.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/chris/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb>
+Output written on Projektbericht_main.pdf (75 pages, 35287008 bytes).
 PDF statistics:
- 1955 PDF objects out of 2073 (max. 8388607)
- 254 named destinations out of 1000 (max. 500000)
- 896 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1968 PDF objects out of 2073 (max. 8388607)
+ 258 named destinations out of 1000 (max. 500000)
+ 906 words of extra memory for PDF output out of 10000 (max. 10000000)
 
