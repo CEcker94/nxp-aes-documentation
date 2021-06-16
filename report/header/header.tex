@@ -5,7 +5,7 @@
 
 % Document formatting
 \documentclass[a4paper,11pt]{article} %document type
-\usepackage[a4paper, left=3cm, right=2.5cm, bottom=3cm]{geometry}  %borders
+\usepackage[a4paper, left=3cm, right=2.5cm, bottom=2.5cm]{geometry}  %borders
 \usepackage{fancyhdr} %pagestyle
 \setlength{\headheight}{15pt} %page header height
 \usepackage[normalem]{ulem} %underline not only with line (eg. dotty )
@@ -48,7 +48,22 @@
 %\usepackage[numbers]{natbib} %Für deutsches Literaturverzeichnis
 
 %\usepackage{blindtext}
-%\usepackage{siunitx}
+\usepackage{siunitx}
+\sisetup{locale = DE}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{calc} 
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered, draw=black, fill=red!30]
+
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=0.5, text centered, text width=3cm, draw=black, fill=orange!30]
+
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=0.5, text centered, text width=2cm, draw=black, fill=blue!30]
+
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=0.5, text centered, draw=black, fill=green!30]
+
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\usepackage[european]{circuitikz}
 %\usepackage{enumitem,amssymb}
 %\newlist{checklist}{itemize}{2}
 %\setlist[checklist]{label=$\square$}

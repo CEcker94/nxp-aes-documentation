@@ -21,6 +21,11 @@
 \newblock :
 \newblock \emph{LPC546xx User Manual}, 2019
 
+\bibitem[Tao06]{Taos}
+\emph{TSL1401R-LF User Manual}.
+\newblock :
+\newblock \emph{TSL1401R-LF User Manual}, 2006
+
 \bibitem[Wil20]{MWil}
 \textsc{Wilkens}, Matthias:
 \newblock \emph{Autonomous Driving Robot Student Teams Work from Home to Win

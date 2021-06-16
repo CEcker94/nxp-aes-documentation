@@ -11,47 +11,50 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Projektbericht_Cites.bib
 Warning--to sort, need author, organization, or key in Semic
+Warning--to sort, need author, organization, or key in Taos
 Warning--empty edition in Semic
 Warning--empty address in Semic
-You've used 3 entries,
+Warning--empty edition in Taos
+Warning--empty address in Taos
+You've used 4 entries,
             4793 wiz_defined-function locations,
-            906 strings with 6951 characters,
-and the built_in function-call counts, 1103 in all, are:
-= -- 116
-> -- 17
+            910 strings with 6986 characters,
+and the built_in function-call counts, 1424 in all, are:
+= -- 151
+> -- 18
 < -- 13
 + -- 13
 - -- 4
-* -- 64
-:= -- 191
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 11
-chr.to.int$ -- 3
-cite$ -- 7
-duplicate$ -- 42
-empty$ -- 90
+* -- 86
+:= -- 232
+add.period$ -- 4
+call.type$ -- 4
+change.case$ -- 14
+chr.to.int$ -- 4
+cite$ -- 12
+duplicate$ -- 58
+empty$ -- 129
 format.name$ -- 12
-if$ -- 230
+if$ -- 307
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 27
+missing$ -- 12
+newline$ -- 32
 num.names$ -- 6
-pop$ -- 13
+pop$ -- 18
 preamble$ -- 1
-purify$ -- 17
+purify$ -- 22
 quote$ -- 0
-skip$ -- 59
+skip$ -- 77
 stack$ -- 0
-substring$ -- 46
-swap$ -- 6
+substring$ -- 59
+swap$ -- 8
 text.length$ -- 4
 text.prefix$ -- 2
 top$ -- 0
-type$ -- 32
-warning$ -- 3
+type$ -- 44
+warning$ -- 6
 while$ -- 6
-width$ -- 6
-write$ -- 45
-(There were 3 warnings)
+width$ -- 8
+write$ -- 57
+(There were 6 warnings)

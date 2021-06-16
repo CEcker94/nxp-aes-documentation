@@ -11,15 +11,15 @@
 
 % Titlepage
 \input{titlepage/titlepage}
+%%------------------------------------------------------------------DATUM ändern
 
 % Set page counter to 2 and page numbering to Roman
 \pagenumbering{Roman}
 \setcounter{page}{2}
 
-% Section 0 Inhalt
+% Section 0 Vorwort und Projektlinks
 \input{sec0/sec0}
-%***************************Muss noch probegelesen werden
-%***************************Dank schreiben
+%%FERTIG
 
 % Table of contents
 \input{inserts/toc/toc}
@@ -37,53 +37,46 @@
 
 % Section 1 Einführung
 \input{sec1/sec1}
-%***************************Änderungen in Zielsetzung und Konzept müssen noch probegelesen werden!!
+%FERTIG
 
 % Section 2 Aufbau des Fahrzeugs
 \input{sec2/sec2}
-%***************************Bild Grundplatte mit Verteilerplatine/Akku/Fahrzeugperipherie fehlt
-%***************************Bild obere Ebene mit Controller/Bedienung/Kamera fehlt
-%***************************Änderungen müssen noch probegelesen werden
-%***************************Bild der montierten ESC-Halterungen fehlt noch
-%***************************Bild der montierten Verteilerplatine mit den einfachen Platinen-Halterungen fehlt noch
+%---------------------------------------------------------------------Bild obere Ebene mit Controller/Bedienung/Kamera fehlt
+
 
 % Section 3 Controllerplatine und Programmiertool
 \input{sec3/sec3}
-%***************************Kapitel sollte bereits passen -> nochmal absprechen
+%FERTIG
 
 % Section 4 Antrieb des Fahrzeugs
 \input{sec4/sec4}
-%***************************Drehzahlmeesung fertig schreiben und Kaopitel durchsprechen
-%***************************Änderungen müssen noch probegelesen werden
-%***************************StopOnBrake Test durchführen
+%---------------------------------------------------------------------- ab 4.5 probelesen und gemeinsam durchsprechen
 
 % Section 5 Lenkung des Fahrzeugs
 \input{sec5/sec5}
-%***************************
+%---------------------------------------------------------------------Probelesen und durchsprechen
 
 % Section 6 Bedienungs-Board
 \input{sec6/sec6}
-%***************************
+%---------------------------------------------------------------------Kapitel probelesen und durchsprechen
 
 % Section 7 Streckenerkennung des Fahrzeugs
 \input{sec7/sec7}
-%***************************Kapitel muss noch geschrieben werden
+%---------------------------------------------------------------------Kapitel muss noch fertig geschrieben werden (Programmierung)
 
 % Section 8 Verteilerplatine
 \input{sec8/sec8}
-%***************************Kapitel muss noch geschrieben werden
+%---------------------------------------------------------------------Kapitel muss noch geschrieben werden
 
 % Section 9 Regelung
-\input{sec9/sec9}
-%***************************Kapitel muss noch geschrieben werden
+%\input{sec9/sec9}
 
 % Section 10 Inbetriebnahme des Fahrzeugs
-\input{sec10/sec10}
-%***************************Kapitel muss noch geschrieben werden
+%\input{sec10/sec10}
 
 % Section 11 Zusammenfassung, Fazit und Ausblick
 \input{sec11/sec11}
-%***************************Kapitel muss am Ende des Semesters neu erstellt werden
+%--------------------------------------------------------------------Kapitel muss noch geschrieben werden
 
 \pagenumbering{Roman}
 \setcounter{page} {\thepagecountersaving}
@@ -96,5 +89,9 @@
 
 % Attachements
 \input{attachement/attachement}
+%---------------------------------------------------------------------Schaltplan einfügen
+%---------------------------------------------------------------------Pin Assignment anhängen
+%---------------------------------------------------------------------Verweise auf Anhang in Text nicht vergessen!
+
 
 \end{document}

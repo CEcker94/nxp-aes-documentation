@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  13 APR 2021 11:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  16 JUN 2021 09:41
 entering extended mode
 **./Projektbericht_main.tex
 (Projektbericht_main.tex
@@ -354,13 +354,556 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip59
-))
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunitx\siunitx.st
+y"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty
+"
+Package: expl3 2020-10-05 L3 programming layer (loader) 
+
 ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count270
 \l__pdf_internal_box=\box52
-) (Projektbericht_main.aux)
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
+xparse.sty"
+Package: xparse 2020-10-05 L3 Experimental document command parser
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
+xparse-generic.tex"))
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen164
+)) ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty
+"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen165
+\ar@mcellbox=\box53
+\extrarowheight=\dimen166
+\NC@list=\toks25
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box54
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/l3keys2
+e\l3keys2e.sty"
+Package: l3keys2e 2020-10-05 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box55
+\l__siunitx_tmp_dim=\dimen167
+\l__siunitx_tmp_int=\count271
+\l__siunitx_number_mantissa_length_int=\count272
+\l__siunitx_number_uncert_length_int=\count273
+\l__siunitx_round_int=\count274
+\l__siunitx_process_decimal_int=\count275
+\l__siunitx_process_uncertainty_int=\count276
+\l__siunitx_process_fixed_int=\count277
+\l__siunitx_process_integer_min_int=\count278
+\l__siunitx_process_precision_int=\count279
+\l__siunitx_group_min_int=\count280
+\l__siunitx_angle_marker_box=\box56
+\l__siunitx_angle_unit_box=\box57
+\l__siunitx_angle_marker_dim=\dimen168
+\l__siunitx_angle_unit_dim=\dimen169
+\l__siunitx_unit_int=\count281
+\l__siunitx_unit_denominator_int=\count282
+\l__siunitx_unit_numerator_int=\count283
+\l__siunitx_unit_prefix_int=\count284
+\l__siunitx_unit_prefix_base_int=\count285
+\l__siunitx_unit_prefix_gram_int=\count286
+\l__siunitx_number_product_int=\count287
+\c__siunitx_one_fill_skip=\skip62
+\l__siunitx_table_unit_align_skip=\skip63
+\l__siunitx_table_exponent_dim=\dimen170
+\l__siunitx_table_integer_dim=\dimen171
+\l__siunitx_table_mantissa_dim=\dimen172
+\l__siunitx_table_marker_dim=\dimen173
+\l__siunitx_table_result_dim=\dimen174
+\l__siunitx_table_uncert_dim=\dimen175
+\l__siunitx_table_fill_pre_dim=\dimen176
+\l__siunitx_table_fill_post_dim=\dimen177
+\l__siunitx_table_fill_mid_dim=\dimen178
+\l__siunitx_table_pre_box=\box58
+\l__siunitx_table_post_box=\box59
+\l__siunitx_table_mantissa_box=\box60
+\l__siunitx_table_result_box=\box61
+\l__siunitx_table_number_align_skip=\skip64
+\l__siunitx_table_text_align_skip=\skip65
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\transla
+tor.sty"
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/frontendlayer\
+tikz.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
+cs.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common.tex"
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen179
+\pgfutil@tempdimb=\dimen180
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-common-lists.tex"))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+futil-latex.def"
+\pgfutil@abb=\box62
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+frcs.code.tex"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\pgf.revision
+.tex")
+Package: pgfrcs 2020/10/01 v3.1.6a (3.1.6a)
+))
+Package: pgf 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf
+core.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
+fsys.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys.code.tex"
+Package: pgfsys 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
+\pgf@xd=\dimen189
+\pgf@yd=\dimen190
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count292
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgf.cfg"
+File: pgf.cfg 2020/10/01 v3.1.6a (3.1.6a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
+)))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
+pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcore.code.tex"
+Package: pgfcore 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+calc.code.tex"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+util.code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+parser.code.tex"
+\pgfmath@dimen=\dimen191
+\pgfmath@count=\count295
+\pgfmath@box=\box63
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.code.tex"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.basic.code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.trigonometric.code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.random.code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.comparison.code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.base.code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.round.code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.misc.code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+functions.integerarithmetics.code.tex")))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+float.code.tex"
+\c@pgfmathroundto@lastzeros=\count296
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.
+code.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@picminx=\dimen192
+\pgf@picmaxx=\dimen193
+\pgf@picminy=\dimen194
+\pgf@picmaxy=\dimen195
+\pgf@pathminx=\dimen196
+\pgf@pathmaxx=\dimen197
+\pgf@pathminy=\dimen198
+\pgf@pathmaxy=\dimen199
+\pgf@xx=\dimen256
+\pgf@xy=\dimen257
+\pgf@yx=\dimen258
+\pgf@yy=\dimen259
+\pgf@zx=\dimen260
+\pgf@zy=\dimen261
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@path@lastx=\dimen262
+\pgf@path@lasty=\dimen263
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@shorten@end@additional=\dimen264
+\pgf@shorten@start@additional=\dimen265
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count297
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgflinewidth=\dimen266
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@pt@x=\dimen267
+\pgf@pt@y=\dimen268
+\pgf@pt@temp=\dimen269
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfarrowsep=\dimen270
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@max=\dimen271
+\pgf@sys@shading@range@num=\count298
+\pgf@shadingcount=\count299
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfexternal@startupbox=\box67
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
+gfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfnodeparttextbox=\box68
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+oduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@nodesepstart=\dimen272
+\pgf@nodesepend=\dimen273
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
+pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2020/10/01 v3.1.6a (3.1.6a)
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgff
+or.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfk
+eys.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+fkeys.code.tex"))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.s
+ty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex"))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
+ffor.code.tex"
+Package: pgffor 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
+.code.tex")
+\pgffor@iter=\dimen274
+\pgffor@skip=\dimen275
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz\tikz.code.tex"
+Package: tikz 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@plot@mark@count=\count300
+\pgfplotmarksize=\dimen276
+)
+\tikz@lastx=\dimen277
+\tikz@lasty=\dimen278
+\tikz@lastxsaved=\dimen279
+\tikz@lastysaved=\dimen280
+\tikz@lastmovetox=\dimen281
+\tikz@lastmovetoy=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count301
+\tikznumberofchildren=\count302
+\tikznumberofcurrentchild=\count303
+\tikz@fig@count=\count304
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+odulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfmatrixcurrentrow=\count305
+\pgfmatrixcurrentcolumn=\count306
+\pgf@matrix@numberofcolumns=\count307
+)
+\tikz@expandcount=\count308
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/sh
+apes\pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\arrowsize=\dimen285
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/circuitikz\circuit
+ikz.sty"
+Package: circuitikz 2021/02/20{} The CircuiTikz circuit drawing package version
+ 1.3.1
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryarrows.meta.code.tex"
+File: pgflibraryarrows.meta.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfarrowinset=\dimen286
+\pgfarrowlength=\dimen287
+\pgfarrowwidth=\dimen288
+\pgfarrowlinewidth=\dimen289
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibrarybending.code.tex"
+File: tikzlibrarybending.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+odulebending.code.tex"
+File: pgfmodulebending.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
+odulenonlineartransformations.code.tex"
+File: pgfmodulenonlineartransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgftransformnonlinearflatness=\dimen290
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibrarycurvilinear.code.tex"
+File: pgflibrarycurvilinear.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@curvilinear@time@a=\dimen291
+\pgf@curvilinear@length@a=\dimen292
+\pgf@curvilinear@length@b=\dimen293
+\pgf@curvilinear@length@c=\dimen294
+\pgf@curvilinear@length@d=\dimen295
+)
+\pgf@arrows@the@rigidity=\dimen296
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
+r/tikz/libraries\tikzlibraryfpu.code.tex"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
+flibraryfpu.code.tex"))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rc.defines.tex"
+\pgf@circ@count@a=\count309
+\pgf@circ@count@b=\count310
+\pgf@circ@count@c=\count311
+\pgf@circ@res@up=\dimen297
+\pgf@circ@res@down=\dimen298
+\pgf@circ@res@zero=\dimen299
+\pgf@circ@res@left=\dimen300
+\pgf@circ@res@right=\dimen301
+\pgf@circ@res@other=\dimen302
+\pgf@circ@res@step=\dimen303
+\pgf@circ@res@temp=\dimen304
+\pgf@circ@Rlen=\dimen305
+\pgf@circ@scaled@Rlen=\dimen306
+\pgfstartlinewidth=\dimen307
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcutils.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcpath.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcshapes.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcmonopoles.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcbipoles.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rctripoles.tex"
+\pgf@circ@res@count=\count312
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcquadpoles.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcmultipoles.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rclabel.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcvoltage.tex"
+\pgfcirc@labelshift=\dimen308
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rccurrent.tex")
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
+rcflow.tex")) (Projektbericht_main.aux
+
+LaTeX Warning: Label `eq1' multiply defined.
+
+
+LaTeX Warning: Label `fig:SpannungsverlaufTP' multiply defined.
+
+
+LaTeX Warning: Label `fig:Schaltungsaufbau' multiply defined.
+
+
+LaTeX Warning: Label `fig:Schaltungsaufbau' multiply defined.
+
+
+LaTeX Warning: Label `eq1' multiply defined.
+
+
+LaTeX Warning: Label `eq1' multiply defined.
+
+
+LaTeX Warning: Label `Sec4Sub5Sub4' multiply defined.
+
+
+LaTeX Warning: Label `fig:Schaltungsaufbau' multiply defined.
+
+)
 \openout1 = `Projektbericht_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -389,11 +932,11 @@ LaTeX Font Info:    ... okay on input line 8.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(85.35826pt, 441.01773pt, 71.13188pt)
-* v-part:(T,H,B)=(101.40665pt, 658.28194pt, 85.35826pt)
+* v-part:(T,H,B)=(101.40665pt, 672.50832pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=441.01773pt
-* \textheight=658.28194pt
+* \textheight=672.50832pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
 * \topmargin=-7.86334pt
@@ -418,38 +961,35 @@ LaTeX Font Info:    ... okay on input line 8.
 ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count271
-\scratchdimen=\dimen164
-\scratchbox=\box53
-\nofMPsegments=\count272
-\nofMParguments=\count273
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count274
-\MPscratchDim=\dimen165
-\MPnumerator=\count275
-\makeMPintoPDFobject=\count276
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count313
+\scratchdimen=\dimen309
+\scratchbox=\box73
+\nofMPsegments=\count314
+\nofMParguments=\count315
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count316
+\MPscratchDim=\dimen310
+\MPnumerator=\count317
+\makeMPintoPDFobject=\count318
+\everyMPtoPDFconversion=\toks39
 )
 ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
 pdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
-"
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
-
-("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
-.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
 Package hyperref Info: Link coloring ON on input line 8.
 
 ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
@@ -464,18 +1004,34 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count277
+\c@section@level=\count319
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
  (Projektbericht_main.out) (Projektbericht_main.out)
-\@outlinefile=\write3
-\openout3 = `Projektbericht_main.out'.
+\@outlinefile=\write4
+\openout4 = `Projektbericht_main.out'.
 
 
-(titlepage/titlepage.tex
-<titlepage/images/Logo_HAW_Landshut.png, id=194, 418.56375pt x 109.40875pt>
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/siunitx\siunitx-ab
+breviations.cfg"
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\transla
+tor-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (titlepage/titlepage.tex
+<titlepage/images/Logo_HAW_Landshut.png, id=249, 418.56375pt x 109.40875pt>
 File: titlepage/images/Logo_HAW_Landshut.png Graphic file (type png)
 <use titlepage/images/Logo_HAW_Landshut.png>
 Package pdftex.def Info: titlepage/images/Logo_HAW_Landshut.png  used on input 
@@ -485,59 +1041,60 @@ line 10.
 
 {C:/Users/chris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./titlepage
 /images/Logo_HAW_Landshut.png>]) (sec0/sec0.tex
-[2]) (inserts/toc/toc.tex (Projektbericht_main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
-
-("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
-("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3])
-\tf@toc=\write4
-\openout4 = `Projektbericht_main.toc'.
-
- [4]) (inserts/acronym/acronym.tex [5])
-\c@pagecountersaving=\count278
- (sec1/sec1.tex
 Package acronym Info: Label `acro:NXP' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+3.
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+[2]) (inserts/toc/toc.tex (Projektbericht_main.toc [3])
+\tf@toc=\write5
+\openout5 = `Projektbericht_main.toc'.
+
+ [4])
+(inserts/acronym/acronym.tex [5])
+\c@pagecountersaving=\count320
+ (sec1/sec1.tex
 Package acronym Info: Label `acro:BLDCMot' newly defined as it shall be overrid
 den
 although it is yet undefined on input line 15.
- [1] [2])
-(sec2/sec2.tex
-<sec2/images/Grundaufbau/Grundplatte01.png, id=332, 743.77875pt x 340.27126pt>
+Package acronym Info: Label `acro:OLED' newly defined as it shall be overridden
+
+although it is yet undefined on input line 21.
+ [1] [2]) (sec2/sec2.tex
+<sec2/images/Grundaufbau/Grundplatte01.png, id=429, 743.77875pt x 340.27126pt>
 File: sec2/images/Grundaufbau/Grundplatte01.png Graphic file (type png)
 <use sec2/images/Grundaufbau/Grundplatte01.png>
 Package pdftex.def Info: sec2/images/Grundaufbau/Grundplatte01.png  used on inp
 ut line 18.
 (pdftex.def)             Requested size: 396.91325pt x 181.589pt.
-<sec2/images/Grundaufbau/Grundplatte02.png, id=334, 775.09575pt x 304.13625pt>
-File: sec2/images/Grundaufbau/Grundplatte02.png Graphic file (type png)
-<use sec2/images/Grundaufbau/Grundplatte02.png>
-Package pdftex.def Info: sec2/images/Grundaufbau/Grundplatte02.png  used on inp
-ut line 28.
-(pdftex.def)             Requested size: 396.91325pt x 155.73857pt.
- [3 <./sec2/images/Grundaufbau/Grundplatte01.png> <./sec2/images/Grundaufbau/Gr
-undplatte02.png>]
-<sec2/images/Grundaufbau/ObereEbene01.png, id=345, 743.1765pt x 277.63725pt>
+<sec2/images/Grundaufbau/Grundplatte02.jpg, id=430, 3842.355pt x 2259.94313pt>
+File: sec2/images/Grundaufbau/Grundplatte02.jpg Graphic file (type jpg)
+<use sec2/images/Grundaufbau/Grundplatte02.jpg>
+Package pdftex.def Info: sec2/images/Grundaufbau/Grundplatte02.jpg  used on inp
+ut line 26.
+(pdftex.def)             Requested size: 396.91325pt x 233.42159pt.
+
+[3 <./sec2/images/Grundaufbau/Grundplatte01.png> <./sec2/images/Grundaufbau/Gru
+ndplatte02.jpg>]
+<sec2/images/Grundaufbau/ObereEbene01.png, id=442, 743.1765pt x 277.63725pt>
 File: sec2/images/Grundaufbau/ObereEbene01.png Graphic file (type png)
 <use sec2/images/Grundaufbau/ObereEbene01.png>
 Package pdftex.def Info: sec2/images/Grundaufbau/ObereEbene01.png  used on inpu
 t line 38.
-(pdftex.def)             Requested size: 405.7355pt x 151.57831pt.
-<sec2/images/Grundaufbau/ObereEbene02.png, id=346, 717.27975pt x 268.00125pt>
-File: sec2/images/Grundaufbau/ObereEbene02.png Graphic file (type png)
-<use sec2/images/Grundaufbau/ObereEbene02.png>
-Package pdftex.def Info: sec2/images/Grundaufbau/ObereEbene02.png  used on inpu
-t line 46.
-(pdftex.def)             Requested size: 405.7355pt x 151.6009pt.
+(pdftex.def)             Requested size: 379.27551pt x 141.69055pt.
+<sec2/images/Grundaufbau/ObereEbene02.jpeg, id=443, 849.92531pt x 585.68813pt>
+File: sec2/images/Grundaufbau/ObereEbene02.jpeg Graphic file (type jpg)
+<use sec2/images/Grundaufbau/ObereEbene02.jpeg>
+Package pdftex.def Info: sec2/images/Grundaufbau/ObereEbene02.jpeg  used on inp
+ut line 46.
+(pdftex.def)             Requested size: 330.76329pt x 227.93486pt.
  [4 <./sec2/images/Grundaufbau/ObereEbene01.png> <./sec2/images/Grundaufbau/Obe
-reEbene02.png>]
+reEbene02.jpeg>]
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/StossstangeKonstruktion01.p
-ng, id=357, 613.69275pt x 206.57175pt>
+ng, id=454, 613.69275pt x 206.57175pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/StossstangeKonstruktio
 n01.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/StossstangeKonstruktion
@@ -546,7 +1103,7 @@ Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Sto
 ssstangeKonstruktion01.png  used on input line 64.
 (pdftex.def)             Requested size: 352.81552pt x 118.75891pt.
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/StossstangeKonstruktion02.p
-ng, id=358, 685.3605pt x 181.27725pt>
+ng, id=455, 685.3605pt x 181.27725pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/StossstangeKonstruktio
 n02.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/StossstangeKonstruktion
@@ -554,7 +1111,7 @@ n02.png Graphic file (type png)
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Sto
 ssstangeKonstruktion02.png  used on input line 72.
 (pdftex.def)             Requested size: 352.81552pt x 93.31871pt.
-<sec2/images/3DAnbaukomponenten/Druckbilder/StossstangeDruck.png, id=360, 558.2
+<sec2/images/3DAnbaukomponenten/Druckbilder/StossstangeDruck.png, id=457, 558.2
 8575pt x 267.399pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/StossstangeDruck.png Graphic f
 ile (type png)
@@ -566,7 +1123,7 @@ Druck.png  used on input line 82.
 on01.png> <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/StossstangeKons
 truktion02.png>]
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/UltraschallHalterungKonstru
-ktion.png, id=372, 404.712pt x 335.45325pt>
+ktion.png, id=469, 404.712pt x 335.45325pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/UltraschallHalterungKo
 nstruktion.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/UltraschallHalterungKon
@@ -574,8 +1131,8 @@ struktion.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Ult
 raschallHalterungKonstruktion.png  used on input line 95.
 (pdftex.def)             Requested size: 158.76286pt x 131.59401pt.
-<sec2/images/3DAnbaukomponenten/Druckbilder/UltraschallHalterungDruck.png, id=3
-73, 446.8695pt x 204.765pt>
+<sec2/images/3DAnbaukomponenten/Druckbilder/UltraschallHalterungDruck.png, id=4
+70, 446.8695pt x 204.765pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/UltraschallHalterungDruck.png 
 Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Druckbilder/UltraschallHalterungDruck.png>
@@ -583,7 +1140,7 @@ Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/Ultraschall
 HalterungDruck.png  used on input line 104.
 (pdftex.def)             Requested size: 214.33049pt x 98.21107pt.
 <sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalterungMo
-ntage01.png, id=376, 702.2235pt x 268.6035pt>
+ntage01.png, id=473, 702.2235pt x 268.6035pt>
 File: sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalter
 ungMontage01.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalteru
@@ -592,7 +1149,7 @@ Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Montagebilder/Stossstan
 geUltraschallHalterungMontage01.png  used on input line 116.
 (pdftex.def)             Requested size: 343.99329pt x 131.57588pt.
 <sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalterungMo
-ntage02.png, id=377, 846.91406pt x 411.03563pt>
+ntage02.png, id=474, 846.91406pt x 411.03563pt>
 File: sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalter
 ungMontage02.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalteru
@@ -606,7 +1163,7 @@ geUltraschallHalterungMontage02.png  used on input line 124.
 ng> <./sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalte
 rungMontage01.png>]
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AkkuHalterungKonstruktion.p
-ng, id=391, 378.81525pt x 268.6035pt>
+ng, id=488, 378.81525pt x 268.6035pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AkkuHalterungKonstrukt
 ion.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AkkuHalterungKonstrukti
@@ -615,11 +1172,11 @@ Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Akk
 uHalterungKonstruktion.png  used on input line 138.
 (pdftex.def)             Requested size: 183.68726pt x 130.24385pt.
 
-Underfull \hbox (badness 4416) in paragraph at lines 141--141
+Underfull \hbox (badness 4403) in paragraph at lines 141--141
 []\T1/cmr/m/n/10.95 Abbildung 12: |Kon-struk-ti-ons-bild der
  []
 
-<sec2/images/3DAnbaukomponenten/Druckbilder/AkkuHalterungDruck.png, id=392, 241
+<sec2/images/3DAnbaukomponenten/Druckbilder/AkkuHalterungDruck.png, id=489, 241
 .50224pt x 210.7875pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/AkkuHalterungDruck.png Graphic
  file (type png)
@@ -632,12 +1189,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 []\T1/cmr/m/n/10.95 Abbildung 13: |Ge-druck-te Akku-
  []
 
-[7 <./sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalter
-ungMontage02.png> <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AkkuHal
-terungKonstruktion.png> <./sec2/images/3DAnbaukomponenten/Druckbilder/AkkuHalte
-rungDruck.png>]
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/SeitenschwellerKonstruktion
-.png, id=405, 420.3705pt x 242.70676pt>
+.png, id=492, 420.3705pt x 242.70676pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/SeitenschwellerKonstru
 ktion.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/SeitenschwellerKonstruk
@@ -645,7 +1198,7 @@ tion.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Sei
 tenschwellerKonstruktion.png  used on input line 161.
 (pdftex.def)             Requested size: 176.1883pt x 101.72504pt.
-<sec2/images/3DAnbaukomponenten/Druckbilder/SeitenschwellerDruck.png, id=406, 4
+<sec2/images/3DAnbaukomponenten/Druckbilder/SeitenschwellerDruck.png, id=493, 4
 42.0515pt x 304.7385pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/SeitenschwellerDruck.png Graph
 ic file (type png)
@@ -653,8 +1206,12 @@ ic file (type png)
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/Seitenschwe
 llerDruck.png  used on input line 171.
 (pdftex.def)             Requested size: 176.1883pt x 121.45613pt.
+[7 <./sec2/images/3DAnbaukomponenten/Montagebilder/StossstangeUltraschallHalter
+ungMontage02.png> <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AkkuHal
+terungKonstruktion.png> <./sec2/images/3DAnbaukomponenten/Druckbilder/AkkuHalte
+rungDruck.png>]
 <sec2/images/3DAnbaukomponenten/Montagebilder/SchwellerAkkuHalterungMontage.png
-, id=408, 697.4055pt x 447.47176pt>
+, id=506, 697.4055pt x 447.47176pt>
 File: sec2/images/3DAnbaukomponenten/Montagebilder/SchwellerAkkuHalterungMontag
 e.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Montagebilder/SchwellerAkkuHalterungMontage
@@ -667,7 +1224,7 @@ uktion.png> <./sec2/images/3DAnbaukomponenten/Druckbilder/SeitenschwellerDruck.
 png> <./sec2/images/3DAnbaukomponenten/Montagebilder/SchwellerAkkuHalterungMont
 age.png>]
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/ControllerHalterungKonstruk
-tion.png, id=422, 563.10374pt x 257.763pt>
+tion.png, id=519, 563.10374pt x 257.763pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/ControllerHalterungKon
 struktion.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/ControllerHalterungKons
@@ -676,7 +1233,7 @@ Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Con
 trollerHalterungKonstruktion.png  used on input line 197.
 (pdftex.def)             Requested size: 374.86775pt x 171.59903pt.
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/PlatinenHalterungKonstrukti
-on.png, id=423, 442.65375pt x 343.2825pt>
+on.png, id=520, 442.65375pt x 343.2825pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/PlatinenHalterungKonst
 ruktion.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/PlatinenHalterungKonstr
@@ -684,8 +1241,13 @@ uktion.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Pla
 tinenHalterungKonstruktion.png  used on input line 209.
 (pdftex.def)             Requested size: 176.1883pt x 136.63484pt.
+
+Underfull \hbox (badness 7415) in paragraph at lines 212--212
+\T1/cmr/m/n/10.95 Platinen-Halterung des Be-die-nungs-
+ []
+
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/DisplayAbdeckungKonstruktio
-n.png, id=424, 412.54124pt x 315.579pt>
+n.png, id=521, 412.54124pt x 315.579pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/DisplayAbdeckungKonstr
 uktion.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/DisplayAbdeckungKonstru
@@ -694,7 +1256,7 @@ Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Dis
 playAbdeckungKonstruktion.png  used on input line 220.
 (pdftex.def)             Requested size: 176.1883pt x 134.77658pt.
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/DruckTasterKonstruktion.png
-, id=428, 258.36525pt x 165.0165pt>
+, id=525, 258.36525pt x 165.0165pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/DruckTasterKonstruktio
 n.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/DruckTasterKonstruktion
@@ -702,22 +1264,22 @@ n.png Graphic file (type png)
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Dru
 ckTasterKonstruktion.png  used on input line 237.
 (pdftex.def)             Requested size: 123.48253pt x 78.86708pt.
-<sec2/images/3DAnbaukomponenten/Druckbilder/ControllerHalterungDruck.png, id=42
-9, 487.8225pt x 307.1475pt>
+<sec2/images/3DAnbaukomponenten/Druckbilder/ControllerHalterungDruck.png, id=52
+6, 487.8225pt x 307.1475pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/ControllerHalterungDruck.png G
 raphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Druckbilder/ControllerHalterungDruck.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/ControllerH
 alterungDruck.png  used on input line 250.
-(pdftex.def)             Requested size: 209.92502pt x 132.17395pt.
-<sec2/images/3DAnbaukomponenten/Druckbilder/DruckTasterDruck.png, id=430, 102.9
+(pdftex.def)             Requested size: 202.42606pt x 127.45445pt.
+<sec2/images/3DAnbaukomponenten/Druckbilder/DruckTasterDruck.png, id=527, 102.9
 8476pt x 84.91725pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/DruckTasterDruck.png Graphic f
 ile (type png)
 <use sec2/images/3DAnbaukomponenten/Druckbilder/DruckTasterDruck.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/DruckTaster
 Druck.png  used on input line 260.
-(pdftex.def)             Requested size: 134.07161pt x 110.54918pt.
+(pdftex.def)             Requested size: 127.0138pt x 104.73006pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 263--263
 []\T1/cmr/m/n/10.95 Abbildung 22: |Ge-druck-te
@@ -728,334 +1290,582 @@ struktion.png> <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/PlatinenHa
 lterungKonstruktion.png> <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/
 DisplayAbdeckungKonstruktion.png> <./sec2/images/3DAnbaukomponenten/Konstruktio
 nsbilder/DruckTasterKonstruktion.png>]
-<sec2/images/3DAnbaukomponenten/Druckbilder/DisplayAbdeckungDruck.png, id=443, 
+<sec2/images/3DAnbaukomponenten/Druckbilder/DisplayAbdeckungDruck.png, id=540, 
 466.1415pt x 386.6445pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/DisplayAbdeckungDruck.png Grap
 hic file (type png)
 <use sec2/images/3DAnbaukomponenten/Druckbilder/DisplayAbdeckungDruck.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/DisplayAbde
 ckungDruck.png  used on input line 273.
-(pdftex.def)             Requested size: 186.54971pt x 154.73766pt.
+(pdftex.def)             Requested size: 182.58275pt x 151.44562pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 276--276
 []\T1/cmr/m/n/10.95 Abbildung 23: |Ge-druck-te Platinen-
  []
 
-<sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterungDruck.png, id=444,
+<sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterungDruck.png, id=541,
  396.88275pt x 243.309pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterungDruck.png Gra
 phic file (type png)
 <use sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterungDruck.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHal
 terungDruck.png  used on input line 282.
-(pdftex.def)             Requested size: 186.54971pt x 114.36267pt.
+(pdftex.def)             Requested size: 182.58275pt x 111.93092pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\T1/cmr/m/n/10.95 Abbildung 24: |Ge-druck-te Platinen-
  []
 
-<sec2/images/3DAnbaukomponenten/Montagebilder/ControllerMontage.png, id=447, 67
+<sec2/images/3DAnbaukomponenten/Montagebilder/ControllerMontage.png, id=544, 67
 5.7245pt x 451.6875pt>
 File: sec2/images/3DAnbaukomponenten/Montagebilder/ControllerMontage.png Graphi
 c file (type png)
 <use sec2/images/3DAnbaukomponenten/Montagebilder/ControllerMontage.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Montagebilder/Controlle
 rMontage.png  used on input line 294.
-(pdftex.def)             Requested size: 374.86775pt x 250.57924pt.
+(pdftex.def)             Requested size: 352.81552pt x 235.83685pt.
 [10 <./sec2/images/3DAnbaukomponenten/Druckbilder/ControllerHalterungDruck.png>
  <./sec2/images/3DAnbaukomponenten/Druckbilder/DruckTasterDruck.png> <./sec2/im
 ages/3DAnbaukomponenten/Druckbilder/DisplayAbdeckungDruck.png> <./sec2/images/3
 DAnbaukomponenten/Druckbilder/PlatinenHalterungDruck.png>]
-<sec2/images/3DAnbaukomponenten/Montagebilder/AbdeckungMontage.png, id=458, 668
+<sec2/images/3DAnbaukomponenten/Montagebilder/AbdeckungMontage.png, id=555, 668
 .4975pt x 438.438pt>
 File: sec2/images/3DAnbaukomponenten/Montagebilder/AbdeckungMontage.png Graphic
  file (type png)
 <use sec2/images/3DAnbaukomponenten/Montagebilder/AbdeckungMontage.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Montagebilder/Abdeckung
 Montage.png  used on input line 302.
-(pdftex.def)             Requested size: 374.86775pt x 245.86479pt.
+(pdftex.def)             Requested size: 352.81552pt x 231.40097pt.
  [11 <./sec2/images/3DAnbaukomponenten/Montagebilder/ControllerMontage.png> <./
 sec2/images/3DAnbaukomponenten/Montagebilder/AbdeckungMontage.png>]
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/MotorcontrollerHalterungKon
-struktion.png, id=469, 349.90726pt x 207.77625pt>
+struktion.png, id=566, 349.90726pt x 207.77625pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/MotorcontrollerHalteru
 ngKonstruktion.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/MotorcontrollerHalterun
 gKonstruktion.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Mot
-orcontrollerHalterungKonstruktion.png  used on input line 319.
+orcontrollerHalterungKonstruktion.png  used on input line 321.
 (pdftex.def)             Requested size: 165.82372pt x 98.46646pt.
 <sec2/images/3DAnbaukomponenten/Druckbilder/MotorcontrollerHalterungDruck.png, 
-id=470, 306.54526pt x 184.89075pt>
+id=567, 306.54526pt x 184.89075pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/MotorcontrollerHalterungDruck.
 png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Druckbilder/MotorcontrollerHalterungDruck.p
 ng>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/Motorcontro
-llerHalterungDruck.png  used on input line 329.
-(pdftex.def)             Requested size: 186.54971pt x 112.5208pt.
+llerHalterungDruck.png  used on input line 331.
+(pdftex.def)             Requested size: 165.82372pt x 100.01723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]\T1/cmr/m/n/10.95 Abbildung 28: |Ge-druck-te
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[]\T1/cmr/m/n/10.95 Abbildung 28: |Fer-tig Ge-druck-te
  []
 
-<sec2/images/3DAnbaukomponenten/Montagebilder/MotorcontrollerHalterungMontage.p
-ng, id=472, 499.8675pt x 289.08pt>
+<sec2/images/3DAnbaukomponenten/Montagebilder/MotorcontrollerHalterungMontage.j
+pg, id=569, 1606.0pt x 738.76pt>
 File: sec2/images/3DAnbaukomponenten/Montagebilder/MotorcontrollerHalterungMont
-age.png Graphic file (type png)
+age.jpg Graphic file (type jpg)
 <use sec2/images/3DAnbaukomponenten/Montagebilder/MotorcontrollerHalterungMonta
-ge.png>
+ge.jpg>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Montagebilder/Motorcont
-rollerHalterungMontage.png  used on input line 344.
-(pdftex.def)             Requested size: 374.86775pt x 216.80063pt.
+rollerHalterungMontage.jpg  used on input line 344.
+(pdftex.def)             Requested size: 374.86775pt x 172.43626pt.
 [12 <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/MotorcontrollerHalter
 ungKonstruktion.png> <./sec2/images/3DAnbaukomponenten/Druckbilder/Motorcontrol
 lerHalterungDruck.png> <./sec2/images/3DAnbaukomponenten/Montagebilder/Motorcon
-trollerHalterungMontage.png>]
+trollerHalterungMontage.jpg>]
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/PlatinenHalterungenKonstruk
-tion.png, id=484, 239.6955pt x 299.31825pt>
+tion.png, id=581, 239.6955pt x 299.31825pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/PlatinenHalterungenKon
 struktion.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/PlatinenHalterungenKons
 truktion.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Pla
-tinenHalterungenKonstruktion.png  used on input line 359.
+tinenHalterungenKonstruktion.png  used on input line 361.
 (pdftex.def)             Requested size: 88.2022pt x 110.14314pt.
-<sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterungenDruck.png, id=48
-5, 314.3745pt x 155.3805pt>
+<sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterungenDruck.png, id=58
+2, 314.3745pt x 155.3805pt>
 File: sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterungenDruck.png G
 raphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterungenDruck.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHal
-terungenDruck.png  used on input line 369.
+terungenDruck.png  used on input line 371.
 (pdftex.def)             Requested size: 214.33049pt x 105.93709pt.
-<sec2/images/3DAnbaukomponenten/Montagebilder/PlatinenHalterungenMontage.png, i
-d=487, 638.98724pt x 364.9635pt>
-File: sec2/images/3DAnbaukomponenten/Montagebilder/PlatinenHalterungenMontage.p
-ng Graphic file (type png)
-<use sec2/images/3DAnbaukomponenten/Montagebilder/PlatinenHalterungenMontage.pn
+<sec2/images/3DAnbaukomponenten/Montagebilder/PlatinenHalterungenMontage.jpg, i
+d=584, 5139.2pt x 3854.4pt>
+File: sec2/images/3DAnbaukomponenten/Montagebilder/PlatinenHalterungenMontage.j
+pg Graphic file (type jpg)
+<use sec2/images/3DAnbaukomponenten/Montagebilder/PlatinenHalterungenMontage.jp
 g>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Montagebilder/PlatinenH
-alterungenMontage.png  used on input line 382.
-(pdftex.def)             Requested size: 396.91325pt x 226.70383pt.
+alterungenMontage.jpg  used on input line 384.
+(pdftex.def)             Requested size: 308.71106pt x 231.48927pt.
  [13 <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/PlatinenHalterungenK
 onstruktion.png> <./sec2/images/3DAnbaukomponenten/Druckbilder/PlatinenHalterun
 genDruck.png> <./sec2/images/3DAnbaukomponenten/Montagebilder/PlatinenHalterung
-enMontage.png>]
+enMontage.jpg>]
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/KameraHalterungKonstruktion
-02.png, id=499, 410.13225pt x 363.759pt>
+02.png, id=597, 410.13225pt x 363.759pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/KameraHalterungKonstru
 ktion02.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/KameraHalterungKonstruk
 tion02.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Kam
-eraHalterungKonstruktion02.png  used on input line 397.
+eraHalterungKonstruktion02.png  used on input line 399.
 (pdftex.def)             Requested size: 155.23969pt x 137.6859pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
 []\T1/cmr/m/n/10.95 Abbildung 33: |Kameramontage-
  []
 
 <sec2/images/3DAnbaukomponenten/Konstruktionsbilder/KameraHalterungKonstruktion
-01.png, id=500, 550.4565pt x 312.56775pt>
+01.png, id=598, 550.4565pt x 312.56775pt>
 File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/KameraHalterungKonstru
 ktion01.png Graphic file (type png)
 <use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/KameraHalterungKonstruk
 tion01.png>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Kam
-eraHalterungKonstruktion01.png  used on input line 407.
+eraHalterungKonstruktion01.png  used on input line 409.
 (pdftex.def)             Requested size: 176.40776pt x 100.1668pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 []\T1/cmr/m/n/10.95 Abbildung 34: |Stangenmontage-
  []
 
 Package acronym Info: Label `acro:ABS' newly defined as it shall be overridden
-although it is yet undefined on input line 417.
+although it is yet undefined on input line 419.
 Package acronym Info: Label `acro:SLA' newly defined as it shall be overridden
-although it is yet undefined on input line 417.
-<sec2/images/3DAnbaukomponenten/Montagebilder/KameraHalterungMontage.jpg, id=50
-4, 2846.38406pt x 2048.40282pt>
+although it is yet undefined on input line 419.
+<sec2/images/3DAnbaukomponenten/Montagebilder/KameraHalterungMontage.jpg, id=60
+2, 2846.38406pt x 2048.40282pt>
 File: sec2/images/3DAnbaukomponenten/Montagebilder/KameraHalterungMontage.jpg G
 raphic file (type jpg)
 <use sec2/images/3DAnbaukomponenten/Montagebilder/KameraHalterungMontage.jpg>
 Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Montagebilder/KameraHal
-terungMontage.jpg  used on input line 422.
-(pdftex.def)             Requested size: 352.81552pt x 253.89305pt.
+terungMontage.jpg  used on input line 424.
+(pdftex.def)             Requested size: 308.71106pt x 222.13689pt.
 [14 <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/KameraHalterungKonstr
 uktion02.png> <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/KameraHalte
-rungKonstruktion01.png>] [15 <./sec2/images/3DAnbaukomponenten/Montagebilder/Ka
-meraHalterungMontage.jpg>]) (sec3/sec3.tex
-<sec3/images/Controllerplatine.jpeg, id=521, 449.88075pt x 322.20375pt>
+rungKonstruktion01.png>]
+<sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AntriebsabdeckungKonstrukti
+on.png, id=616, 547.2947pt x 529.22719pt>
+File: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AntriebsabdeckungKonst
+ruktion.png Graphic file (type png)
+<use sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AntriebsabdeckungKonstr
+uktion.png>
+Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Konstruktionsbilder/Ant
+riebsabdeckungKonstruktion.png  used on input line 440.
+(pdftex.def)             Requested size: 172.88153pt x 167.17581pt.
+<sec2/images/3DAnbaukomponenten/Druckbilder/AntriebsabdeckungDruck.jpg, id=617,
+ 1984.41376pt x 2279.51625pt>
+File: sec2/images/3DAnbaukomponenten/Druckbilder/AntriebsabdeckungDruck.jpg Gra
+phic file (type jpg)
+<use sec2/images/3DAnbaukomponenten/Druckbilder/AntriebsabdeckungDruck.jpg>
+Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Druckbilder/Antriebsabd
+eckungDruck.jpg  used on input line 450.
+(pdftex.def)             Requested size: 172.88153pt x 198.5737pt.
+
+Overfull \hbox (10.6061pt too wide) in paragraph at lines 437--458
+[][] [] 
+ []
+
+<sec2/images/3DAnbaukomponenten/Montagebilder/AntriebsabdeckungMontage.jpg, id=
+618, 3854.4pt x 1549.28813pt>
+File: sec2/images/3DAnbaukomponenten/Montagebilder/AntriebsabdeckungMontage.jpg
+ Graphic file (type jpg)
+<use sec2/images/3DAnbaukomponenten/Montagebilder/AntriebsabdeckungMontage.jpg>
+
+Package pdftex.def Info: sec2/images/3DAnbaukomponenten/Montagebilder/Antriebsa
+bdeckungMontage.jpg  used on input line 461.
+(pdftex.def)             Requested size: 396.91325pt x 159.52408pt.
+[15 <./sec2/images/3DAnbaukomponenten/Montagebilder/KameraHalterungMontage.jpg>
+ <./sec2/images/3DAnbaukomponenten/Konstruktionsbilder/AntriebsabdeckungKonstru
+ktion.png> <./sec2/images/3DAnbaukomponenten/Druckbilder/AntriebsabdeckungDruck
+.jpg>] [16 <./sec2/images/3DAnbaukomponenten/Montagebilder/AntriebsabdeckungMon
+tage.jpg>]) (sec3/sec3.tex
+<sec3/images/Controllerplatine.jpeg, id=635, 449.88075pt x 322.20375pt>
 File: sec3/images/Controllerplatine.jpeg Graphic file (type jpg)
 <use sec3/images/Controllerplatine.jpeg>
 Package pdftex.def Info: sec3/images/Controllerplatine.jpeg  used on input line
  16.
-(pdftex.def)             Requested size: 396.91325pt x 284.26779pt.
- [16 <./sec3/images/Controllerplatine.jpeg>]) (sec4/sec4.tex
+(pdftex.def)             Requested size: 352.81552pt x 252.68468pt.
+ [17 <./sec3/images/Controllerplatine.jpeg>])
+(sec4/sec4.tex
 Package acronym Info: Label `acro:RC' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
 Package acronym Info: Label `acro:ESC' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
 Package acronym Info: Label `acro:PWM' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
-<sec4/images/Skizze_BLDC_ESC.jpeg, id=540, 696.6025pt x 344.28625pt>
+<sec4/images/Skizze_BLDC_ESC.jpeg, id=654, 696.6025pt x 344.28625pt>
 File: sec4/images/Skizze_BLDC_ESC.jpeg Graphic file (type jpg)
 <use sec4/images/Skizze_BLDC_ESC.jpeg>
 Package pdftex.def Info: sec4/images/Skizze_BLDC_ESC.jpeg  used on input line 2
 0.
 (pdftex.def)             Requested size: 396.91325pt x 196.1664pt.
- [17 <./sec4/images/Skizze_BLDC_ESC.jpeg>]
-<sec4/images/MontageMotorUebersetzung.jpg, id=560, 3802.205pt x 3172.85374pt>
+ [18 <./sec4/images/Skizze_BLDC_ESC.jpeg>]
+<sec4/images/MontageMotorUebersetzung.jpg, id=674, 3802.205pt x 3172.85374pt>
 File: sec4/images/MontageMotorUebersetzung.jpg Graphic file (type jpg)
 <use sec4/images/MontageMotorUebersetzung.jpg>
 Package pdftex.def Info: sec4/images/MontageMotorUebersetzung.jpg  used on inpu
 t line 34.
 (pdftex.def)             Requested size: 396.91325pt x 331.19872pt.
- [18 <./sec4/images/MontageMotorUebersetzung.jpg>]
-<sec4/images/BLDCInit.jpeg, id=581, 555.07375pt x 184.69pt>
+ [19 <./sec4/images/MontageMotorUebersetzung.jpg>]
+<sec4/images/BLDCInit.jpeg, id=695, 555.07375pt x 184.69pt>
 File: sec4/images/BLDCInit.jpeg Graphic file (type jpg)
 <use sec4/images/BLDCInit.jpeg>
 Package pdftex.def Info: sec4/images/BLDCInit.jpeg  used on input line 46.
-(pdftex.def)             Requested size: 308.71106pt x 102.71832pt.
-<sec4/images/Config_BLHeliSuite.png, id=592, 581.92406pt x 395.22656pt>
+(pdftex.def)             Requested size: 396.91325pt x 132.06642pt.
+<sec4/images/Config_BLHeliSuite.png, id=708, 581.92406pt x 395.22656pt>
 File: sec4/images/Config_BLHeliSuite.png Graphic file (type png)
 <use sec4/images/Config_BLHeliSuite.png>
 Package pdftex.def Info: sec4/images/Config_BLHeliSuite.png  used on input line
  58.
-(pdftex.def)             Requested size: 330.76329pt x 224.64825pt.
- [19 <./sec4/images/BLDCInit.jpeg>]
-<sec4/images/ESC_config.jpeg, id=608, 773.89125pt x 451.6875pt>
+(pdftex.def)             Requested size: 343.99329pt x 233.63394pt.
+ [20 <./sec4/images/BLDCInit.jpeg>]
+<sec4/images/ESC_config.jpeg, id=725, 773.89125pt x 451.6875pt>
 File: sec4/images/ESC_config.jpeg Graphic file (type jpg)
 <use sec4/images/ESC_config.jpeg>
 Package pdftex.def Info: sec4/images/ESC_config.jpeg  used on input line 68.
-(pdftex.def)             Requested size: 330.76329pt x 193.05016pt.
-
-[20 <./sec4/images/Config_BLHeliSuite.png> <./sec4/images/ESC_config.jpeg>]
-<sec4/images/DriveH.png, id=624, 354.57469pt x 359.84438pt>
+(pdftex.def)             Requested size: 343.99329pt x 200.7763pt.
+ [21 <./sec4/images/Config_BLHeliSuite.png> <./sec4/images/ESC_config.jpeg>]
+<sec4/images/DriveH.png, id=739, 342.078pt x 128.8815pt>
 File: sec4/images/DriveH.png Graphic file (type png)
 <use sec4/images/DriveH.png>
 Package pdftex.def Info: sec4/images/DriveH.png  used on input line 82.
-(pdftex.def)             Requested size: 220.50887pt x 223.79303pt.
+(pdftex.def)             Requested size: 374.86775pt x 141.24107pt.
 Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
 although it is yet undefined on input line 89.
+Package acronym Info: Label `acro:EEPROM' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 93.
+<sec4/images/DriveC0.png, id=752, 472.164pt x 71.0655pt>
+File: sec4/images/DriveC0.png Graphic file (type png)
+<use sec4/images/DriveC0.png>
+Package pdftex.def Info: sec4/images/DriveC0.png  used on input line 96.
+(pdftex.def)             Requested size: 418.96548pt x 63.05939pt.
 
-[21 <./sec4/images/DriveH.png>]
-<sec4/images/DriveC1.png, id=645, 685.8122pt x 534.49687pt>
+Underfull \hbox (badness 1742) in paragraph at lines 99--99
+[]\T1/cmr/m/n/10.95 Abbildung 46: |Ex-trem-wer-te der An-triebs-ge-schwin-dig-k
+eit als Pa-ra-me-ter aus dem
+ []
+
+[22 <./sec4/images/DriveH.png>]
+<sec4/images/DriveC1.png, id=767, 691.08188pt x 700.11563pt>
 File: sec4/images/DriveC1.png Graphic file (type png)
 <use sec4/images/DriveC1.png>
-Package pdftex.def Info: sec4/images/DriveC1.png  used on input line 97.
-(pdftex.def)             Requested size: 410.14325pt x 319.65665pt.
- [22 <./sec4/images/DriveC1.png>]
-<sec4/images/DriveC2.png, id=662, 487.8225pt x 335.75438pt>
+Package pdftex.def Info: sec4/images/DriveC1.png  used on input line 106.
+(pdftex.def)             Requested size: 418.96548pt x 424.4526pt.
+ [23 <./sec4/images/DriveC0.png>] [24 <./sec4/images/DriveC1.png>]
+<sec4/images/DriveC2.png, id=792, 430.0065pt x 342.68025pt>
 File: sec4/images/DriveC2.png Graphic file (type png)
 <use sec4/images/DriveC2.png>
-Package pdftex.def Info: sec4/images/DriveC2.png  used on input line 109.
-(pdftex.def)             Requested size: 330.76329pt x 227.65417pt.
- [23 <./sec4/images/DriveC2.png>]
+Package pdftex.def Info: sec4/images/DriveC2.png  used on input line 118.
+(pdftex.def)             Requested size: 396.91325pt x 316.3102pt.
+ [25 <./sec4/images/DriveC2.png>]
 Package acronym Info: Label `acro:DCMot' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 123.
-<sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg, id=680, 1204.5pt x 903.375
+although it is yet undefined on input line 134.
+<sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg, id=813, 1204.5pt x 903.375
 pt>
 File: sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg Graphic file (type jpg
 )
 <use sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg>
 Package pdftex.def Info: sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg  us
-ed on input line 129.
-(pdftex.def)             Requested size: 330.76329pt x 248.0774pt.
- [24 <./sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg>]
-<sec4/images/PruefstandMess02.png, id=704, 517.935pt x 343.88475pt>
+ed on input line 142.
+(pdftex.def)             Requested size: 352.81552pt x 264.60486pt.
+ [26] [27 <./sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg>]
+<sec4/images/PruefstandMess02.png, id=850, 517.935pt x 343.88475pt>
 File: sec4/images/PruefstandMess02.png Graphic file (type png)
 <use sec4/images/PruefstandMess02.png>
 Package pdftex.def Info: sec4/images/PruefstandMess02.png  used on input line 1
-71.
+84.
 (pdftex.def)             Requested size: 396.91325pt x 263.54323pt.
+ [28 <./sec4/images/PruefstandMess02.png>]
+Overfull \hbox (11.85437pt too wide) in paragraph at lines 198--199
+[]\T1/cmr/m/n/10.95 Die vom NXP-Cup vor-ge-ge-be-nen Re-gu-la-ri-en, die Span-n
+ungs-ab-h�n-gig-keit der [][]BLDC-Motoren[][][]
+ []
 
-[25] [26 <./sec4/images/PruefstandMess02.png>]) (sec5/sec5.tex
-<sec5/images/Servo.jpg, id=732, 399.4925pt x 426.59375pt>
+<sec4/images/Vorgängerfahrzeug.jpeg, id=867, 1204.5pt x 1606.0pt>
+File: sec4/images/Vorgängerfahrzeug.jpeg Graphic file (type jpg)
+<use sec4/images/Vorgängerfahrzeug.jpeg>
+Package pdftex.def Info: sec4/images/Vorgängerfahrzeug.jpeg  used on input lin
+e 208.
+(pdftex.def)             Requested size: 198.45662pt x 264.61098pt.
+<sec4/images/Vorgängerfahrzeug_zwei.jpeg, id=868, 1204.5pt x 1606.0pt>
+File: sec4/images/Vorgängerfahrzeug_zwei.jpeg Graphic file (type jpg)
+<use sec4/images/Vorgängerfahrzeug_zwei.jpeg>
+Package pdftex.def Info: sec4/images/Vorgängerfahrzeug_zwei.jpeg  used on inpu
+t line 209.
+(pdftex.def)             Requested size: 198.45662pt x 264.61098pt.
+[29] [30 <./sec4/images/Vorgängerfahrzeug.jpeg> <./sec4/images/Vorgängerfahrz
+eug_zwei.jpeg>]
+<sec4/images/Signaldarstellung.jpg, id=886, 989.94844pt x 548.80031pt>
+File: sec4/images/Signaldarstellung.jpg Graphic file (type jpg)
+<use sec4/images/Signaldarstellung.jpg>
+Package pdftex.def Info: sec4/images/Signaldarstellung.jpg  used on input line 
+225.
+(pdftex.def)             Requested size: 436.60997pt x 242.0423pt.
+ [31 <./sec4/images/Signaldarstellung.jpg>]
+<sec4/images/Schaltungsaufbau.jpg, id=897, 690.32906pt x 331.99031pt>
+File: sec4/images/Schaltungsaufbau.jpg Graphic file (type jpg)
+<use sec4/images/Schaltungsaufbau.jpg>
+Package pdftex.def Info: sec4/images/Schaltungsaufbau.jpg  used on input line 2
+45.
+(pdftex.def)             Requested size: 418.96548pt x 201.4905pt.
+ [32]
+<sec4/images/Spannungsverlauf_TP.jpg, id=905, 587.19376pt x 186.6975pt>
+File: sec4/images/Spannungsverlauf_TP.jpg Graphic file (type jpg)
+<use sec4/images/Spannungsverlauf_TP.jpg>
+Package pdftex.def Info: sec4/images/Spannungsverlauf_TP.jpg  used on input lin
+e 261.
+(pdftex.def)             Requested size: 396.91325pt x 126.1977pt.
+ [33 <./sec4/images/Schaltungsaufbau.jpg>]
+<sec4/images/TP.png, id=914, 803.0pt x 504.88625pt>
+File: sec4/images/TP.png Graphic file (type png)
+<use sec4/images/TP.png>
+Package pdftex.def Info: sec4/images/TP.png  used on input line 269.
+(pdftex.def)             Requested size: 396.91325pt x 249.56122pt.
+<sec4/images/OPV_Pinbelegung.jpg, id=915, 260.47313pt x 184.43906pt>
+File: sec4/images/OPV_Pinbelegung.jpg Graphic file (type jpg)
+<use sec4/images/OPV_Pinbelegung.jpg>
+Package pdftex.def Info: sec4/images/OPV_Pinbelegung.jpg  used on input line 27
+9.
+(pdftex.def)             Requested size: 220.50887pt x 156.1407pt.
+ [34 <./sec4/images/Spannungsverlauf_TP.jpg> <./sec4/images/TP.png (PNG copy)>]
+ [35 <./sec4/images/OPV_Pinbelegung.jpg>]
+<sec4/images/inp_inref_opv_out.png, id=931, 803.0pt x 504.88625pt>
+File: sec4/images/inp_inref_opv_out.png Graphic file (type png)
+<use sec4/images/inp_inref_opv_out.png>
+Package pdftex.def Info: sec4/images/inp_inref_opv_out.png  used on input line 
+296.
+(pdftex.def)             Requested size: 418.96548pt x 263.4283pt.
+ [36 <./sec4/images/inp_inref_opv_out.png (PNG copy)>]
+<sec4/images/Platine.jpg, id=939, 2143.00626pt x 3193.9325pt>
+File: sec4/images/Platine.jpg Graphic file (type jpg)
+<use sec4/images/Platine.jpg>
+Package pdftex.def Info: sec4/images/Platine.jpg  used on input line 313.
+(pdftex.def)             Requested size: 198.45662pt x 295.77528pt.
+<sec4/images/Platinendesign.jpg, id=940, 222.07968pt x 344.03531pt>
+File: sec4/images/Platinendesign.jpg Graphic file (type jpg)
+<use sec4/images/Platinendesign.jpg>
+Package pdftex.def Info: sec4/images/Platinendesign.jpg  used on input line 314
+.
+(pdftex.def)             Requested size: 176.40439pt x 273.27579pt.
+ [37]
+<sec4/images/Problematik_stop_throttle.png, id=947, 803.0pt x 504.88625pt>
+File: sec4/images/Problematik_stop_throttle.png Graphic file (type png)
+<use sec4/images/Problematik_stop_throttle.png>
+Package pdftex.def Info: sec4/images/Problematik_stop_throttle.png  used on inp
+ut line 327.
+(pdftex.def)             Requested size: 418.96548pt x 263.4283pt.
+ [38 <./sec4/images/Platine.jpg> <./sec4/images/Platinendesign.jpg>] [39 <./sec
+4/images/Problematik_stop_throttle.png (PNG copy)>]
+<sec4/images/Schaltungserweiterung.jpg, id=964, 605.26125pt x 380.92313pt>
+File: sec4/images/Schaltungserweiterung.jpg Graphic file (type jpg)
+<use sec4/images/Schaltungserweiterung.jpg>
+Package pdftex.def Info: sec4/images/Schaltungserweiterung.jpg  used on input l
+ine 349.
+(pdftex.def)             Requested size: 436.60997pt x 274.78174pt.
+<sec4/images/rpm_defines.jpg, id=965, 443.40656pt x 159.59625pt>
+File: sec4/images/rpm_defines.jpg Graphic file (type jpg)
+<use sec4/images/rpm_defines.jpg>
+Package pdftex.def Info: sec4/images/rpm_defines.jpg  used on input line 363.
+(pdftex.def)             Requested size: 352.81552pt x 126.99773pt.
+ [40 <./sec4/images/Schaltungserweiterung.jpg>]
+Overfull \hbox (45.11351pt too wide) in paragraph at lines 375--376
+\T1/cmr/m/n/10.95 Callback-Table wird als Pointer-Array in der CTI-MER2_Init de
+r Funk-ti-on CTI-MER_RegisterCallBack
+ []
+
+<sec4/images/rpmmeas_init_ctimer2_init.jpg, id=973, 554.82281pt x 659.46375pt>
+File: sec4/images/rpmmeas_init_ctimer2_init.jpg Graphic file (type jpg)
+<use sec4/images/rpmmeas_init_ctimer2_init.jpg>
+Package pdftex.def Info: sec4/images/rpmmeas_init_ctimer2_init.jpg  used on inp
+ut line 380.
+(pdftex.def)             Requested size: 396.91325pt x 471.77463pt.
+[41 <./sec4/images/rpm_defines.jpg>]
+<sec4/images/isr.jpg, id=981, 394.47375pt x 344.78813pt>
+File: sec4/images/isr.jpg Graphic file (type jpg)
+<use sec4/images/isr.jpg>
+Package pdftex.def Info: sec4/images/isr.jpg  used on input line 392.
+(pdftex.def)             Requested size: 273.42883pt x 238.98782pt.
+ [42 <./sec4/images/rpmmeas_init_ctimer2_init.jpg>]
+<sec4/images/calculation.jpg, id=989, 417.05812pt x 365.11406pt>
+File: sec4/images/calculation.jpg Graphic file (type jpg)
+<use sec4/images/calculation.jpg>
+Package pdftex.def Info: sec4/images/calculation.jpg  used on input line 403.
+(pdftex.def)             Requested size: 273.42883pt x 239.38823pt.
+
+Overfull \hbox (65.44102pt too wide) in paragraph at lines 410--411
+[]\T1/cmr/m/n/10.95 Im letz-ten Ab-schnitt der RPM-MEAS_Init wer-den an die zwe
+i Funk-tio-nen rpm-Meas_average_val_left
+ []
+
+
+Overfull \hbox (1.58406pt too wide) in paragraph at lines 410--411
+\T1/cmr/m/n/10.95 Aus den er-fass-ten Da-ten kann dar-aus der Mit-tel-wert ave
+-ra-ge-val_left bzw. ave-ra-ge-val_right
+ []
+
+[43 <./sec4/images/isr.jpg> <./sec4/images/calculation.jpg>] [44])
+(sec5/sec5.tex
+<sec5/images/Servo.jpg, id=1010, 399.4925pt x 426.59375pt>
 File: sec5/images/Servo.jpg Graphic file (type jpg)
 <use sec5/images/Servo.jpg>
 Package pdftex.def Info: sec5/images/Servo.jpg  used on input line 20.
 (pdftex.def)             Requested size: 220.50887pt x 235.46698pt.
- [27 <./sec5/images/Servo.jpg>]
-<sec5/images/MontageLenkungskomponenten.jpg, id=746, 5068.9375pt x 2455.1725pt>
-
+ [45 <./sec5/images/Servo.jpg>]
+<sec5/images/MontageLenkungskomponenten.jpg, id=1024, 5068.9375pt x 2455.1725pt
+>
 File: sec5/images/MontageLenkungskomponenten.jpg Graphic file (type jpg)
 <use sec5/images/MontageLenkungskomponenten.jpg>
 Package pdftex.def Info: sec5/images/MontageLenkungskomponenten.jpg  used on in
 put line 35.
 (pdftex.def)             Requested size: 396.91325pt x 192.22197pt.
- [28 <./sec5/images/MontageLenkungskomponenten.jpg>]
-<sec5/images/ServoH.png, id=756, 598.48593pt x 248.42813pt>
+ [46 <./sec5/images/MontageLenkungskomponenten.jpg>]
+<sec5/images/ServoH.png, id=1034, 531.78674pt x 115.632pt>
 File: sec5/images/ServoH.png Graphic file (type png)
 <use sec5/images/ServoH.png>
-Package pdftex.def Info: sec5/images/ServoH.png  used on input line 50.
-(pdftex.def)             Requested size: 396.91325pt x 164.75911pt.
- [29 <./sec5/images/ServoH.png>]
-<sec5/images/ServoC.png, id=773, 599.23875pt x 557.08125pt>
-File: sec5/images/ServoC.png Graphic file (type png)
-<use sec5/images/ServoC.png>
-Package pdftex.def Info: sec5/images/ServoC.png  used on input line 64.
-(pdftex.def)             Requested size: 396.91325pt x 369.00082pt.
- [30 <./sec5/images/ServoC.png>] [31]) (sec6/sec6.tex
-<sec6/images/Display_PCB.png, id=793, 328.22626pt x 268.75406pt>
+Package pdftex.def Info: sec5/images/ServoH.png  used on input line 48.
+(pdftex.def)             Requested size: 396.91325pt x 86.30562pt.
+<sec5/images/ServoC0.png, id=1042, 561.297pt x 40.953pt>
+File: sec5/images/ServoC0.png Graphic file (type png)
+<use sec5/images/ServoC0.png>
+Package pdftex.def Info: sec5/images/ServoC0.png  used on input line 60.
+(pdftex.def)             Requested size: 418.96548pt x 30.56905pt.
+<sec5/images/ServoC1.png, id=1048, 601.64775pt x 448.074pt>
+File: sec5/images/ServoC1.png Graphic file (type png)
+<use sec5/images/ServoC1.png>
+Package pdftex.def Info: sec5/images/ServoC1.png  used on input line 70.
+(pdftex.def)             Requested size: 418.96548pt x 312.02927pt.
+ [47 <./sec5/images/ServoH.png> <./sec5/images/ServoC0.png>]
+<sec5/images/ServoC2.png, id=1063, 420.97275pt x 201.1515pt>
+File: sec5/images/ServoC2.png Graphic file (type png)
+<use sec5/images/ServoC2.png>
+Package pdftex.def Info: sec5/images/ServoC2.png  used on input line 82.
+(pdftex.def)             Requested size: 374.86775pt x 179.12248pt.
+
+[48 <./sec5/images/ServoC1.png>] [49 <./sec5/images/ServoC2.png>])
+(sec6/sec6.tex
+<sec6/images/Display_PCB.png, id=1083, 328.22626pt x 268.75406pt>
 File: sec6/images/Display_PCB.png Graphic file (type png)
 <use sec6/images/Display_PCB.png>
-Package pdftex.def Info: sec6/images/Display_PCB.png  used on input line 20.
+Package pdftex.def Info: sec6/images/Display_PCB.png  used on input line 22.
 (pdftex.def)             Requested size: 330.76329pt x 270.83662pt.
-<sec6/images/Display_PCB2.png, id=794, 342.5297pt x 181.42781pt>
+<sec6/images/Display_PCB2.png, id=1084, 342.5297pt x 181.42781pt>
 File: sec6/images/Display_PCB2.png Graphic file (type png)
 <use sec6/images/Display_PCB2.png>
-Package pdftex.def Info: sec6/images/Display_PCB2.png  used on input line 28.
+Package pdftex.def Info: sec6/images/Display_PCB2.png  used on input line 30.
 (pdftex.def)             Requested size: 396.91325pt x 210.24878pt.
+ [50 <./sec6/images/Display_PCB.png>] [51 <./sec6/images/Display_PCB2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
-[32 <./sec6/images/Display_PCB.png>] [33 <./sec6/images/Display_PCB2.png>])
-(sec7/sec7.tex [34]) (sec8/sec8.tex [35]) (sec9/sec9.tex [36]) (sec10/sec10.tex
-[37]) (sec11/sec11.tex [38]) (inserts/graphics/graphics.tex
+ []
+
+[52] [53]
+Package acronym Info: Label `acro:I2C' newly defined as it shall be overridden
+although it is yet undefined on input line 76.
+Package acronym Info: Label `acro:RAM' newly defined as it shall be overridden
+although it is yet undefined on input line 79.
+ [54]
+Package acronym Info: Label `acro:DMA' newly defined as it shall be overridden
+although it is yet undefined on input line 164.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Overfull \hbox (0.68803pt too wide) in paragraph at lines 164--165
+\T1/cmr/m/n/10.95 den-de Va-ria-ble und de-ren L�n-ge �ber-ge-ben. Sol-len an-z
+u-zei-gen-de Da-ten and das [][]
+ []
+
+[55] [56] [57]
+Overfull \hbox (3.88019pt too wide) in paragraph at lines 215--216
+\T1/cmr/m/n/10.95 auf ein Cha-rak-terar-ray �ber-ge-ben wird. Da in der Funk-ti
+-on die Funk-ti-on ssd1309_write_char
+ []
+
+[58] [59]) (sec7/sec7.tex
+<sec7/images/CamPinning.png, id=1188, 953.81343pt x 325.96782pt>
+File: sec7/images/CamPinning.png Graphic file (type png)
+<use sec7/images/CamPinning.png>
+Package pdftex.def Info: sec7/images/CamPinning.png  used on input line 24.
+(pdftex.def)             Requested size: 396.91325pt x 135.64716pt.
+ [60 <./sec7/images/CamPinning.png>]
+<sec7/images/CamWaveform.png, id=1203, 890.5772pt x 299.61937pt>
+File: sec7/images/CamWaveform.png Graphic file (type png)
+<use sec7/images/CamWaveform.png>
+Package pdftex.def Info: sec7/images/CamWaveform.png  used on input line 34.
+(pdftex.def)             Requested size: 418.96548pt x 140.9537pt.
+<sec7/images/TimingWaveform.png, id=1207, 692.5875pt x 205.5178pt>
+File: sec7/images/TimingWaveform.png Graphic file (type png)
+<use sec7/images/TimingWaveform.png>
+Package pdftex.def Info: sec7/images/TimingWaveform.png  used on input line 44.
+
+(pdftex.def)             Requested size: 418.96548pt x 124.32454pt.
+ [61 <./sec7/images/CamWaveform.png> <./sec7/images/TimingWaveform.png>] [62]) 
+(sec8/sec8.tex
+[63]) (sec11/sec11.tex [64]) (inserts/graphics/graphics.tex
 (Projektbericht_main.lof [6]
-Overfull \hbox (1.75204pt too wide) in paragraph at lines 50--50
+Overfull \hbox (1.75327pt too wide) in paragraph at lines 70--70
  [][] [][][]\T1/cmr/m/n/10.95 Funktionen SER-VO_Init, CTI-MER1_Init und SER-VO_
 Demo der Da-tei drive.c[][] [][]  
  []
 
 )
-\tf@lof=\write5
-\openout5 = `Projektbericht_main.lof'.
+\tf@lof=\write6
+\openout6 = `Projektbericht_main.lof'.
 
  [7]) (inserts/sources/sources.tex (Projektbericht_main.bbl
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-6.
-
-("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 25--32
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
 \T1/cmtt/m/n/10.95 t -[] s t u d e n t -[] t e a m s -[] w o r k -[] f r o m -[
 ] h o m e -[] t o -[] w i n -[] t h e -[] n x p -[] c u p -[] e l e c t r o m a
  k e r -[] i n n o v
  []
 
-) [8]) (attachement/attachement.tex [9]) (Projektbericht_main.aux)
+) [8]) (attachement/attachement.tex [9]
+<attachement/PinAssignment.png, id=1354, 345.08925pt x 690.78075pt>
+File: attachement/PinAssignment.png Graphic file (type png)
+<use attachement/PinAssignment.png>
+Package pdftex.def Info: attachement/PinAssignment.png  used on input line 28.
+(pdftex.def)             Requested size: 330.76329pt x 662.15118pt.
+
+Overfull \vbox (25.28302pt too high) has occurred while \output is active []
+
+
+[10 <./attachement/PinAssignment.png>]) (Projektbericht_main.aux)
 Package rerunfilecheck Info: File `Projektbericht_main.out' has not changed.
-(rerunfilecheck)             Checksum: 332BC06992E4DB9D4E3A2867019E84FB;3525.
+(rerunfilecheck)             Checksum: 8AB17295828FA90A2B990B0EC4AFB4B8;4662.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 9784 strings out of 480202
- 176978 string characters out of 2877025
- 476707 words of memory out of 3000000
- 25838 multiletter control sequences out of 15000+200000
- 549080 words of font info for 62 fonts, out of 3000000 for 9000
+ 40100 strings out of 480202
+ 1052739 string characters out of 2877025
+ 1432626 words of memory out of 3000000
+ 55718 multiletter control sequences out of 15000+200000
+ 551932 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,68p,1457b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 81i,13n,90p,2989b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ectt1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\tcti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\chris\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\chris\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\chris\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Us
+tcti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\chris\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\chris\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\chris\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Us
 ers\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.
 pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
@@ -1068,9 +1878,9 @@ is/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
 C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on Projektbericht_main.pdf (47 pages, 23133969 bytes).
+Output written on Projektbericht_main.pdf (74 pages, 33913208 bytes).
 PDF statistics:
- 1471 PDF objects out of 1728 (max. 8388607)
- 172 named destinations out of 1000 (max. 500000)
- 650 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1955 PDF objects out of 2073 (max. 8388607)
+ 254 named destinations out of 1000 (max. 500000)
+ 896 words of extra memory for PDF output out of 10000 (max. 10000000)
 

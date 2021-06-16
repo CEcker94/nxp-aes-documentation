@@ -10,7 +10,7 @@
 
 \section{Lenkung des Fahrzeugs}\label{Sec5}
 
-Wie in Kapitel \ref{Sec2Sub1} beschrieben, wird die Lenkung des Fahrzeugs von einem Servomotor angetrieben, der im Folgenden näher erklärt wird. Auch auf die Montage der Antriebskomponenten und die Programmierung des Lenkungsbausteins wird in diesem Kapitel näher eingegangen.
+Wie in Kapitel \ref{Sec2Sub1} beschrieben, wird das Lenkgestänge des Fahrzeugs von einem Servomotor angetrieben, der im Folgenden näher erklärt wird. Auch auf die Montage der Antriebskomponenten und die Programmierung des Lenkungsbausteins wird in diesem Kapitel näher eingegangen.
 
 \subsection{Servoantrieb}\label{Sec5Sub1}
 
@@ -42,33 +42,48 @@ In Abbildung \ref{fig:MontageLenkungskomponenten} sind die montierten Komponente
 \newpage
 \subsection{Programmierung des Lenkungsbausteins}\label{Sec5Sub3}
 
-Der Lenkungsbaustein der Software ist wie der Antriebsbaustein in zwei Dateien unterteilt, die Dateien \glqq{}servo.c\grqq{} und  \glqq{}servo.h\grqq{}. Die Datei \glqq{}servo.h\grqq{} enthält alle relevanten Bibliotheken und Prototypen für die Datei \glqq{}servo.c\grqq{}.\vspace{11pt}
-
-Außer der Einbindung der Bibliotheken und der Prototypen der Funktionen aus der Datei \glqq{}servo.c\grqq{} sind hier auch die Parameter für den maximalen linken und rechten Lenkeinschlag, für die Mittelstellung des Servomotors und für die Initialisierung des Timers für das \ac{PWM}-Signal hinterlegt (Abbildung \ref{fig:ServoH}). 
+Der Lenkungsbaustein der Software ist wie der Antriebsbaustein in zwei Dateien unterteilt, die Dateien \glqq{}servo.c\grqq{} und  \glqq{}servo.h\grqq{}. Die Datei \glqq{}servo.h\grqq{} enthält alle relevanten Bibliotheken und Prototypen für die Datei \glqq{}servo.c\grqq{}. Außer der Einbindung der Bibliotheken und der Prototypen der Funktionen aus der Datei \glqq{}servo.c\grqq{} sind hier auch die Parameter für die Initialisierung des Timers für das \ac{PWM}-Signal hinterlegt (Abbildung \ref{fig:ServoH}). 
 
 \begin{figure}[H] %H für Positionierung hier
 \includegraphics[width=.90\textwidth]{sec5/images/ServoH} 
 \centering
 \captionsetup{width=.95\textwidth}
-\caption[Relevante Zeilen der Datei \glqq{}servo.h\grqq{}]{Relevante Zeilen der Datei \glqq{}servo.h\grqq{} mit den Parametern für die Initialisierung des \ac{PWM}-Timers und den Werten für den maximalen linken und rechten Lenkeinschlag und für die Mittelstellung des Servos}\centering
+\caption[Relevante Zeilen der Datei \glqq{}servo.h\grqq{}]{Relevante Zeilen der Datei \glqq{}servo.h\grqq{} mit den Parametern für die Initialisierung des \ac{PWM}-Timers}\centering
 \label{fig:ServoH}
 \end{figure}
 
 Wie schon beim Antrieb, wird für die \ac{PWM}-Periodendauer bei der Initialisierung ein Wert von 4.400.000 Takten festgesetzt, woraus mit einer \ac{CPU}-Taktfrequenz von 220MHz (220.000.000 Takte pro Sekunde) eine Periodendauer von 20ms resultiert. Die Pulsbreite wird während des Programmablaufs regelmäßig überschrieben, weshalb für die Initialisierung ein Wert von 0 gewählt werden kann. So bewegt sich der Servomotor bei der Initialisierung nicht und es kommt dabei nicht zum Crash.\vspace{11pt}
 
-Der Wert für den linken maximalen Lenkeinschlag (\glqq{}SERVO\_PWM\_LeftValue\grqq{}, 200.000) entspricht hier einer \ac{PWM}-Pulsbreite von 0,91ms und der des maximalen rechten Lenkeinschlags (\glqq{}SERVO\_PWM\_RightValue\grqq{}, 459.000) einer Breite von 2,08ms. Auch wenn der Servomotor einen Wert zwischen 1ms und 2ms erwartet, kann mit den eben genannten Einstellungen noch ein wenig mehr Lenkeinschlag gewonnen werden. Mit dem Wert der Mittelstellung (\glqq{}SERVO\_PWM\_MiddleValue\grqq{}, 327.000), welcher durch Probieren angenähert wurde, beläuft sich die Pulsbreite auf 1,486ms.\vspace{11pt}
-
-Auch der \ac{PWM}-Timer benötigt bei der Initialisierung einige Parameter, deren Werte in der Datei \glqq{}servo.h\grqq{} festgelegt sind (\ac{PWM}-Periodendauer, \ac{PWM}-Pulsdauer, Channel). Der Channel wird auf das Timer Match Register 2 festgelegt (\glqq{}kCTIMER\_Match\_2\grqq{}), was bei dem verwendeten Controller dem Pin P3.2 entspricht. Der Pin P3.2 wird auf der Controllerplatine über den Pin 11 der Buchsenleiste J13 nach außen geführt. Der Anschluss des Servos ist über den Anhang \glqq{}\nameref{SecAtt1}\grqq{} nachvollziehbar.
+Der Wert für den linken maximalen Lenkeinschlag (ca. 200.000) entspricht einer \ac{PWM}-Pulsbreite von 0,91ms und der des maximalen rechten Lenkeinschlags (ca. 459.000) einer Breite von 2,08ms. Auch wenn der Servomotor einen Wert zwischen 1ms und 2ms erwartet, kann mit den eben genannten Einstellungen noch ein wenig mehr Lenkeinschlag gewonnen werden. Mit dem Wert der Mittelstellung (ca. 327.000), welcher durch Probieren angenähert wurde, beläuft sich die Pulsbreite auf 1,486ms. Alle drei Extremwerte (\glqq{}servoMiddleValue\grqq{}, \glqq{}servoLeftValue\grqq{}, \glqq{}servoRightValue\grqq{}) sind Parameter, deren Werte aus dem \ac{EEPROM} kommen und welche über das Bedienungsboard eingestellt werden können (siehe Abbildung \ref{fig:ServoC0}).
 
 \begin{figure}[H] %H für Positionierung hier
-\includegraphics[width=.90\textwidth]{sec5/images/ServoC} 
+\includegraphics[width=.95\textwidth]{sec5/images/ServoC0} 
+\centering
+\captionsetup{width=.95\textwidth}
+\caption[Extremwerte der Lenkwinkel als Parameter aus dem \ac{EEPROM}]{Extremwerte der Lenkwinkel als Parameter aus dem \ac{EEPROM}, deren Werte über das Bedienungsboard individuell einstellbar sind; Teil der Datei \glqq{}servo.c\grqq{}}\centering
+\label{fig:ServoC0}
+\end{figure}
+
+Auch der \ac{PWM}-Timer benötigt bei der Initialisierung einige Parameter, deren Werte in der Datei \glqq{}servo.h\grqq{} festgelegt sind (\ac{PWM}-Periodendauer, \ac{PWM}-Pulsdauer, Channel). Der Channel wird auf das Timer Match Register 2 festgelegt (\glqq{}kCTIMER\_Match\_2\grqq{}), was bei dem verwendeten Controller dem Pin P3.2 entspricht. Der Pin P3.2 wird auf der Controllerplatine über den Pin 11 der Buchsenleiste J13 nach außen geführt.
+
+\begin{figure}[H] %H für Positionierung hier
+\includegraphics[width=.95\textwidth]{sec5/images/ServoC1} 
 \centering
 \captionsetup{width=.95\textwidth}
 \caption[Funktionen SERVO\_Init, CTIMER1\_Init und SERVO\_Demo der Datei \glqq{}drive.c\grqq{}]{Funktionen SERVO\_Init und CTIMER1\_Init und Demonstrations-Task SERVO\_Demo der Datei \glqq{}drive.c\grqq{}}\centering
-\label{fig:ServoC}
+\label{fig:ServoC1}
 \end{figure}
 
-Die Datei \glqq{}servo.c\grqq{} enthält die Funktionen zur Initialisierung der für die Verwendung des Servos notwendigen Controller-Peripherie. In der Funktion SERVO\_Init wird zuerst die Funktion CTIMER1\_Init aufgerufen, welche den Timer mit den in der Datei \glqq{}servo.h\grqq{} festgelegten Parametern als \ac{PWM}-Timer mit einer Periodendauer von 20ms und einer Pulslänge von 0ms initialisiert. Im Anschluss daran wird festgelegt, dass bei einem Timer-Überlauf die neuen Daten für die Pulslänge aus dem Shadow-Register geladen werden sollen. Zum Ändern des Lenkwinkels muss deshalb lediglich ein neuer Wert in das Shadow-Register geschrieben werden. Hier muss allerdings aufgepasst werden, da das Register nicht die Pulsbreite (On-Time) sondern die Off-Time erwartet. Deshalb muss der Wert, der eingetragen wird, der Periodendauer abzüglich der Pulsdauer entsprechen. Zusätzlich wird in der Funktion SERVO\_Init auch der Pin 3.2 für die Verwendung als \ac{PWM}-Ausgang des Timers C konfiguriert. Am Ende wird der Wert für die Mittelstellung des Servos in das Shadow-Register geschrieben und ein Task für die Demonstration der Lenkung gestartet (SERVO\_Demo), welcher nach einmaligem Linkslenken, Rechtslenken und nach der Rückkehr in die Mittelstellung ausgesetzt wird. Der Inhalt der Datei \glqq{}servo.c\grqq{} ist in Abbildung \ref{fig:ServoC} abgebildet.
+Die Datei \glqq{}servo.c\grqq{} enthält die Funktionen zur Initialisierung der für die Verwendung des Servos notwendigen Controller-Peripherie. In der Funktion SERVO\_Init wird zuerst die Funktion CTIMER1\_Init aufgerufen, welche den Timer mit den in der Datei \glqq{}servo.h\grqq{} festgelegten Parametern als \ac{PWM}-Timer mit einer Periodendauer von 20ms und einer Pulslänge von 0ms initialisiert. Im Anschluss daran wird festgelegt, dass bei einem Timer-Überlauf die neuen Daten für die Pulslänge aus dem Shadow-Register geladen werden sollen. Zum Ändern des Lenkwinkels muss deshalb lediglich ein neuer Wert in das Shadow-Register geschrieben werden. Hier muss allerdings aufgepasst werden, da das Register nicht die Pulsbreite (On-Time) sondern die Off-Time erwartet. Deshalb muss der Wert, der eingetragen wird, der Periodendauer abzüglich der Pulsdauer entsprechen. Zusätzlich wird in der Funktion SERVO\_Init auch der Pin 3.2 für die Verwendung als \ac{PWM}-Ausgang des Timers C konfiguriert (siehe Abbildung \ref{fig:ServoC1}).\vspace{11pt}
 
+Am Ende wird der Wert für die Mittelstellung des Servos in das Shadow-Register geschrieben und ein Task für die Demonstration der Lenkung gestartet (SERVO\_Demo), welcher nach einmaligem Linkslenken, Rechtslenken und nach der Rückkehr in die Mittelstellung ausgesetzt wird. Der Task \glqq{}SERVO\_Demo\grqq{} ist in Abbildung \ref{fig:ServoC2} einsehbar.
+
+\begin{figure}[H] %H für Positionierung hier
+\includegraphics[width=.85\textwidth]{sec5/images/ServoC2} 
+\centering
+\captionsetup{width=.95\textwidth}
+\caption[SERVO\_Demo Task der Datei \glqq{}drive.c\grqq{}]{SERVO\_Demo Task der Datei \glqq{}drive.c\grqq{}}\centering
+\label{fig:ServoC2}
+\end{figure}
 
 \newpage

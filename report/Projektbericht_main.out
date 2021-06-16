@@ -1,6 +1,6 @@
-\BOOKMARK [1][-]{figure.caption.1}{Vorwort}{}% 1
+\BOOKMARK [1][-]{figure.caption.1}{Vorwort und Projekt-Links}{}% 1
 \BOOKMARK [1][-]{section*.2}{Inhaltsverzeichnis}{}% 2
-\BOOKMARK [1][-]{section*.3}{Abk\374rzungsverzeichnis}{}% 3
+\BOOKMARK [1][-]{section*.4}{Abk\374rzungsverzeichnis}{}% 3
 \BOOKMARK [1][-]{section.1}{Einf\374hrung}{}% 4
 \BOOKMARK [2][-]{subsection.1.1}{Zielsetzung}{section.1}% 5
 \BOOKMARK [2][-]{subsection.1.2}{Konzept}{section.1}% 6
@@ -9,40 +9,53 @@
 \BOOKMARK [2][-]{subsection.2.2}{Anbaukomponenten aus dem 3D-Druck}{section.2}% 9
 \BOOKMARK [3][-]{subsubsection.2.2.1}{Sto\337stange und Ultraschallboard-Halterung}{subsection.2.2}% 10
 \BOOKMARK [3][-]{subsubsection.2.2.2}{Akku-Halterung und Seitenschweller}{subsection.2.2}% 11
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Halterung der Controllerplatine und des Bedienungs-Boards}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Halterung der Controllerplatine und des Bedienungsboards}{subsection.2.2}% 12
 \BOOKMARK [3][-]{subsubsection.2.2.4}{Halterung f\374r die Motorcontroller}{subsection.2.2}% 13
 \BOOKMARK [3][-]{subsubsection.2.2.5}{Einfache Platinenhalterungen}{subsection.2.2}% 14
 \BOOKMARK [3][-]{subsubsection.2.2.6}{Kamerahalterung}{subsection.2.2}% 15
-\BOOKMARK [1][-]{section.3}{Controllerplatine und Programmiertool}{}% 16
-\BOOKMARK [1][-]{section.4}{Antrieb des Fahrzeugs}{}% 17
-\BOOKMARK [2][-]{subsection.4.1}{BLDC-Antrieb und Motorcontroller}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.2}{Montage der Antriebskomponenten}{section.4}% 19
-\BOOKMARK [2][-]{subsection.4.3}{Konfiguration der Motorcontroller}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.4}{Programmierung des Antriebsbausteins}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.5}{Drehzahlmessung}{section.4}% 22
-\BOOKMARK [3][-]{subsubsection.4.5.1}{Er\366rterung der Notwendigkeit einer Drehzahlmessung}{subsection.4.5}% 23
-\BOOKMARK [3][-]{subsubsection.4.5.2}{Auswahl des Messprinzips}{subsection.4.5}% 24
-\BOOKMARK [3][-]{subsubsection.4.5.3}{Hardware f\374r die Drehzahlmessung}{subsection.4.5}% 25
-\BOOKMARK [3][-]{subsubsection.4.5.4}{Programmierung des Drehzahlmessungsbausteins}{subsection.4.5}% 26
-\BOOKMARK [1][-]{section.5}{Lenkung des Fahrzeugs}{}% 27
-\BOOKMARK [2][-]{subsection.5.1}{Servoantrieb}{section.5}% 28
-\BOOKMARK [2][-]{subsection.5.2}{Montage der Lenkungskomponenten}{section.5}% 29
-\BOOKMARK [2][-]{subsection.5.3}{Programmierung des Lenkungsbausteins}{section.5}% 30
-\BOOKMARK [1][-]{section.6}{Bedienungs-Board}{}% 31
-\BOOKMARK [2][-]{subsection.6.1}{Schaltplan}{section.6}% 32
-\BOOKMARK [2][-]{subsection.6.2}{Programmierung der Anzeige}{section.6}% 33
-\BOOKMARK [2][-]{subsection.6.3}{Programmierung der Steuerelemente}{section.6}% 34
-\BOOKMARK [1][-]{section.7}{Streckenerkennung des Fahrzeugs}{}% 35
-\BOOKMARK [2][-]{subsection.7.1}{Kamera des Fahrzeugs}{section.7}% 36
-\BOOKMARK [2][-]{subsection.7.2}{Montage und Ausrichtung der Kamera}{section.7}% 37
-\BOOKMARK [2][-]{subsection.7.3}{Programmierung der Streckenauswertung}{section.7}% 38
-\BOOKMARK [2][-]{subsection.7.4}{Kameralinsen}{section.7}% 39
-\BOOKMARK [1][-]{section.8}{Verteilerplatine auf der unteren Fahrzeugebene}{}% 40
-\BOOKMARK [1][-]{section.9}{Regelung des Fahrzeugs}{}% 41
-\BOOKMARK [1][-]{section.10}{Inbetriebnahme des Fahrzeugs}{}% 42
-\BOOKMARK [1][-]{section.11}{Zusammenfassung, Fazit und Ausblick}{}% 43
-\BOOKMARK [2][-]{subsection.11.1}{Zusammenfassung und Fazit}{section.11}% 44
-\BOOKMARK [2][-]{subsection.11.2}{Ausblick}{section.11}% 45
-\BOOKMARK [1][-]{subsection.11.2}{Abbildungsverzeichnis}{}% 46
-\BOOKMARK [1][-]{section*.67}{Quellenverzeichnis}{}% 47
-\BOOKMARK [1][-]{section*.68}{Anhang}{}% 48
+\BOOKMARK [3][-]{subsubsection.2.2.7}{Antriebs-Abdeckung}{subsection.2.2}% 16
+\BOOKMARK [1][-]{section.3}{Controllerplatine und Programmiertool}{}% 17
+\BOOKMARK [1][-]{section.4}{Antrieb des Fahrzeugs}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{BLDC-Antrieb und Motorcontroller}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Montage der Antriebskomponenten}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Konfiguration der Motorcontroller}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.4}{Programmierung des Antriebsbausteins}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.5}{Drehzahlmessung}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Er\366rterung der Notwendigkeit einer Drehzahlmessung}{subsection.4.5}% 24
+\BOOKMARK [3][-]{subsubsection.4.5.2}{Auswahl des Messprinzips}{subsection.4.5}% 25
+\BOOKMARK [3][-]{subsubsection.4.5.3}{Hardware f\374r die Drehzahlmessung}{subsection.4.5}% 26
+\BOOKMARK [3][-]{subsubsection.4.5.4}{Ausblick Schaltungserweiterung}{subsection.4.5}% 27
+\BOOKMARK [3][-]{subsubsection.4.5.5}{Programmierung des Drehzahlmessungsbausteins}{subsection.4.5}% 28
+\BOOKMARK [1][-]{section.5}{Lenkung des Fahrzeugs}{}% 29
+\BOOKMARK [2][-]{subsection.5.1}{Servoantrieb}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.2}{Montage der Lenkungskomponenten}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.3}{Programmierung des Lenkungsbausteins}{section.5}% 32
+\BOOKMARK [1][-]{section.6}{Bedienungs-Board}{}% 33
+\BOOKMARK [2][-]{subsection.6.1}{Schaltplan}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.2}{Programmierung der Steuerelemente}{section.6}% 35
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Taster auswerten}{subsection.6.2}% 36
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Drehencoder auswerten}{subsection.6.2}% 37
+\BOOKMARK [2][-]{subsection.6.3}{Programmierung der Anzeige}{section.6}% 38
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Funktionsweise des organisches Leuchtdioden-Displays}{subsection.6.3}% 39
+\BOOKMARK [3][-]{subsubsection.6.3.2}{I2C Ansteuerung}{subsection.6.3}% 40
+\BOOKMARK [3][-]{subsubsection.6.3.3}{Konfiguration des Displays}{subsection.6.3}% 41
+\BOOKMARK [2][-]{subsection.6.4}{Darstellungen auf dem organisches Leuchtdioden-Display}{section.6}% 42
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Pixelansteuerung}{subsection.6.4}% 43
+\BOOKMARK [3][-]{subsubsection.6.4.2}{Rechteck zeichnen}{subsection.6.4}% 44
+\BOOKMARK [3][-]{subsubsection.6.4.3}{Buchstabe darstellen}{subsection.6.4}% 45
+\BOOKMARK [3][-]{subsubsection.6.4.4}{Text darstellen}{subsection.6.4}% 46
+\BOOKMARK [3][-]{subsubsection.6.4.5}{Bilder darstellen}{subsection.6.4}% 47
+\BOOKMARK [2][-]{subsection.6.5}{Menuf\374hrung}{section.6}% 48
+\BOOKMARK [1][-]{section.7}{Streckenerkennung des Fahrzeugs}{}% 49
+\BOOKMARK [2][-]{subsection.7.1}{Kamera des Fahrzeugs}{section.7}% 50
+\BOOKMARK [2][-]{subsection.7.2}{Programmierung der Streckenauswertung}{section.7}% 51
+\BOOKMARK [2][-]{subsection.7.3}{Montage und Ausrichtung der Kamera}{section.7}% 52
+\BOOKMARK [1][-]{section.8}{Verteilerplatinen}{}% 53
+\BOOKMARK [2][-]{subsection.8.1}{Stromverteiler auf der unteren Fahrzeugebene}{section.8}% 54
+\BOOKMARK [2][-]{subsection.8.2}{Verteilerplatine auf der oberen Fahrzeugebene}{section.8}% 55
+\BOOKMARK [1][-]{section.9}{Zusammenfassung, Fazit und Ausblick}{}% 56
+\BOOKMARK [2][-]{subsection.9.1}{Zusammenfassung und Fazit}{section.9}% 57
+\BOOKMARK [2][-]{subsection.9.2}{Ausblick}{section.9}% 58
+\BOOKMARK [1][-]{subsection.9.2}{Abbildungsverzeichnis}{}% 59
+\BOOKMARK [1][-]{section*.98}{Quellenverzeichnis}{}% 60
+\BOOKMARK [1][-]{section*.99}{Anhang}{}% 61
