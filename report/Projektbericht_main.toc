@@ -49,14 +49,14 @@
 \contentsline {subsection}{\numberline {6.5}Menuführung}{59}{subsection.6.5}%
 \contentsline {section}{\numberline {7}Streckenerkennung des Fahrzeugs}{60}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Kamera des Fahrzeugs}{60}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Programmierung der Streckenauswertung}{61}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Montage und Ausrichtung der Kamera}{62}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Verteilerplatinen}{63}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Leistungsverteiler auf der unteren Fahrzeugebene}{63}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Signalverteilerplatine auf der oberen Fahrzeugebene}{64}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Zusammenfassung, Fazit und Ausblick}{65}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Zusammenfassung und Fazit}{65}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Ausblick}{65}{subsection.9.2}%
+\contentsline {subsection}{\numberline {7.2}Ablauf einer Bildaufnahme}{62}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Programmierung der zyklischen Bildaufnahme}{63}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Verteilerplatinen}{72}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Leistungsverteiler auf der unteren Fahrzeugebene}{72}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Signalverteilerplatine auf der oberen Fahrzeugebene}{72}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Zusammenfassung, Fazit und Ausblick}{74}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Zusammenfassung und Fazit}{74}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Ausblick}{74}{subsection.9.2}%
 \contentsline {section}{Abbildungsverzeichnis}{VI}{subsection.9.2}%
-\contentsline {section}{Quellenverzeichnis}{VIII}{section*.100}%
-\contentsline {section}{Anhang}{IX}{section*.101}%
+\contentsline {section}{Quellenverzeichnis}{IX}{section*.113}%
+\contentsline {section}{Anhang}{X}{section*.114}%

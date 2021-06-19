@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  16 JUN 2021 10:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  19 JUN 2021 22:07
 entering extended mode
 **./Projektbericht_main.tex
 (Projektbericht_main.tex
@@ -1812,42 +1812,147 @@ File: sec7/images/TimingWaveform.png Graphic file (type png)
 Package pdftex.def Info: sec7/images/TimingWaveform.png  used on input line 44.
 
 (pdftex.def)             Requested size: 418.96548pt x 124.32454pt.
- [61 <./sec7/images/CamWaveform.png> <./sec7/images/TimingWaveform.png>] [62]) 
-(sec8/sec8.tex
-<sec8/images/Leistungsverteilerplatine.jpg, id=1228, 1876.00874pt x 2890.8pt>
+ [61 <./sec7/images/CamWaveform.png> <./sec7/images/TimingWaveform.png>]
+<sec7/images/CAMProcedure.png, id=1219, 919.0335pt x 439.6425pt>
+File: sec7/images/CAMProcedure.png Graphic file (type png)
+<use sec7/images/CAMProcedure.png>
+Package pdftex.def Info: sec7/images/CAMProcedure.png  used on input line 60.
+(pdftex.def)             Requested size: 441.01773pt x 210.96562pt.
+ [62 <./sec7/images/CAMProcedure.png>]
+<sec7/images/code/camerah.png, id=1229, 438.438pt x 135.50626pt>
+File: sec7/images/code/camerah.png Graphic file (type png)
+<use sec7/images/code/camerah.png>
+Package pdftex.def Info: sec7/images/code/camerah.png  used on input line 74.
+(pdftex.def)             Requested size: 418.96548pt x 129.49522pt.
+<sec7/images/code/CAMInit.png, id=1231, 470.35725pt x 207.174pt>
+File: sec7/images/code/CAMInit.png Graphic file (type png)
+<use sec7/images/code/CAMInit.png>
+Package pdftex.def Info: sec7/images/code/CAMInit.png  used on input line 88.
+(pdftex.def)             Requested size: 418.96548pt x 184.54233pt.
+
+Underfull \hbox (badness 1292) in paragraph at lines 91--91
+[]\T1/cmr/m/n/10.95 Abbildung 80: |Funk-ti-on CAM_Init als pri-märe Ein-stieg
+s-funk-ti-on zur Kamera-
+ []
+
+[63 <./sec7/images/code/camerah.png> <./sec7/images/code/CAMInit.png>]
+<sec7/images/code/CTIMER0Init.png, id=1242, 597.432pt x 268.6035pt>
+File: sec7/images/code/CTIMER0Init.png Graphic file (type png)
+<use sec7/images/code/CTIMER0Init.png>
+Package pdftex.def Info: sec7/images/code/CTIMER0Init.png  used on input line 1
+01.
+(pdftex.def)             Requested size: 441.01773pt x 198.28804pt.
+ [64 <./sec7/images/code/CTIMER0Init.png>]
+<sec7/images/code/SCTimerClockConfig.png, id=1250, 507.69675pt x 245.11575pt>
+File: sec7/images/code/SCTimerClockConfig.png Graphic file (type png)
+<use sec7/images/code/SCTimerClockConfig.png>
+Package pdftex.def Info: sec7/images/code/SCTimerClockConfig.png  used on input
+ line 130.
+(pdftex.def)             Requested size: 441.01773pt x 212.92357pt.
+<sec7/images/code/SCTimerCamCLKInit.png, id=1252, 508.299pt x 334.851pt>
+File: sec7/images/code/SCTimerCamCLKInit.png Graphic file (type png)
+<use sec7/images/code/SCTimerCamCLKInit.png>
+Package pdftex.def Info: sec7/images/code/SCTimerCamCLKInit.png  used on input 
+line 144.
+(pdftex.def)             Requested size: 418.96548pt x 276.00511pt.
+ [65 <./sec7/images/code/SCTimerClockConfig.png>]
+<sec7/images/code/SCTimerSIEventsInit.png, id=1262, 487.22025pt x 339.669pt>
+File: sec7/images/code/SCTimerSIEventsInit.png Graphic file (type png)
+<use sec7/images/code/SCTimerSIEventsInit.png>
+Package pdftex.def Info: sec7/images/code/SCTimerSIEventsInit.png  used on inpu
+t line 160.
+(pdftex.def)             Requested size: 418.96548pt x 292.08372pt.
+ [66 <./sec7/images/code/SCTimerCamCLKInit.png>]
+<sec7/images/code/CTIMER0IRQHandler.png, id=1270, 442.65375pt x 216.20775pt>
+File: sec7/images/code/CTIMER0IRQHandler.png Graphic file (type png)
+<use sec7/images/code/CTIMER0IRQHandler.png>
+Package pdftex.def Info: sec7/images/code/CTIMER0IRQHandler.png  used on input 
+line 172.
+(pdftex.def)             Requested size: 418.96548pt x 204.6473pt.
+ [67 <./sec7/images/code/SCTimerSIEventsInit.png> <./sec7/images/code/CTIMER0IR
+QHandler.png>]
+<sec7/images/code/SCTimerADCTriggerInit.png, id=1280, 570.933pt x 202.95825pt>
+File: sec7/images/code/SCTimerADCTriggerInit.png Graphic file (type png)
+<use sec7/images/code/SCTimerADCTriggerInit.png>
+Package pdftex.def Info: sec7/images/code/SCTimerADCTriggerInit.png  used on in
+put line 189.
+(pdftex.def)             Requested size: 418.96548pt x 148.94179pt.
+<sec7/images/code/ADCConfig.png, id=1282, 631.158pt x 703.428pt>
+File: sec7/images/code/ADCConfig.png Graphic file (type png)
+<use sec7/images/code/ADCConfig.png>
+Package pdftex.def Info: sec7/images/code/ADCConfig.png  used on input line 202
+.
+(pdftex.def)             Requested size: 418.96548pt x 466.93654pt.
+ [68 <./sec7/images/code/SCTimerADCTriggerInit.png>] [69 <./sec7/images/code/AD
+CConfig.png>]
+<sec7/images/code/ADCCalibration.png, id=1303, 545.6385pt x 341.47575pt>
+File: sec7/images/code/ADCCalibration.png Graphic file (type png)
+<use sec7/images/code/ADCCalibration.png>
+Package pdftex.def Info: sec7/images/code/ADCCalibration.png  used on input lin
+e 219.
+(pdftex.def)             Requested size: 418.96548pt x 262.20245pt.
+<sec7/images/code/ADC0SEQAIRQHandler.png, id=1304, 458.9145pt x 173.448pt>
+File: sec7/images/code/ADC0SEQAIRQHandler.png Graphic file (type png)
+<use sec7/images/code/ADC0SEQAIRQHandler.png>
+Package pdftex.def Info: sec7/images/code/ADC0SEQAIRQHandler.png  used on input
+ line 231.
+(pdftex.def)             Requested size: 418.96548pt x 158.35136pt.
+<sec7/images/code/PixelCalc.png, id=1306, 580.569pt x 186.09525pt>
+File: sec7/images/code/PixelCalc.png Graphic file (type png)
+<use sec7/images/code/PixelCalc.png>
+Package pdftex.def Info: sec7/images/code/PixelCalc.png  used on input line 245
+.
+(pdftex.def)             Requested size: 418.96548pt x 134.29514pt.
+
+[70 <./sec7/images/code/ADCCalibration.png> <./sec7/images/code/ADC0SEQAIRQHand
+ler.png>] [71 <./sec7/images/code/PixelCalc.png>]) (sec8/sec8.tex
+Underfull \hbox (badness 1424) in paragraph at lines 18--19
+\T1/cmr/m/n/10.95 un-te-ren Fahr-zeu-ge-be-ne (sie-he Ab-bil-dung
+ []
+
+<sec8/images/Leistungsverteilerplatine.jpg, id=1322, 1876.00874pt x 2890.8pt>
 File: sec8/images/Leistungsverteilerplatine.jpg Graphic file (type jpg)
 <use sec8/images/Leistungsverteilerplatine.jpg>
 Package pdftex.def Info: sec8/images/Leistungsverteilerplatine.jpg  used on inp
 ut line 23.
 (pdftex.def)             Requested size: 145.09457pt x 223.54947pt.
-<sec8/images/Signalverteilerplatine.jpeg, id=1229, 1606.0pt x 1204.5pt>
+<sec8/images/Signalverteilerplatine.jpeg, id=1325, 1204.5pt x 903.375pt>
 File: sec8/images/Signalverteilerplatine.jpeg Graphic file (type jpg)
 <use sec8/images/Signalverteilerplatine.jpeg>
 Package pdftex.def Info: sec8/images/Signalverteilerplatine.jpeg  used on input
- line 37.
-(pdftex.def)             Requested size: 308.71106pt x 231.52235pt.
+ line 39.
+(pdftex.def)             Requested size: 308.71106pt x 231.53613pt.
+[72 <./sec8/images/Leistungsverteilerplatine.jpg>] [73 <./sec8/images/Signalver
+teilerplatine.jpeg>]) (sec11/sec11.tex
+Overfull \hbox (2.58559pt too wide) in paragraph at lines 17--31
+\T1/cmr/m/n/10.95 **Optimierung der Dreh-zahl-mes-sung mit ei-ner zwei-stu-fi-g
+en OPV-Referenzspannungsschaltung 
+ []
 
-[63 <./sec8/images/Leistungsverteilerplatine.jpg>] [64 <./sec8/images/Signalver
-teilerplatine.jpeg>]) (sec11/sec11.tex [65]) (inserts/graphics/graphics.tex
-(Projektbericht_main.lof [6]
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--31
+
+ []
+
+[74]) (inserts/graphics/graphics.tex (Projektbericht_main.lof [6]
 Overfull \hbox (1.75327pt too wide) in paragraph at lines 70--70
  [][] [][][]\T1/cmr/m/n/10.95 Funktionen SER-VO_Init, CTI-MER1_Init und SER-VO_
 Demo der Da-tei drive.c[][] [][]  
  []
 
-)
+[7])
 \tf@lof=\write6
 \openout6 = `Projektbericht_main.lof'.
 
- [7]) (inserts/sources/sources.tex (Projektbericht_main.bbl
+ [8]) (inserts/sources/sources.tex (Projektbericht_main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 30--37
 \T1/cmtt/m/n/10.95 t -[] s t u d e n t -[] t e a m s -[] w o r k -[] f r o m -[
 ] h o m e -[] t o -[] w i n -[] t h e -[] n x p -[] c u p -[] e l e c t r o m a
  k e r -[] i n n o v
  []
 
-) [8]) (attachement/attachement.tex [9]
-<attachement/PinAssignment.png, id=1368, 345.08925pt x 690.78075pt>
+) [9]) (attachement/attachement.tex [10]
+<attachement/PinAssignment.png, id=1483, 345.08925pt x 690.78075pt>
 File: attachement/PinAssignment.png Graphic file (type png)
 <use attachement/PinAssignment.png>
 Package pdftex.def Info: attachement/PinAssignment.png  used on input line 28.
@@ -1856,53 +1961,45 @@ Package pdftex.def Info: attachement/PinAssignment.png  used on input line 28.
 Overfull \vbox (25.28302pt too high) has occurred while \output is active []
 
 
-[10 <./attachement/PinAssignment.png>]) (Projektbericht_main.aux)
+[11 <./attachement/PinAssignment.png>]) (Projektbericht_main.aux)
+Package rerunfilecheck Info: File `Projektbericht_main.out' has not changed.
+(rerunfilecheck)             Checksum: 11EB3B214012A42DF24051C51B682B1A;4670.
 
-Package rerunfilecheck Warning: File `Projektbericht_main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Projektbericht_main.out':
-(rerunfilecheck)             Before: 6FED638410196CE51F9009EFE4CC2DE4;4663
-(rerunfilecheck)             After:  B21019AD3BA904330B10D6D7244AB544;4674.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40128 strings out of 480202
- 1053690 string characters out of 2877025
- 1432710 words of memory out of 3000000
- 55739 multiletter control sequences out of 15000+200000
+ 40267 strings out of 480202
+ 1057779 string characters out of 2877025
+ 1434114 words of memory out of 3000000
+ 55842 multiletter control sequences out of 15000+200000
  551932 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,13n,90p,2989b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.99} has been referenced but does not exi
-st, replaced by a fixed one
-
- <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-ti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/j
-knappen/ec/dpi600\eccc1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\chris\AppData\Local\MiKTeX\2
-.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\chris\AppData\Loca
-l\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\chris\Ap
-pData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\User
-s\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk
-> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
-crm1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
-c/dpi600\ecbx1440.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/chris/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb>
-Output written on Projektbericht_main.pdf (75 pages, 35287008 bytes).
+ <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecti1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\chris\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\chris\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\chris\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Us
+ers\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.
+pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecrm1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecbx1440.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\chris\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk><C:/Users/chris/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chr
+is/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb>
+Output written on Projektbericht_main.pdf (85 pages, 35781181 bytes).
 PDF statistics:
- 1968 PDF objects out of 2073 (max. 8388607)
- 258 named destinations out of 1000 (max. 500000)
- 906 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2091 PDF objects out of 2487 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 971 words of extra memory for PDF output out of 10000 (max. 10000000)
 

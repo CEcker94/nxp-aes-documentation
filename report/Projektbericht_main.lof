@@ -73,8 +73,21 @@
 \contentsline {figure}{\numberline {72}{\ignorespaces Schaltplan des Bedienungs-Boards 2}}{51}{figure.caption.88}%
 \contentsline {figure}{\numberline {73}{\ignorespaces Flussablaufdiagramm Taster und Drehencoder einlesen}}{52}{figure.caption.89}%
 \contentsline {figure}{\numberline {74}{\ignorespaces Schaltplan OLED}}{55}{figure.caption.92}%
-\contentsline {figure}{\numberline {75}{\ignorespaces PinbelegungTaos Zeilenkamera TSL1401R-LF ~\cite {Taos}}}{60}{figure.caption.95}%
-\contentsline {figure}{\numberline {76}{\ignorespaces Zeitverlauf einer Aufnahme mehrerer Pixel (TSL1401R-LF) ~\cite {Taos}}}{61}{figure.caption.96}%
-\contentsline {figure}{\numberline {77}{\ignorespaces Zeitverlauf einer vollständigen Bildaufnahme (TSL1401R-LF) ~\cite {Taos}}}{61}{figure.caption.97}%
-\contentsline {figure}{\numberline {78}{\ignorespaces Stromverteilerplatine auf der unteren Fahrzeugebene}}{63}{figure.caption.98}%
-\contentsline {figure}{\numberline {79}{\ignorespaces Signalverteilerplatine auf der oberen Fahrzeugebene}}{64}{figure.caption.99}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Pinbelegung der Taos Zeilenkamera TSL1401R-LF ~\cite {Taos}}}{60}{figure.caption.95}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Zeitverlauf einzelner Pixeltransfers aus Sicht der Kamera ~\cite {Taos}}}{61}{figure.caption.96}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Zeitverlauf eines vollständigen Bildtransfers aus Sicht der Kamera ~\cite {Taos}}}{61}{figure.caption.97}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Zeitlicher Ablauf einer einzelnen Bildaufnahme aus Sicht des Controllers}}{62}{figure.caption.98}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Prototypen der Kamerafunktionen in der Datei \glqq {}camera.h\grqq {}}}{63}{figure.caption.99}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Funktion \glqq {}CAM\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{63}{figure.caption.100}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Funktion \glqq {}CTIMER0\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{64}{figure.caption.101}%
+\contentsline {figure}{\numberline {82}{\ignorespaces Funktion \glqq {}SCTimer\_Clock\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{65}{figure.caption.102}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Funktion \glqq {}SCTimer\_CamCLK\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{66}{figure.caption.103}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Funktion \glqq {}SCTimer\_SIEvents\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{67}{figure.caption.104}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Interrupt Service Routine \glqq {}CTIMER0\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{67}{figure.caption.105}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Funktion \glqq {}SCTimer\_ADCTrigger\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{68}{figure.caption.106}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Funktion \glqq {}ADC\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{69}{figure.caption.107}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Funktion \glqq {}ADC\_Calibration\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{70}{figure.caption.108}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Interrupt Service Routine \glqq {}ADC0\_SEQA\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{70}{figure.caption.109}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Algorithmus für die Bestimmung der Spannungswerte und logischen Werte der Pixel}}{71}{figure.caption.110}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Leistungsverteilerplatine auf der unteren Fahrzeugebene}}{72}{figure.caption.111}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Signalverteilerplatine auf der oberen Fahrzeugebene}}{73}{figure.caption.112}%
