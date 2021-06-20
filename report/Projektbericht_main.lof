@@ -48,46 +48,46 @@
 \contentsline {figure}{\numberline {47}{\ignorespaces Funktionen BLDC\_Init und CTIMER3\_Init der Datei \glqq {}drive.c\grqq {}}}{24}{figure.caption.61}%
 \contentsline {figure}{\numberline {48}{\ignorespaces Funktion BLDC\_Init\_Task der Datei \glqq {}drive.c\grqq {}}}{25}{figure.caption.62}%
 \contentsline {figure}{\numberline {49}{\ignorespaces Messaufbau zur Prüfung der Spannungsabhängigkeit der \acp {BLDCMot}}}{27}{figure.caption.64}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Diagramm 1: Spannungsabhängigkeit Drehzahl}}{28}{figure.caption.66}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Vorgängerfahrzeug}}{30}{figure.caption.67}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Signaldarstellung}}{31}{figure.caption.68}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Schaltungsaufbau}}{33}{figure.caption.69}%
-\contentsline {figure}{\numberline {54}{\ignorespaces Spannungsverlauf\_TP}}{34}{figure.caption.70}%
-\contentsline {figure}{\numberline {55}{\ignorespaces TP}}{34}{figure.caption.71}%
-\contentsline {figure}{\numberline {56}{\ignorespaces OPV\_Pinbelegung}}{35}{figure.caption.72}%
-\contentsline {figure}{\numberline {57}{\ignorespaces inp\_inref\_opv\_out}}{36}{figure.caption.73}%
-\contentsline {figure}{\numberline {58}{\ignorespaces Schaltungsaufbau\_mit\_Mosfet}}{38}{figure.caption.74}%
-\contentsline {figure}{\numberline {59}{\ignorespaces Problematik\_stop\_throttle}}{39}{figure.caption.75}%
-\contentsline {figure}{\numberline {60}{\ignorespaces Schaltungserweiterung}}{40}{figure.caption.76}%
-\contentsline {figure}{\numberline {61}{\ignorespaces rpm\_defines}}{41}{figure.caption.77}%
-\contentsline {figure}{\numberline {62}{\ignorespaces rpmmeas\_init\_ctimer2\_init}}{42}{figure.caption.78}%
-\contentsline {figure}{\numberline {63}{\ignorespaces isr}}{43}{figure.caption.79}%
-\contentsline {figure}{\numberline {64}{\ignorespaces calculation}}{43}{figure.caption.80}%
-\contentsline {figure}{\numberline {65}{\ignorespaces Servomotor mit Anschlussleitungen~\cite {DIYE}}}{45}{figure.caption.81}%
-\contentsline {figure}{\numberline {66}{\ignorespaces Montage der Lenkungskomponenten}}{46}{figure.caption.82}%
-\contentsline {figure}{\numberline {67}{\ignorespaces Relevante Zeilen der Datei \glqq {}servo.h\grqq {}}}{47}{figure.caption.83}%
-\contentsline {figure}{\numberline {68}{\ignorespaces Extremwerte der Lenkwinkel als Parameter aus dem \ac {EEPROM}}}{47}{figure.caption.84}%
-\contentsline {figure}{\numberline {69}{\ignorespaces Funktionen SERVO\_Init, CTIMER1\_Init und SERVO\_Demo der Datei \glqq {}drive.c\grqq {}}}{48}{figure.caption.85}%
-\contentsline {figure}{\numberline {70}{\ignorespaces SERVO\_Demo Task der Datei \glqq {}drive.c\grqq {}}}{49}{figure.caption.86}%
-\contentsline {figure}{\numberline {71}{\ignorespaces Schaltplan des Bedienungsboards 1}}{50}{figure.caption.87}%
-\contentsline {figure}{\numberline {72}{\ignorespaces Schaltplan des Bedienungsboards 2}}{51}{figure.caption.88}%
-\contentsline {figure}{\numberline {73}{\ignorespaces Flussablaufdiagramm Taster und Drehencoder einlesen}}{52}{figure.caption.89}%
-\contentsline {figure}{\numberline {74}{\ignorespaces Schaltplan OLED}}{55}{figure.caption.92}%
-\contentsline {figure}{\numberline {75}{\ignorespaces Pinbelegung der Taos Zeilenkamera TSL1401R-LF ~\cite {Taos}}}{60}{figure.caption.95}%
-\contentsline {figure}{\numberline {76}{\ignorespaces Zeitverlauf einzelner Pixeltransfers aus Sicht der Kamera ~\cite {Taos}}}{61}{figure.caption.96}%
-\contentsline {figure}{\numberline {77}{\ignorespaces Zeitverlauf eines vollständigen Bildtransfers aus Sicht der Kamera ~\cite {Taos}}}{61}{figure.caption.97}%
-\contentsline {figure}{\numberline {78}{\ignorespaces Zeitlicher Ablauf einer einzelnen Bildaufnahme aus Sicht des Controllers}}{62}{figure.caption.98}%
-\contentsline {figure}{\numberline {79}{\ignorespaces Prototypen der Kamerafunktionen in der Datei \glqq {}camera.h\grqq {}}}{63}{figure.caption.99}%
-\contentsline {figure}{\numberline {80}{\ignorespaces Funktion \glqq {}CAM\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{63}{figure.caption.100}%
-\contentsline {figure}{\numberline {81}{\ignorespaces Funktion \glqq {}CTIMER0\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{64}{figure.caption.101}%
-\contentsline {figure}{\numberline {82}{\ignorespaces Funktion \glqq {}SCTimer\_Clock\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{65}{figure.caption.102}%
-\contentsline {figure}{\numberline {83}{\ignorespaces Funktion \glqq {}SCTimer\_CamCLK\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{66}{figure.caption.103}%
-\contentsline {figure}{\numberline {84}{\ignorespaces Funktion \glqq {}SCTimer\_SIEvents\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{67}{figure.caption.104}%
-\contentsline {figure}{\numberline {85}{\ignorespaces Interrupt Service Routine \glqq {}CTIMER0\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{67}{figure.caption.105}%
-\contentsline {figure}{\numberline {86}{\ignorespaces Funktion \glqq {}SCTimer\_ADCTrigger\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{68}{figure.caption.106}%
-\contentsline {figure}{\numberline {87}{\ignorespaces Funktion \glqq {}ADC\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{69}{figure.caption.107}%
-\contentsline {figure}{\numberline {88}{\ignorespaces Funktion \glqq {}ADC\_Calibration\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{70}{figure.caption.108}%
-\contentsline {figure}{\numberline {89}{\ignorespaces Interrupt Service Routine \glqq {}ADC0\_SEQA\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{70}{figure.caption.109}%
-\contentsline {figure}{\numberline {90}{\ignorespaces Algorithmus für die Bestimmung der Spannungswerte und logischen Werte der Pixel}}{71}{figure.caption.110}%
-\contentsline {figure}{\numberline {91}{\ignorespaces Leistungsverteilerplatine auf der unteren Fahrzeugebene}}{72}{figure.caption.111}%
-\contentsline {figure}{\numberline {92}{\ignorespaces Signalverteilerplatine auf der oberen Fahrzeugebene}}{73}{figure.caption.112}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Spannungsabhängigkeit der Drehzahl von der Versorgungsspannung}}{29}{figure.caption.66}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Varianten der Drehzahlerfassung bei vorherigen Fahrzeugversionen}}{30}{figure.caption.67}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Phaseneingangssignal und Ausgangssignal der Tiefpass-/Komparatorschaltung}}{31}{figure.caption.68}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Schaltplan der Tiefpass-/Komparatorschaltung aus LTspice XVII}}{33}{figure.caption.69}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Simulationsergebnis des Phasensignals nach dessen Tiefpassfilterung}}{34}{figure.caption.71}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Messergebnis des Phasensignals nach dessen Tiefpassfilterung}}{34}{figure.caption.72}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Pinbelegung des Operationsverstärkers LM358A}}{35}{figure.caption.76}%
+\contentsline {figure}{\numberline {57}{\ignorespaces inp\_inref\_opv\_out}}{36}{figure.caption.77}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Schaltungsaufbau\_mit\_Mosfet}}{38}{figure.caption.78}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Problematik\_stop\_throttle}}{39}{figure.caption.79}%
+\contentsline {figure}{\numberline {60}{\ignorespaces Schaltungserweiterung}}{40}{figure.caption.80}%
+\contentsline {figure}{\numberline {61}{\ignorespaces rpm\_defines}}{41}{figure.caption.81}%
+\contentsline {figure}{\numberline {62}{\ignorespaces rpmmeas\_init\_ctimer2\_init}}{42}{figure.caption.82}%
+\contentsline {figure}{\numberline {63}{\ignorespaces isr}}{43}{figure.caption.83}%
+\contentsline {figure}{\numberline {64}{\ignorespaces calculation}}{43}{figure.caption.84}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Servomotor mit Anschlussleitungen~\cite {DIYE}}}{45}{figure.caption.85}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Montage der Lenkungskomponenten}}{46}{figure.caption.86}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Relevante Zeilen der Datei \glqq {}servo.h\grqq {}}}{47}{figure.caption.87}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Extremwerte der Lenkwinkel als Parameter aus dem \ac {EEPROM}}}{47}{figure.caption.88}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Funktionen SERVO\_Init, CTIMER1\_Init und SERVO\_Demo der Datei \glqq {}drive.c\grqq {}}}{48}{figure.caption.89}%
+\contentsline {figure}{\numberline {70}{\ignorespaces SERVO\_Demo Task der Datei \glqq {}drive.c\grqq {}}}{49}{figure.caption.90}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Schaltplan des Bedienungsboards 1}}{50}{figure.caption.91}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Schaltplan des Bedienungsboards 2}}{51}{figure.caption.92}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Flussablaufdiagramm Taster und Drehencoder einlesen}}{52}{figure.caption.93}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Schaltplan OLED}}{55}{figure.caption.96}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Pinbelegung der Taos Zeilenkamera TSL1401R-LF ~\cite {Taos}}}{60}{figure.caption.99}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Zeitverlauf einzelner Pixeltransfers aus Sicht der Kamera ~\cite {Taos}}}{61}{figure.caption.100}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Zeitverlauf eines vollständigen Bildtransfers aus Sicht der Kamera ~\cite {Taos}}}{61}{figure.caption.101}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Zeitlicher Ablauf einer einzelnen Bildaufnahme aus Sicht des Controllers}}{62}{figure.caption.102}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Prototypen der Kamerafunktionen in der Datei \glqq {}camera.h\grqq {}}}{63}{figure.caption.103}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Funktion \glqq {}CAM\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{63}{figure.caption.104}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Funktion \glqq {}CTIMER0\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{64}{figure.caption.105}%
+\contentsline {figure}{\numberline {82}{\ignorespaces Funktion \glqq {}SCTimer\_Clock\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{65}{figure.caption.106}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Funktion \glqq {}SCTimer\_CamCLK\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{66}{figure.caption.107}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Funktion \glqq {}SCTimer\_SIEvents\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{67}{figure.caption.108}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Interrupt Service Routine \glqq {}CTIMER0\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{67}{figure.caption.109}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Funktion \glqq {}SCTimer\_ADCTrigger\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{68}{figure.caption.110}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Funktion \glqq {}ADC\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{69}{figure.caption.111}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Funktion \glqq {}ADC\_Calibration\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{70}{figure.caption.112}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Interrupt Service Routine \glqq {}ADC0\_SEQA\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{70}{figure.caption.113}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Algorithmus für die Bestimmung der Spannungswerte und logischen Werte der Pixel}}{71}{figure.caption.114}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Leistungsverteilerplatine auf der unteren Fahrzeugebene}}{72}{figure.caption.115}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Signalverteilerplatine auf der oberen Fahrzeugebene}}{73}{figure.caption.116}%

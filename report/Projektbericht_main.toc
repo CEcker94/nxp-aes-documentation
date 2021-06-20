@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {4.4}Programmierung des Antriebsbausteins}{22}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Drehzahlmessung}{26}{subsection.4.5}%
 \contentsline {subsubsection}{\numberline {4.5.1}Erörterung der Notwendigkeit einer Drehzahlmessung}{26}{subsubsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.2}Auswahl des Messprinzips}{29}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2}Auswahl des Messprinzips}{30}{subsubsection.4.5.2}%
 \contentsline {subsubsection}{\numberline {4.5.3}Hardware für die Drehzahlmessung}{32}{subsubsection.4.5.3}%
 \contentsline {subsubsection}{\numberline {4.5.4}Ausblick Schaltungserweiterung}{38}{subsubsection.4.5.4}%
 \contentsline {subsubsection}{\numberline {4.5.5}Programmierung des Drehzahlmessungsbausteins}{40}{subsubsection.4.5.5}%
@@ -58,5 +58,5 @@
 \contentsline {subsection}{\numberline {9.1}Zusammenfassung und Fazit}{74}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Ausblick}{74}{subsection.9.2}%
 \contentsline {section}{Abbildungsverzeichnis}{VI}{subsection.9.2}%
-\contentsline {section}{Quellenverzeichnis}{IX}{section*.113}%
-\contentsline {section}{Anhang}{X}{section*.114}%
+\contentsline {section}{Quellenverzeichnis}{IX}{section*.117}%
+\contentsline {section}{Anhang}{X}{section*.118}%
