@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  19 JUN 2021 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  20 JUN 2021 09:26
 entering extended mode
 **./Projektbericht_main.tex
 (Projektbericht_main.tex
@@ -1963,7 +1963,7 @@ Overfull \vbox (25.28302pt too high) has occurred while \output is active []
 
 [11 <./attachement/PinAssignment.png>]) (Projektbericht_main.aux)
 Package rerunfilecheck Info: File `Projektbericht_main.out' has not changed.
-(rerunfilecheck)             Checksum: 11EB3B214012A42DF24051C51B682B1A;4670.
+(rerunfilecheck)             Checksum: 62025BF8F0F65FF65308A673530E86A5;4669.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1972,7 +1972,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  40267 strings out of 480202
  1057779 string characters out of 2877025
- 1434114 words of memory out of 3000000
+ 1434109 words of memory out of 3000000
  55842 multiletter control sequences out of 15000+200000
  551932 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
