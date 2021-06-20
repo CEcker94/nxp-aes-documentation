@@ -100,15 +100,15 @@ Die Parameter BLDCMaxValue und BLDCMinValue existieren im Code für die linke un
 \label{fig:DriveC0}
 \end{figure}
 
-Auch die beiden \ac{PWM}-Timer (einer je Motorcontroller) benötigen bei der Initialisierung einige Parameter, deren Werte in der Datei \glqq{}drive.h\grqq{} festgelegt sind (PWM-Periodendauer, \ac{PWM}-Pulsdauer, Channel). Die Channel werden auf das Timer Match Register 2 (rechter Antrieb, \glqq{}kCTIMER\_Match\_2\grqq{}) und auf das Timer Match Register 0 (linker Antrieb, \glqq{}kCTIMER\_Match\_0\grqq{}) festgelegt, was bei dem verwendeten Controller den Pins P0.27 (rechts) und P3.10 (links) entspricht. Der Pin P3.10 wird auf der Controllerplatine über den Pin 7 und der Pin P0.27 über den Pin 12 der Buchsenleiste J13 nach außen geführt. Der Anschluss der Motorcontroller ist über den Anhang \glqq{}\nameref{SecAtt1}\grqq{} nachvollziehbar.\vspace{11pt}
-
 \begin{figure}[H] %H für Positionierung hier
-\includegraphics[width=.95\textwidth]{sec4/images/DriveC1} 
+\includegraphics[width=.90\textwidth]{sec4/images/DriveC1} 
 \centering
 \captionsetup{width=.95\textwidth}
 \caption[Funktionen BLDC\_Init und CTIMER3\_Init der Datei \glqq{}drive.c\grqq{}]{Funktionen BLDC\_Init und CTIMER3\_Init der Datei \glqq{}drive.c\grqq{}}\centering
 \label{fig:DriveC1}
 \end{figure}
+
+Auch die beiden \ac{PWM}-Timer (einer je Motorcontroller) benötigen bei der Initialisierung einige Parameter, deren Werte in der Datei \glqq{}drive.h\grqq{} festgelegt sind (PWM-Periodendauer, \ac{PWM}-Pulsdauer, Channel). Die Channel werden auf das Timer Match Register 2 (rechter Antrieb, \glqq{}kCTIMER\_Match\_2\grqq{}) und auf das Timer Match Register 0 (linker Antrieb, \glqq{}kCTIMER\_Match\_0\grqq{}) festgelegt, was bei dem verwendeten Controller den Pins P0.27 (rechts) und P3.10 (links) entspricht. Der Pin P3.10 wird auf der Controllerplatine über den Pin 7 und der Pin P0.27 über den Pin 12 der Buchsenleiste J13 nach außen geführt. Der Anschluss der Motorcontroller ist über den Anhang \glqq{}\nameref{SecAtt1}\grqq{} nachvollziehbar.\vspace{11pt}
 
 Die Datei \glqq{}drive.c\grqq{} enthält die Funktionen zur Initialisierung der für die Verwendung der Antriebe notwendigen Controller-Peripherie (siehe Abbildung \ref{fig:DriveC1}) und zur Initialisierung der Motorcontroller (siehe Abbildung \ref{fig:DriveC2}).\vspace{11pt}
 
@@ -133,9 +133,7 @@ Im folgenden Abschnitt zur Drehzahlmessung werden deren Notwendigkeit sowie Entw
 
 \subsubsection{Erörterung der Notwendigkeit einer Drehzahlmessung}\label{Sec:NotwendigkeitDrehzahlmessung}
 
-Die Quellspannung von Akkus verringert sich mit steigender Betriebszeit, weshalb bereits bei vorherigen Fahrzeug-Versionen eine Drehzahlmessung benötigt wurde, um über eine Regelung die Spannungsabhängigkeit der Drehzahl bei \acp{DCMot} ausgleichen zu können. Die Spannungsabhängigkeit von \acp{DCMot} bereitet insbesondere beim Überfahren eines Hügels Probleme. Da die in den vorangegangenen Fahrzeugmodellen verwendeten \acp{DCMot} durch \acp{BLDCMot} ersetzt wurden, stellt sich allerdings erneut die Frage nach der Notwendigkeit einer Drehzahlmessung. Die Variation der Drehzahl erfolgt bei \acp{DCMot} über die Änderung der Betriebsspannung, was auch die Abhängigkeit von der Versorgungsspannung erklärt. Die Drehzahlvariation bei einem \ac{BLDCMot} wird hingegen über eine Frequenzänderung der Strangspannungen realisiert. Zur Klärung der Frage nach einer Spannungsabhängigkeit der \acp{BLDCMot}, ist eine Messung am Prüfstand erforderlich.\vspace{11pt}
-
-Für die Durchführung der Messung wird ein bereits vorhandener Prüfstand für Modellfahrzeuge verwendet (siehe Abbildung \ref{fig:Pruefstand01}), welcher im Rahmen einer Bachelor-Abschlussarbeit an der HAW Landshut erstellt wurde. Damit das Fahrzeug möglichst stabil auf dem Prüfstand steht und die Räder des Fahrzeugs ihre Rotationsbewegung besser auf die \acp{DCMot} des Prüfstands übertragen können, wird das Heck des Fahrzeugs mit Hilfe eines Drahtes am Prüfstand befestigt (Abbildung \ref{fig:Pruefstand01} blaue Markierung). Die vorderen Räder des Fahrzeuges sind ebenfalls am Prüfstand fixiert (Abbildung 44 gelbe Markierungen). 
+Die Quellspannung von Akkus verringert sich mit steigender Betriebszeit, weshalb bereits bei vorherigen Fahrzeug-Versionen eine Drehzahlmessung benötigt wurde, um über eine Regelung die Spannungsabhängigkeit der Drehzahl bei \acp{DCMot} ausgleichen zu können. Die Spannungsabhängigkeit von \acp{DCMot} bereitet insbesondere beim Überfahren eines Hügels Probleme. Da die in den vorangegangenen Fahrzeugmodellen verwendeten \acp{DCMot} durch \acp{BLDCMot} ersetzt wurden, stellt sich allerdings erneut die Frage nach der Notwendigkeit einer Drehzahlmessung. Die Variation der Drehzahl erfolgt bei \acp{DCMot} über die Änderung der Betriebsspannung, was auch die Abhängigkeit von der Versorgungsspannung erklärt. Die Drehzahlvariation bei einem \ac{BLDCMot} wird hingegen über eine Frequenzänderung der Strangspannungen realisiert. Zur Klärung der Frage nach einer Spannungsabhängigkeit der \acp{BLDCMot}, ist eine Messung am Prüfstand erforderlich.
 
 \begin{figure}[H] %H für Positionierung hier
 \includegraphics[width=.73\textwidth]{sec4/images/Pruefstand_Messung_UAbhängigkeit} 
@@ -144,6 +142,8 @@ Für die Durchführung der Messung wird ein bereits vorhandener Prüfstand für 
 \caption[Messaufbau zur Prüfung der Spannungsabhängigkeit der \acp{BLDCMot}]{Messaufbau zur Prüfung der Spannungsabhängigkeit der \acp{BLDCMot}; in blau die Befestigung des Hecks an der Grundplatte des Prüfstands, in gelb die Befestigung der Vorderreifen am Prüfstand, in rot die DC-Motoren zur Spannungsmessung}\centering
 \label{fig:Pruefstand01}
 \end{figure}
+
+Für die Durchführung der Messung wird ein bereits vorhandener Prüfstand für Modellfahrzeuge verwendet (siehe Abbildung \ref{fig:Pruefstand01}), welcher im Rahmen einer Bachelor-Abschlussarbeit an der HAW Landshut erstellt wurde. Damit das Fahrzeug möglichst stabil auf dem Prüfstand steht und die Räder des Fahrzeugs ihre Rotationsbewegung besser auf die \acp{DCMot} des Prüfstands übertragen können, wird das Heck des Fahrzeugs mit Hilfe eines Drahtes am Prüfstand befestigt (Abbildung \ref{fig:Pruefstand01} blaue Markierung). Die vorderen Räder des Fahrzeuges sind ebenfalls am Prüfstand fixiert (Abbildung 44 gelbe Markierungen). \vspace{11pt}
 
 Zur Überprüfung einer eventuellen Abhängigkeit der Drehzahl von der Versorgungsspannung, wird die Spannung an den vorhandenen \acp{DCMot} des Prüfstands gemessen, da diese direkt proportional zur Drehzahl ist (siehe Gleichung \ref{eq4.1}). Die Abhängigkeit der gemessenen Spannung von der Drehzahl ist allerdings nur annähernd linear, da die Drehmomentkonstante k\textsubscript{i} bei hohen Drehzahlen leicht einbricht. Aufgrund der für die Messung konstant eingestellten Pulsbreite von 1,5ms, spielt der Einbruch der Drehmomentkonstante allerdings keine große Rolle, da sich die Drehzahl, wenn überhaupt, nur sehr gering ändert. Dieser Zusammenhang kann deshalb vereinfachend als linear angenommen werden.\vspace{11pt}
 
@@ -218,7 +218,7 @@ Ein Hallsensor bietet den Vorteil, dass neben der Erfassung der Drehzahl auch di
 Aufgrund der Klebebefestigung der Magnete besteht das Risiko, dass diese sich nach einer gewissen Zeit ablösen und somit die Daten zur Drehzahlerfassung verfälschen. Wie in Abbildung \ref{fig:Vorgaengerfahrzeug} zusätzlich zu erkennen ist, ist die Montage des Hallsensors, die lediglich über die Versorgungsdrähte oder eine zusätzliche Drahtstütze realisiert ist, sehr anfällig auf Erschütterungen. Eine zuverlässige und weniger erschütterungsempfindliche Montage des Hallsensors erfodert deshalb eine zusätzliche Halterung (3D-Druck Anbauteil). Diese Halterung muss erst konstruiert, gedruckt und montiert werden. Um mechanische Probleme, wie sie durch Erschütterungen entstehen können, vollständig zu eliminieren, bietet sich die Anwendung eines anderen, bisher noch nicht erwähnten Messprinzips an, auf welches in weiteren Verlauf genauer eingegangen wird. Darüber hinaus ist die Entscheidung gegen die Verwendung eines Hallsensors darin begründet, dass die Drehzahlerfassung bei kleinen Drehzahlen, beispielsweise unter 50rpm sehr lange dauert, da durch den Abstand der Magnete viel Zeit zwischen zwei Signalen vergeht bis Winkel und Drehzahl ermittelt werden.
 
 \begin{figure}[H] %H für Positionierung hier
-\includegraphics[width=.99\textwidth]{sec4/images/Signaldarstellung} 
+\includegraphics[width=.92\textwidth]{sec4/images/Signaldarstellung} 
 \centering
 \captionsetup{width=.95\textwidth}
 \caption[Phaseneingangssignal und Ausgangssignal der Tiefpass-/Komparatorschaltung]{Phasensignal eines Antriebs (V\textsubscript{(in)}, grün) bei schneller Fahrt und Darstellung des simulierten Ausgangssignals (V\textsubscript{(out)}, pink) aus der Tiefpass-/Komparatorschaltung; erstellt und simuliert mit dem Schaltungssimulationstool LTspice XVII}\centering
@@ -231,7 +231,9 @@ Bei der Drehzahlmessung wird der zeitliche Abstand zwischen zwei aufeinanderfolg
 
 Es gilt zu erwähnen, dass auch bei dieser Methode eine Erfassung der Drehrichtung möglich wäre. Bei drei Phasen, welche um 120° zueinander versetzt sind, kann die Drehrichtung anhand der Pulsreihenfolge der einzelnen Phasen bestimmt werden, wobei nur zwei der drei Phasen benötigt werden. Aufgrund dessen, dass die ESCs lediglich eine feste Drehrichtung erlauben (harte Konfiguration), wird die Drehrichtungsbestimmung nicht benötigt.\vspace{11pt}
 
-Da auch bei diesem Messprinzip ein hoher Aufwand (Entwicklungs- und Simulationsaufwand) erforderlich ist, gilt es abzuwägen, welche dieser Methoden am vorteilhaftesten für das Gesamtprojekt ist. Unter Betrachtung der Vor- und Nachteile aller Messprinzipien bietet sich die Tiefpass-/Komparatorschaltung am meisten an. Insbesondere die Unempfindlichkeit gegen Erschütterungen und die Verwendung der ohnehin von den ESCs bereitgestellten Phasensignale, spricht für die Realisierung der Drehzahlmessung mit dieser Methode. Als weitere Gründe gegen die sonstigen Messprinzipien sprechen die unzuverlässige Montage von Hallsensoren oder Lichtschranken und die fehlende Notwendigkeit einer Erfassung der Drehrichtung.\vspace{11pt}
+Da auch bei diesem Messprinzip ein hoher Aufwand (Entwicklungs- und Simulationsaufwand) erforderlich ist, gilt es abzuwägen, welche dieser Methoden am vorteilhaftesten für das Gesamtprojekt ist. Unter Betrachtung der Vor- und Nachteile aller Messprinzipien bietet sich die Tiefpass-/Komparatorschaltung am meisten an. Insbesondere die Unempfindlichkeit gegen Erschütterungen und die Verwendung der ohnehin von den ESCs bereitgestellten Phasensignale, spricht für die Realisierung der Drehzahlmessung mit dieser Methode. Als weitere Gründe gegen die sonstigen Messprinzipien sprechen die unzuverlässige Montage von Hallsensoren oder Lichtschranken und die fehlende Notwendigkeit einer Erfassung der Drehrichtung.
+
+\newpage
 
 \subsubsection{Hardware für die Drehzahlmessung}\label{Sec4Sub5Sub3}
 
@@ -256,7 +258,7 @@ f_G = \frac{ 1 }{2 \cdot \pi \cdot R1\cdot C1 }
 \end{equation}
 
 \begin{figure}[H] %H für Positionierung hier
-\includegraphics[width=.90\textwidth]{sec4/images/Spannungsverlauf_TP} 
+\includegraphics[width=.89\textwidth]{sec4/images/Spannungsverlauf_TP} 
 \centering
 \captionsetup{width=.95\textwidth}
 \caption[Simulationsergebnis des Phasensignals nach dessen Tiefpassfilterung]{Simulationsergebnis des Phasensignals nach dessen Tiefpassfilterung bei schneller Fahrt}\centering
@@ -264,7 +266,7 @@ f_G = \frac{ 1 }{2 \cdot \pi \cdot R1\cdot C1 }
 \end{figure}
 
 \begin{figure}[H] %H für Positionierung hier
-\includegraphics[width=.90\textwidth]{sec4/images/TP} 
+\includegraphics[width=.88\textwidth]{sec4/images/TP} 
 \centering
 \captionsetup{width=.95\textwidth}
 \caption[Messergebnis des Phasensignals nach dessen Tiefpassfilterung]{Messergebnis des Phasensignals nach dessen Tiefpassfilterung bei schneller Fahrt}\centering
@@ -284,128 +286,123 @@ Das zentrale Bauelement der Schaltung ist ein von \ac{TI} hergestellter Operatio
 
 Da der \ac{OPV} in der Schaltung als Komparator verwendet wird, müssen einige schaltungstechnische Maßnahmen, wie z.B. ein Spannungsteiler mit Rückführwiderstand hinzugefügt werden. Die Realisierung des Spannungsteilers erfolgt mit den Widerständen R2 = 10kOhm, R3 = 22 kOhm sowie einem Rückführwiderstand R4 = 100kOhm. Die Kombination der Widerstände wurde durch Verwendung des Schaltungssimulationstools LTspice XVII und anhand der verfügbaren Widerstandsgrößen ermittelt.\vspace{11pt}
 
-Grundsätzlich vergleicht ein Komparator ständig seine Eingangsgrößen (IN+, IN-) und zeigt digital an, welcher Eingang die größere Spannung besitzt. Da ein Operationsverstärker einen nahezu unendlichen Verstärkungsfaktor besitzt, reicht eine geringe Eingangsspannungsdifferenz, um den Ausgang in die Sättigung gehen zu lassen. Der hier verwendete OPV LM358A besitzt einen open-loop voltage gain von 100V/mV. Allerdings kann der Ausgang des OPV nur Werte im Bereich der Zustände V+ und V- annehmen. Versorgt man den Operationsverstärker mit einer Versorgungsspannung von +3,3 V und legt V- auf Masse, so erhält man im Idealfall am Ausgang ein TTL-Signal mit der maximalien Höhe der Versorgungsspannung zur digitalen Weiterverarbeitung. Sind beide Eingangsspannungen annähernd gleich, so kippt der Ausgang bei der kleinsten Störung oder Veränderung hin und her. Um dieses Problem zu vermeiden, wird eine Hysterese eingebaut. Das bedeutet, dass bei erreichen einer bestimmten Referenzspannung oder einem bestimmten Pegel am invertierenden Eingang eingeschaltet, und bei einem wiederholten erreichen der Referenzspannung wieder ausgeschaltet wird (siehe Abbildung 52 Schnittpunkte IN+ (grün) und IN- (blau)).\vspace{11pt}
+Grundsätzlich vergleicht ein Komparator ständig seine Eingangsgrößen (IN+, IN-) und verstärkt die Differenz. Da ein Operationsverstärker einen theoretisch unendlichen Verstärkungsfaktor besitzt, reicht eine geringe Eingangsspannungsdifferenz aus, um den Ausgang in die Sättigung zu treiben (nur Werte bis V+). Der verwendete OPV LM358A besitzt einen \glqq{}open-loop voltage gain\grqq{} von 100V/mV. Versorgt man den Operationsverstärker mit einer Spannung von +5 V und verbindet V- mit Masse, so erhält man im Idealfall am Ausgang ein Rechtecksignalsignal mit der maximalen Höhe der Versorgungsspannung zur Weiterverarbeitung im Controller. Die Hysterese wird durch den Rückkopplungsanteil (R4) der Ausgangsspannung des \ac{OPV} bestimmt werden. Aus dieser Art der Rückführung entsteht eine Schmitt-Triggerschaltung welche den Vorteil hat, dass sie unempfindlich gegen Schwankungen innerhalb des Hysteresebandes ist (Schwankungen wie z.B. Rauschen). So wird ein unregelmäßiges Schaltverhalten am \ac{OPV}-Ausgang verhindert und ein sauberes Ausgangssignal erzeugt (siehe Abbildung \ref{fig:inpInrefOpvOut}).\vspace{11pt}
 
-Wie bereits erwähnt kann der Ausgang des OPV im Idealfall seine Versorgungsspannung V+ und V- annehmen, da aber das verwendete OPV-Modell lediglich über eine Single Supply Funktion und nicht über eine Rail-to-Rail Funktion verfügt, bleibt die max. Ausgangsspannung stets unter der angeschlossenen Versorgungsspannung. Hierzu ist in Abbildung 52 der nach unten abweichende Spannungsverlauf OPV out (gelb) dargestellt, die Versorgungsspannung bei dieser Aufnahme beträgt V+ 5V.\vspace{11pt}
-
-Da zu Beginn der Schaltungsentwicklung in der Simulation jedoch keine signifikanten Abweichungen festgestellt werden, wird der OPV zunächst mit einer Spannung V+ von 3,3V versorgt. Erst eine Messung mit dem Ozilloskop macht ein deutlich abweichendes Verhalten im Vergleich zur Simulation deutlich. Es werden am Ausgang des OPV bei FULLTHROTTLE lediglich 2,08V und bei \glqq{}STOPTHROTTLE \grqq{} nur ca. 0,1V gemessen. Dies führt dazu, dass insbesondere im niedrigen Drehzahlbereich, sprich ab einer Unterschreitung der Referenzspannung Vref von 540 mV kein PWM-Signal mehr erzeugt wird. Darüber hinaus ist im zugehörige Datenblatt des verwendeten Mikrocontrollers ersichtlich, dass die Timer2 Capture Input Pins(P0.24 Antrieb rechts, P0.25 Antrieb links) eine Mindestspannung von 2,0V benötigten um zuverlässig Signale verarbeiten zu können. Da dieser Spannungswert insbesondere im niedrigen Drehzahlbereichs nicht erreicht wird, ist die Schaltung in dieser Form für den Anwendungszweck nicht ausreichend.\vspace{11pt}
+Wie bereits erwähnt kann der Ausgang des OPV im Idealfall seine Versorgungsspannung V+ und V- annehmen. Da das verwendete OPV-Modell lediglich über die Single-Supply Funktion und nicht über die Rail-to-Rail Funktion verfügt, bleibt die maximale Ausgangsspannung stets mit einem nicht zu vernachlässigbarem Abstand unter der Versorgungsspannung. Bei einer \ac{OPV}-Versorgungsspannung V+ von 3,3V werden am Ausgang des OPV bei voller Geschwindigkeit lediglich 2,08V und bei langsamer Fahrt kurz vor dem Stillstand nur ca. 0,1V gemessen. Dies führt dazu, dass das Phasensignal insbesondere im niedrigen Drehzahlbereich die Referenzspannung Vref von 540mV am invertierenden Eingang des OPV unterschreitet. Dadurch wird am OPV-Ausgang kein Rechtecksignal mehr erzeugt. Darüber hinaus ist im zugehörigen Datenblatt des verwendeten Mikrocontrollers ersichtlich, dass die Capture Input Pins vom Timer Modul CTIMER2 (J13 Pin4 / Port-Pin P0.25 für Messung rechts, J13 Pin6 / Port-Pin P0.24 Messung links) eine Mindestspannung von 2,0V benötigten, um zuverlässig Signalpegel erkennen zu können. Da dieser Spannungswert insbesondere im niedrigen Drehzahlbereichs nie erreicht wird, muss die Versorgungsspannung des OPV hochgesetzt werden. In Abbildung \ref{fig:inpInrefOpvOut} wird die Abweichung bei einer Versorgungsspannung von 5V deutlich. Das Ausgangssignal des Operationsverstärkers (Abbildung \ref{fig:inpInrefOpvOut}, gelb) schafft es gerade so auf 3.58V (bei mittlerer Geschwindigkeit).\vspace{11pt}
 
 \begin{figure}[H] %H für Positionierung hier
 \includegraphics[width=.95\textwidth]{sec4/images/inp_inref_opv_out} 
 \centering
 \captionsetup{width=.95\textwidth}
-\caption[inp\_inref\_opv\_out]{Beispielhafte Messung des OPV Ausgangssignals OPV out (gelb) bei einer Versorgungsspannung von V+ 5,0V Single Supply,  IN+ (grün), Vref am IN- (blau)}\centering
-\label{inpInrefOpvOut}
+\caption[Beispielhafte Messung des OPV-Ausgangssignals bei V+ = 5,0V;]{Beispielhafte Messung des OPV-Ausgangssignals (gelb) bei einer Versorgungsspannung von V+ = 5,0V;  IN+ in grün und Vref an IN- in blau}\centering
+\label{fig:inpInrefOpvOut}
 \end{figure}
 
-Als erste Lösung der Problematik wird versucht die Spannungsversorgung des OPV auf V+ 5V zu erhöhen. Durch die Erhöhung der Versorgungsspannung kann grundsätzlich eine höhere Ausgangsspannung erzielt werden, dennoch gilt dies weiterhin nur für größere Drehzahlbereiche. Eine Spannung größer 2,0 V, wird vor allem im Bereich der niedrigeren Drehzahlen nach wie vor nicht zuverlässig erreicht.\vspace{11pt}
+Durch die Erhöhung der Versorgungsspannung kann also grundsätzlich eine höhere Ausgangsspannung erzielt werden, dennoch gilt dies weiterhin nur für höhere Drehzahlbereiche. Eine Spannung größer 2,0 V wird vor allem im Bereich der niedrigeren Drehzahlen nach wie vor nicht zuverlässig erreicht.\vspace{11pt}
 
+Damit eine konstante Signalspannung für die Capture Input Pins des Timer Moduls CTIMER2 am Mikrocontroller mit mehr als 2,0 V zuverlässig bereit gestellt werden kann, wird ein zusätzlicher n-Kanal Mosfet (ZVN4210A) an jedem der OPV-Ausgänge platziert. Der Widerstand R9 = 10 kOhm vor dem Drain-Anschluss des Mosfets in Abbildung \ref{fig:Schaltungsaufbau} steht stellvertretend für den internen Pull-up Widerstand der Timer2 Capture Input Pins des Mikrocontrollers. Je nach Konfiguration können diese zu- oder abgeschalten werden.\vspace{11pt}
 
-Damit eine zuverlässige Bereitstellung einer konstanten Signalspannung für die Timer2 Capture Input Pins am Mikrocontroller größer als 2,0 V erreicht werden kann, wird ein zusätzlicher n-Kanal Mosfet ZVN4210A am Ausgang des OPV implementiert. Der in Abbildung 49 dargestellte Widerstand R9 (10 kOhm) vor dem Drain-Anschluss des Mosfets, stellt den intern einstellbaren Pull-up Widerstand der Timer2 Capture Input Pins des Mikrocontrollers dar. Je nach Konfiguration können diese zu- abgeschalten werden. Im Zuge der Entwicklung wird der Pull-up Widerstand R9 auf einem Whiteboard angebracht und entsprechend verdrahtet.\vspace{11pt}
-
-Zur Bereitstellung der am invertierenden OPV-Eingang (IN-) benötigten Referenzspannung, auch Schwellspannung genannt, wird ein zusätzlicher Spannungsteiler mit einer vom PIN X.Y. kommenden +3,3V Spannungsversorgung vorgeschalten. Der Spannungsteiler besteht aus drei parallel geschaltenen Widerständen R5 (100 kOhm), R6 und R7 (220 kOhm) in Reihe zum Widerstand R8 (10 kOhm). Die dadurch bereitgestellte Spannung beträgt in etwa 540mV.  Wie bereits erwähnt, ermöglicht die Referenzspannung (Vinref) zusammen mit dem Eingangssignals am nicht-invertierenden Eingang (Vinp), dass durchschalten von V+ am OPV Ausgang. Die bereitgestellte Referenzspannung von 540mV ist in der Theorie ausreichend um für alle Drehzahlen ein zuverlässiges PWM-Signal zu erzeugen. In der Praxis treten dennoch wiederholt Probleme auf. Die Problematik sowie deren Lösung werden im nachfolgenden Abschnitt 4.5.4 \glqq{}Ausblick Schaltungserweiterung\grqq{} beschrieben. \vspace{11pt}
-
-In Abbildung 53 links, ist die auf der Verteilerplatine befindliche Drehzahlmessschaltung im Original zu sehen. Auf der rechten Seite von Abbildung 53 befindet sich der mit dem Programm BlackBoard Circuit Designer erstellte zugehörige Stromverlaufsplan, welcher eine schnelle Übersicht ermöglicht. Die grünen Verbindungen stellen die Pfade zwischen Vin (Eingangssignal von den ESCs) bis zum OPV Eingang IN+ dar, Vref (gelb) Pfad der Referenzspannung zu den invertierenden Eingängen IN1-, IN2- des OPV. Der Pfad zur Spannungsversorgung des OPV (V+) ist mit violett dargestellt und alle schwarzen Verbindungen stellen GND-Verbindungen dar. Zuletzt kann der Verlauf der Ausgangsspannung des OPV out anhand der roten Verbindungen nachvollzogen werden. 
+Für die Bereitstellung der am invertierenden OPV-Eingang (IN-) benötigten Referenzspannung, auch Schwellspannung genannt, wird ein zusätzlicher Spannungsteiler mit einer vom Pin12 der Buchsenleiste J10 stammenden +3,3V Spannungsversorgung vorgeschalten. Der Spannungsteiler besteht aus drei parallel geschaltenen Widerständen R5 = 100kOhm und R6 = R7 = 220kOhm in Reihe zum Widerstand R8 = 10kOhm. Die dadurch bereitgestellte Referenzspannung beträgt etwa 540mV. Diese Referenzspannung ist in der Theorie ausreichend, um für alle Drehzahlen ein zuverlässiges Rechtecksignal zu erzeugen. Trotz aller bisher getroffenen Optimierungen treten dennoch immer wieder Probleme bei der Drehzahlmessung auf. Die Problematik sowie deren Lösung werden im nachfolgenden Abschnitt \ref{Sec4Sub5Sub4} \nameref{Sec4Sub5Sub4} beschrieben.
 
 \begin{figure}[H] %H für Positionierung hier
-\includegraphics[width=.45\textwidth]{sec4/images/Platine} 
+\includegraphics[width=.40\textwidth]{sec4/images/Platine} 
 \includegraphics[width=.40\textwidth]{sec4/images/Platinendesign}
 \captionsetup{width=.95\textwidth}
 \centering
-\caption[Schaltungsaufbau\_mit\_Mosfet]{Schaltung Drehzahlmessung auf Verteilerplatine (links), Übersicht Platinenaufbau mit markierten Stromverlaufspfaden}\centering
-\label{fig:Schaltungsaufbau}
+\caption[Schaltung der Drehzahlmessung und zugehöriger Stromlaufplan] {Schaltung der Drehzahlmessung auf der Signalverteilerplatine (links) und zugehöriger Stromlaufplan (rechts)}\centering
+\label{fig:DrehzahlmessSignalvertPlat}
 \end{figure}
 
+\newpage
+Auf der linken Seite der Abbildung \ref{fig:DrehzahlmessSignalvertPlat} ist die auf der Signalverteilerplatine befindliche Drehzahl-Messschaltung im Original zu sehen. Auf der rechten Seite der Abbildung \ref{fig:DrehzahlmessSignalvertPlat} befindet sich der dafür mit dem Programm BlackBoard Circuit Designer erstellte, zugehörige Stromlaufplan. Die grünen Verbindungen stellen die Pfade zwischen Vin (Phasensignale) und den OPV Eingängen IN1+ und IN2+ dar. Gelbe Linien repräsentieren den Pfad der Referenzspannung Vref zu den invertierenden Eingängen IN1- und IN2-. Der Pfad zur Spannungsversorgung des OPV (V+) ist in violett dargestellt und alle schwarzen Verbindungen stellen GND-Verbindungen dar. Zuletzt kann der Verlauf der Ausgangsspannungen vom OPV an die Capture Eingänge des Timers CTIMER2 anhand der roten Verbindungen nachvollzogen werden. 
 
+\newpage
 \subsubsection{Ausblick Schaltungserweiterung}\label{Sec4Sub5Sub4}
  
-Nachdem die Referenzspannung Vref in der Schaltung so dimensioniert ist, sodass in der Theorie alle Drehzahlen zuverlässig als eindeutiges PWM-Signal dargestellt werden können, treten in Praxis noch Probleme auf. Denn nach Messung der Spannung mit dem Oszilloskop am PIN X.Y, wurden anstelle der exakten +3,3V, Spannungen bis zu 3,65V gemessen. Dies führt zu einer schwankenden Referenzspannung von etwa 540mV bis 600mV. Das Problem, Drehzahlen im sehr niedrigen Drehzahlbereich insbesondere im \glqq{}STOPTHROTTLE \grqq{}, 1,09 ms bis 1,10ms ton-Zeit, werden nicht immer zuverlässig als eindeutiges PWM-Signal dargestellt, da die Referenzspannung keine eindeutigen Schnittpunkte mit dem Eingangssignal besitzt (siehe Abbildung 54).\vspace{11pt}
+Nachdem die Referenzspannung Vref in der Schaltung so dimensioniert ist, dass in der Theorie alle Drehzahlen zuverlässig als eindeutiges Rechtecksignal dargestellt werden können, treten in Praxis dennoch Probleme auf. Bei der Messung der Referenzspannung mit dem Oszilloskop zeigt sich eine Schwankung zwischen ca. 540mV und ca. 600mV. Das Problem, Drehzahlen im sehr niedrigen Drehzahlbereich (ca. 1,09 ms bis 1,10ms PWM-Pulsbreite) werden nicht immer zuverlässig zu einem eindeutiges Rechtecksignal verarbeitet, da die Referenzspannung keine eindeutigen Schnittpunkte mit dem Eingangssignal besitzt (siehe Abbildung \ref{fig:ProblematikStopThrottle}). Auch ein Abfallen der Batteriespannung bei längerem Betrieb des Fahrzeugs kann ebenfalls das Problem verursachen, dass verschiedene Drehzahlen (vor allem an den Maxima) nicht mehr detektiert werden können.
  
 \begin{figure}[H] %H für Positionierung hier
 \includegraphics[width=.95\textwidth]{sec4/images/Problematik_stop_throttle} 
 \centering
 \captionsetup{width=.95\textwidth}
-\caption[Problematik\_stop\_throttle]{Beispielhafte Messung bei nicht übereinstimmenden Schaltschwellen für das Eingangssignal - Folge: kein Schalten des OPV möglich }\centering
+\caption[Fehlerhafte Rechtecksignal-Erzeugung bei niedrigen Drehzahlen]{Fehlerhafte Rechtecksignal-Erzeugung (in diesem Fall kein Rechteck) bei niedrigen Drehzahlen, wenn die Schaltschwellen nicht erreicht werden}\centering
 \label{fig:ProblematikStopThrottle}
 \end{figure}
 
-Eine mögliche Lösung der Problematik, ist die Erweiterung des Spannungsteiler zur Einstellung der Referenzspannung vor dem invertierenden Eingang des OPV um einen n-Kanal Mosfet gegen Masse (siehe Abbildung 55). Diese Maßnahme ermöglicht es, die Referenzspannung, für hohe und niedrige Drehzahlen flexibel anzupassen um ein zuverlässiges Ausgangssignal zu erhalten.\vspace{11pt}
+Eine mögliche Lösung der Problematik ist die Erweiterung des Spannungsteilers für die Referenzspannung des OPV um eine zusätzliche und zuschaltbare Teilerstufe (1x für hohe Drehzahlen; 1x für niedrige Drehzahlen) mit einem n-Kanal Mosfet gegen Masse (siehe Abbildung \ref{fig:Schaltungserweiterung}). Diese Maßnahme ermöglicht es, die Referenzspannung, für hohe und niedrige Drehzahlen flexibel anzupassen um in jedem Fall ein zuverlässiges Ausgangssignal für die Messung der Drehzahl zu erhalten.\vspace{11pt}
 
-Durch die Vorgabe eines bestimmten Modus, in der Schaltung als MCU-Mode bezeichnet, kann durch die Definierung von zwei Drehzahlbereichen, beispielsweise ton-Zeit 1,09ms bis 1,43ms für langsame Drehzahlen eine Referenzspannung zwischen 400mV-500mV eingestellt werden. Der Vorteil ist, dass man dadurch einen bestimmten Tolerenzbereich für Schwankungen der Versorgungspannung vom Pin erzeugt und die Schaltung dadurch weniger anfällig für Abweichungen ist.\vspace{11pt}
-
-Softwareseitig kann hierzu eine Interrupt Service Routine programmiert werden, welche bei erkennen des niedrigen Drehzahlbereichs einen weiteren Pin des Mikrocontrollers so schaltet, sodass dieser die Gate Spannung des Mosfets liefert und den Widerstand R7 folglich gegen Masse schaltet. Durch den zusätzlichen parallelen Widerstand kann die Referenzspannung verringert werden. Zur Bestimmung der Widerstandswerte für R5, R6 und R7 können folgende Formeln (3), (4) verwendet werden.\vspace{11pt}
-
-\begin{equation}\label{eq1}
-V_{ModeLow} = \frac{ R6 }{R6 + R5 }\cdot 3,3V
-\end{equation}
-
-\begin{equation}\label{eq1}
-V_{ModeHigh} = \frac{ R2 || R3 + R_{DSON} }{R2 || R1 + R_{DSON} + R5 }\cdot 3,3V
-\end{equation}
+Durch die Vorgabe eines bestimmten Modus, in der Schaltung als MCU-Mode bezeichnet, kann durch die Definition von zwei Drehzahlbereichen (z.B. Pulsbreite 1,09ms - 1,43ms langsam; Pulsbreite 1,43ms - 1,9ms schnell) eine individuelle Referenzspannung von ca. 500mV für langsame Drehzahlen und min. 600mV für hohe Drehzahlen eingestellt werden. Der Vorteil ist, dass man dadurch einen bestimmten Toleranzbereich für Schwankungen der Versorgungsspannung erzeugt und die Schaltung dadurch weniger anfällig für Abweichungen ist.\vspace{11pt}
 
 \begin{figure}[H] %H für Positionierung hier
 \includegraphics[width=.99\textwidth]{sec4/images/Schaltungserweiterung} 
 \centering
 \captionsetup{width=.95\textwidth}
-\caption[Schaltungserweiterung]{Schaltungsaufbau mit einstellbarer Referenzspannung für die invertierenden Eingänge IN1-, IN2-}\centering
+\caption[Schaltplan der Tiefpass-/Komparatorschaltung nach der Schaltungserweiterung]{Schaltplan der Tiefpass-/Komparatorschaltung nach der Schaltungserweiterung um eine zweite Referenzspannungsstufe; erstellt für die Simulation eines Phasensignals in LTspice XVII}\centering
 \label{fig:Schaltungserweiterung}
 \end{figure}
 
-\subsubsection{Programmierung des Drehzahlmessungsbausteins}\label{Sec4Sub5Sub4}
+In der Software muss hierzu in der Interrupt Service Routine der Drehzahlwert-Erfassung eine Umschalterkennung programmiert werden. Diese stellt über einen Ausgang des Mikrocontrollers die Referenzspannungsstufen über einen n-Kanal Mosfet so ein, wie sie bei der aktuellen Drehzahl gerade benötigt werden. Zur Bestimmung der Widerstandswerte für R5, R6 und R7 können die Gleichungen \ref{eq4.3} und \ref{eq4.4} verwendet werden.\vspace{11pt}
 
-Damit das durch die Schaltung bereitgestellte PWM-Signal vom Mikrocontroller softwareseitig erfasst werden kann, wird grundsätzlich ein Timer Capture Register benötigt. Dieses Register speichert bei einem Ereignis, bspw. das Auftreten einer steigenden Flanke, am angeschlossenen Input Pin den aktuellen Timerwert und kann daraufhin einen Interrupt auslösen.\vspace{11pt}
+\begin{equation}\label{eq4.3}
+V_{ModeLow} = \frac{ R6 }{R6 + R5 }\cdot 3,3V
+\end{equation}
 
-Der Softwarebaustein zur Drehzahlerfassung ist in zwei Dateien unterteilt, die Dateien \glqq{}rpmMeas.c\grqq{} und \glqq{}rpmMeas.h\grqq{}. Die Datei \glqq{}rpmMeas.h\grqq{} enthält alle relevanten Bibliotheken und Prototypen für die Datei \glqq{}rpmMeas.c\grqq{}. Hier werden die beiden Channel zur Erfassung der Daten auf das Timer Caputure Register 0 (rechter Antrieb, \glqq{}kCTIMER\_Caputre\_0\grqq{}) und auf das Timer Capture Register 1 (linker Antrieb, \glqq{}kCTIMER\_Capture\_1\grqq{}) festgelegt. Bei dem verwendeten Mikrocontroller entspricht dies den Pins P0.25 (rechts) und P0.24 (links). Der Pin P0.25 wird auf der Controllerplatine über den Pin 4 und der Pin P0.24 über den Pin 6 der Buchsenleiste J13 nach außen geführt.\vspace{11pt}
+\begin{equation}\label{eq4.4}
+V_{ModeHigh} = \frac{ R2 || R3 + R_{DSON} }{R2 || R1 + R_{DSON} + R5 }\cdot 3,3V
+\end{equation}
+
+\newpage
+\subsubsection{Programmierung des Drehzahlmessungsbausteins}\label{Sec4Sub5Sub5}
+
+Damit die durch die Schaltung bereitgestellten Rechtecksignale (links, rechts) vom Mikrocontroller erfasst werden können, werden die Capture Register des Timer-Moduls CTIMER2 verwendet. Dieses Register löst bei einem Flanken-Ereignis (steigende Flanke) am jeweiligen Capture Input Pin einen Interrupt aus, errechnet die verstrichene Zeit seit der letzten steigenden Flanke und speichert dann den aktuellen Timerwert ab.\vspace{11pt}
+
+Der Softwarebaustein zur Drehzahlerfassung ist in zwei Dateien unterteilt, die Dateien \glqq{}rpmMeas.c\grqq{} und \glqq{}rpmMeas.h\grqq{}. Die Datei \glqq{}rpmMeas.h\grqq{} enthält alle relevanten Bibliotheken und Prototypen für die Datei \glqq{}rpmMeas.c\grqq{} (siehe Abbildung \ref{fig:rpmMeasH}). Hier werden auch die beiden Channel zur Erfassung der Daten auf das Timer Caputure Register 0 (rechter Antrieb, \glqq{}kCTIMER\_Caputre\_0\grqq{}) und auf das Timer Capture Register 1 (linker Antrieb, \glqq{}kCTIMER\_Capt-ure\_1\grqq{}) festgelegt. Bei dem verwendeten Mikrocontroller entspricht dies den Pins P0.25 (rechts) und P0.24 (links). Der Pin P0.25 wird auf der Controllerplatine über den Pin4 und der Pin P0.24 über den Pin6 der Buchsenleiste J13 nach außen geführt.\vspace{11pt}
 
 \begin{figure}[H] %H für Positionierung hier
 \includegraphics[width=.80\textwidth]{sec4/images/rpm_defines} 
 \centering
 \captionsetup{width=.95\textwidth}
-\caption[rpm\_defines]{Relevante Zeilen der Datei \glqq{}rpmMeas.h\grqq{} zur Initialsierung des Timers 2 für das PWM Signal sowie Prototypen }\centering
-\label{fig:Schaltungsaufbau}
+\caption[Relevante Zeilen der Datei \glqq{}rpmMeas.h\grqq{}]{Relevante Zeilen der Datei \glqq{}rpmMeas.h\grqq{} zur Initialisierung des Timers CTIMER2 für die Zeiterfassung zwischen zwei Flanken Signal sowie die Prototypen für die Funktionen aus der Datei \glqq{}rpmMeas.c\grqq{}}\centering
+\label{fig:rpmMeasH}
 \end{figure}
 
-Die Datei \glqq{}rpmMeas.c\grqq{} enthält die Funktionen zur Initialisierung der für die Verwendung der Drehzahlerfassung notwendigen Controller-Peripherie als auch die Definition und Initialisierungen der notwendigen Parameter zur Erfassung und Berechnung der benötigten Drehzahlwerte (siehe Abbildung 57).  \vspace{11pt}
+Die Datei \glqq{}rpmMeas.c\grqq{} enthält die Funktionen zur Initialisierung der für die Verwendung der Drehzahlerfassung notwendigen Controller-Peripherie als auch die Definition und Initialisierungen der notwendigen Parameter zur Erfassung und Berechnung der benötigten Drehzahlwerte (siehe Abbildung \ref{fig:rpmMeasC0}).\vspace{11pt}
 
-
-In der Funktion RPMMEAS\_Init wird zuerst die Funktion CTIMER2\_Init aufgerufen, welche unter anderem die beiden vorher festgelegten Kanäle des Timers C2 (\glqq{}kCTIMER\_Caputre\_0\grqq{} und \glqq{}kCTIMER\_Capture\_1\grqq{}) initialisiert. Bei der Initialisierung der Capture Channel (CTIMER\_SetupCapture) wird das entsprechende Ereignis, bei dem ein Capture stattfinden soll, festgelegt. In diesem Fall wird der Trigger der beiden Kanäle auf die steigende Flanke gesetzt (\glqq{}kCTIMER\_Capture\_RiseEdge\grqq{}) und im Anschluss der Enable für die Capture Interrupts auf 1 gesetzt. \vspace{11pt}
-
-Damit beim Auftreten einer steigenden Flanke des PWM-Signals, ein Interrupt Flag ausgelöst werden kann, benötigt man bei MCUxpresso zunächst einen cTimer\_callback\_table. Der Callback-Table wird als Parameter initialisiert und muss mit den verwendeten Interrupt Service Routinen rpmMeas\_Left\_ISR und rpmMeas\_Right\_ISR verknüpft werden. Der Callback-Table wird als Pointer-Array in der CTIMER2\_Init der Funktion CTIMER\_RegisterCallBack übergeben. Bei einer Callback-Funktion auch Rückruffunktion genannt, wird einer Funktion als Parameter eine andere Funktion übergeben. Des weiteren muss in der RegisterCallBack-Funktion der Typ des Callbacks festgelegt werden. In diesem Fall wird der Callback als \glqq{}kCTIMER\_MultipleCallback\grqq{} festgelegt, was bedeutet, dass pro Channel ein Callback durchgeführt werden kann. Zuletzt wird in der CTIMER2\_Init der Timer C2 gestartet.\vspace{11pt}
-
-Nach Vollendung der Initialisierungsfunktionen des CTIMER2\_Init werden in der Funktion RPMMEAS\_Init zusätzlich die Pins P0.24 (Antrieb links) und P0.25 (Antrieb rechts) für die Verwendung als PWM-Input Capture Pin des Timercs C2 konfiguriert.
+In der Funktion RPMMEAS\_Init wird zuerst die Funktion CTIMER2\_Init aufgerufen, welche unter anderem die beiden vorher festgelegten Kanäle des Timers CTIMER2 (\glqq{}kCTIMER\_Caputre\_0\grqq{} und \glqq{}kCTIMER\_Capture\_1\grqq{}) initialisiert. Bei der Initialisierung der Capture Channel (CTIMER\_SetupCapture) wird das entsprechende Ereignis, bei dem ein Capture stattfinden soll, festgelegt. In diesem Fall wird dises Ereignis für beide Kanäle auf die steigende Flanke gesetzt und die Capture Interrupt Requests aktiviert (\glqq{}kCTIMER\_Capture\_RiseEdge\grqq{}).
 
 \begin{figure}[H] %H für Positionierung hier
 \includegraphics[width=.90\textwidth]{sec4/images/rpmmeas_init_ctimer2_init} 
 \centering
 \captionsetup{width=.95\textwidth}
-\caption[rpmmeas\_init\_ctimer2\_init]{Funktionen RPMMEAS\_Init und CTIMER2\_Init in der Datei Relevante Zeilen der Datei \glqq{}rpmMeas.c\grqq{}}\centering
-\label{fig:rpmmeasInitCtimer2Init}
+\caption[Funktionen RPMMEAS\_Init und CTIMER2\_Init in der Datei \glqq{}rpmMeas.c\grqq{}]{Funktionen RPMMEAS\_Init und CTIMER2\_Init in der Datei \glqq{}rpmMeas.c\grqq{}}\centering
+\label{fig:rpmMeasC0}
 \end{figure}
 
+Damit beim Auftreten einer steigenden Flanke der Rechtecksignale ein Interrupt Request ausgelöst werden kann, benötigt man zunächst den Parameter cTimer\_callback\_table. Die Callback-Table enthält die bei verschiedenen Events (Match0-3 und Capture0-3) aufzurufenden Interrupt Service Routinen rpmMeas\_Left\_ISR (Capture Event 0) und rpmMeas\_Right\_ISR (Capture Event 1) verknüpft werden. Die Callback-Table wird als Pointer-Array der Funktion CTIMER\_RegisterCallBack übergeben. Bei einer Callback-Funktion, auch Rückruffunktion genannt, wird einer Funktion als Parameter eine weitere Funktion oder wie hier eine Liste von Funktionen übergeben. Des weiteren muss in der RegisterCallBack-Funktion der Typ des Callbacks festgelegt werden. In diesem Fall wird der Callback als \glqq{}kCTIMER\_MultipleCallback\grqq{} festgelegt, was bedeutet, dass pro Channel ein Callback durchgeführt werden kann. Zuletzt wird in der CTIMER2\_Init der Timer C2 gestartet.\vspace{11pt}
 
-Zur Erfassung der Drehzahl wird im Programm jeweils eine Interrupt Service Routine rpmMeas\_Left\_ISR und rpmMeas\_Right\_ISR für die jeweilige Antriebsseite benötigt. Sobald eine steigende Flanke getriggert wird, wird durch das setzen eines Interrupt Flags die ISR ausgelöst und die vom Timer C2 erfasste Zeit zwischen zwei steigenden Flanken mit dem Befehl CTIMER\_GetTimerCountValue an die ISR übergeben. Die aktuell gemessene Zeit wird mit der vorherig gemessenen Zeit (oldvalright, oldvalleft) subtrahiert und die resultierende Differenz (diffright oder diffleft) den Arrays zur Mittelwertberechnung (measright[], measleft[]) übergeben.\vspace{11pt}  
+Nach Vollendung der Initialisierungsfunktionen CTIMER2\_Init werden in der Funktion RPMMEAS\_Init zusätzlich die Pins P0.24 (Messung links) und P0.25 (Messung rechts) für die Verwendung als Capture Input Pin des Timercs CTIMER2 konfiguriert.\vspace{11pt}
 
+Zur Erfassung der Drehzahl wird im Programm jeweils eine Interrupt Service Routine rpmMeas\_Left\_ISR und rpmMeas\_Right\_ISR für die jeweilige Antriebsseite benötigt. Sobald auf eine steigende Flanke getriggert wird, wird durch das Setzen eines Interrupt Flags die Interrupt Service Routine ausgelöst. In der jeweiligen Service Routine wird der aktuelle Zähler-Wert des Timers CTIMER2 mit dem Befehl CTIMER\_GetTimerCountValue ausgelesen, der Wert bei der letzten Flanke abgezogen und somit die verstrichene Zeit zwischen diesen Flanken berechnet (diffright und diffleft) und den Arrays zur Mittelwertberechnung (measright[ ], measleft[ ]) übergeben.  
 
 \begin{figure}[H] %H für Positionierung hier
-\includegraphics[width=.62\textwidth]{sec4/images/isr} 
+\includegraphics[width=.8\textwidth]{sec4/images/isr} 
 \centering
 \captionsetup{width=.95\textwidth}
-\caption[isr]{Interrupt Service Routinen zur Erfassung der Capture Daten }\centering
+\caption[Interrupt Service Routinen für Zeitermittlung zwischen zwei Capture-Flanken]{Interrupt Service Routinen für Zeitermittlung zwischen zwei Flanken der Capture Inputs des Timers TIMER2}\centering
 \label{fig:isr}
 \end{figure}
 
-Die Werte des in den Arrays (\glqq{}measright[]\grqq{} und \glqq{}measleft[]\grqq{}) abgelegten Werte, werden daraufhin der Funktion \glqq{}rpmMeas\_average\_val\_right()\grqq{}, \glqq{}rpmMeas\_average\_val\_right()\grqq{} übergeben. Dabei wird aus zehn erfassten Werten der Mittelwert gebildet. Der berechnete Mittelwert \glqq{}averageval\_right\grqq{}, \glqq{}averageval\_left\grqq{} wird in den weiteren Schritten zur Bestimmung der Drehzahlregelung benötigt. 
-
+\newpage
+Von den in den Arrays (\glqq{}measright[ ]\grqq{} und \glqq{}measleft[ ]\grqq{}) gespeicherten Werten können in den Funktionen \glqq{}rpmMeas\_average\_val\_right()\grqq{} und \glqq{}rpmMeas\_average\_val\_right()\grqq{} die Mittelwerte gebildet werden. Die Mittelwerte \glqq{}average\_val\_right\grqq{} und \glqq{}average\_val\_left\grqq{} werden in den weiteren Schritten zur Implementierung der Drehzahlregelung benötigt. 
 
 \begin{figure}[H] %H für Positionierung hier
-\includegraphics[width=.62\textwidth]{sec4/images/calculation} 
+\includegraphics[width=.8\textwidth]{sec4/images/calculation} 
 \centering
 \captionsetup{width=.95\textwidth}
-\caption[calculation]{Funktionen zur Berechnung des Mittelwerts aus den erfassten Capture Daten }\centering
+\caption[Funktionen zur Berechnung des Mittelwerts der Zeiten zwischen den Capture-Flanken]{Funktionen zur Berechnung des Mittelwerts der erfassten Zeiten zwischen den Flanken der Capture Inputs des Timers CTIMER2}\centering
 \label{fig:calculation}
 \end{figure}
 
-Im letzten Abschnitt der RPMMEAS\_Init werden an die zwei Funktionen \glqq{}rpmMeas\_average\_val\_left\grqq{} und \glqq{}rpmMeas\_average\_val\_right\grqq{} die Arrays mit den erfassten Drehzahldaten übergeben. Aus den erfassten Daten kann daraus der Mittelwert \glqq{}averageval\_left\grqq{} bzw. \glqq{}averageval\_right\grqq{} gebildet werden und im weiteren einer entsprechenden Funktion zur Drehzahlregelung weitergegeben werden.
 
 
 \newpage

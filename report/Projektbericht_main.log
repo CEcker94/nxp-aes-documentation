@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  20 JUN 2021 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  20 JUN 2021 22:13
 entering extended mode
 **./Projektbericht_main.tex
 (Projektbericht_main.tex
@@ -878,20 +878,7 @@ rcvoltage.tex"
 ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
 rccurrent.tex")
 ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex/generic/circuitikz\pgfci
-rcflow.tex")) (Projektbericht_main.aux
-
-LaTeX Warning: Label `fig:Schaltungsaufbau' multiply defined.
-
-
-LaTeX Warning: Label `eq1' multiply defined.
-
-
-LaTeX Warning: Label `Sec4Sub5Sub4' multiply defined.
-
-
-LaTeX Warning: Label `fig:Schaltungsaufbau' multiply defined.
-
-)
+rcflow.tex")) (Projektbericht_main.aux)
 \openout1 = `Projektbericht_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1539,62 +1526,62 @@ eit als Pa-ra-me-ter aus dem
  []
 
 [22 <./sec4/images/DriveH.png>]
-<sec4/images/DriveC1.png, id=783, 691.08188pt x 700.11563pt>
+<sec4/images/DriveC1.png, id=780, 685.05937pt x 680.5425pt>
 File: sec4/images/DriveC1.png Graphic file (type png)
 <use sec4/images/DriveC1.png>
-Package pdftex.def Info: sec4/images/DriveC1.png  used on input line 106.
-(pdftex.def)             Requested size: 418.96548pt x 424.4526pt.
- [23 <./sec4/images/DriveC0.png>] [24 <./sec4/images/DriveC1.png>]
-<sec4/images/DriveC2.png, id=808, 430.0065pt x 342.68025pt>
+Package pdftex.def Info: sec4/images/DriveC1.png  used on input line 104.
+(pdftex.def)             Requested size: 396.91325pt x 394.30994pt.
+ [23 <./sec4/images/DriveC0.png> <./sec4/images/DriveC1.png>]
+<sec4/images/DriveC2.png, id=800, 430.0065pt x 342.68025pt>
 File: sec4/images/DriveC2.png Graphic file (type png)
 <use sec4/images/DriveC2.png>
 Package pdftex.def Info: sec4/images/DriveC2.png  used on input line 118.
 (pdftex.def)             Requested size: 396.91325pt x 316.3102pt.
- [25 <./sec4/images/DriveC2.png>]
+ [24] [25 <./sec4/images/DriveC2.png>]
 Package acronym Info: Label `acro:DCMot' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 136.
-<sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg, id=830, 1204.5pt x 903.375
+<sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg, id=827, 1204.5pt x 903.375
 pt>
 File: sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg Graphic file (type jpg
 )
 <use sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg>
 Package pdftex.def Info: sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg  us
-ed on input line 141.
+ed on input line 139.
 (pdftex.def)             Requested size: 321.94106pt x 241.46089pt.
- [26] [27 <./sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg>]
-<sec4/images/PruefstandMess02.png, id=868, 517.935pt x 343.88475pt>
+ [26 <./sec4/images/Pruefstand_Messung_UAbhängigkeit.jpeg>] [27]
+<sec4/images/PruefstandMess02.png, id=869, 517.935pt x 343.88475pt>
 File: sec4/images/PruefstandMess02.png Graphic file (type png)
 <use sec4/images/PruefstandMess02.png>
 Package pdftex.def Info: sec4/images/PruefstandMess02.png  used on input line 1
 84.
 (pdftex.def)             Requested size: 396.91325pt x 263.54323pt.
- [28] [29 <./sec4/images/PruefstandMess02.png>]
+ [28 <./sec4/images/PruefstandMess02.png>]
 Overfull \hbox (3.95714pt too wide) in paragraph at lines 202--203
 []\T1/cmr/m/n/10.95 Nachdem be-reits fest-ge-stellt wer-den konn-te, dass ei-ne
  Dreh-zahl-re-ge-lung der [][]BLDC-Motoren[][][]
  []
 
-<sec4/images/Vorgängerfahrzeug.jpeg, id=893, 1204.5pt x 1606.0pt>
+<sec4/images/Vorgängerfahrzeug.jpeg, id=887, 1204.5pt x 1606.0pt>
 File: sec4/images/Vorgängerfahrzeug.jpeg Graphic file (type jpg)
 <use sec4/images/Vorgängerfahrzeug.jpeg>
 Package pdftex.def Info: sec4/images/Vorgängerfahrzeug.jpeg  used on input lin
 e 207.
 (pdftex.def)             Requested size: 198.45662pt x 264.61098pt.
-<sec4/images/Vorgängerfahrzeug_zwei.jpeg, id=894, 1204.5pt x 1606.0pt>
+<sec4/images/Vorgängerfahrzeug_zwei.jpeg, id=888, 1204.5pt x 1606.0pt>
 File: sec4/images/Vorgängerfahrzeug_zwei.jpeg Graphic file (type jpg)
 <use sec4/images/Vorgängerfahrzeug_zwei.jpeg>
 Package pdftex.def Info: sec4/images/Vorgängerfahrzeug_zwei.jpeg  used on inpu
 t line 208.
 (pdftex.def)             Requested size: 198.45662pt x 264.61098pt.
-[30 <./sec4/images/Vorgängerfahrzeug.jpeg> <./sec4/images/Vorgängerfahrzeug_z
+[29 <./sec4/images/Vorgängerfahrzeug.jpeg> <./sec4/images/Vorgängerfahrzeug_z
 wei.jpeg>]
-<sec4/images/Signaldarstellung.jpg, id=905, 989.94844pt x 548.80031pt>
+<sec4/images/Signaldarstellung.jpg, id=899, 989.94844pt x 548.80031pt>
 File: sec4/images/Signaldarstellung.jpg Graphic file (type jpg)
 <use sec4/images/Signaldarstellung.jpg>
 Package pdftex.def Info: sec4/images/Signaldarstellung.jpg  used on input line 
 221.
-(pdftex.def)             Requested size: 436.60997pt x 242.0423pt.
+(pdftex.def)             Requested size: 405.7355pt x 224.92583pt.
 
 Underfull \hbox (badness 5091) in paragraph at lines 224--224
 []\T1/cmr/m/n/10.95 Abbildung 52: |Pha-sen-si-gnal ei-nes An-triebs (V$[]$, gr�
@@ -1607,179 +1594,160 @@ Underfull \hbox (badness 1005) in paragraph at lines 224--224
 $, pink) aus der Tiefpass-
  []
 
-[31 <./sec4/images/Signaldarstellung.jpg>] [32]
-<sec4/images/Schaltungsaufbau.jpg, id=926, 690.32906pt x 331.99031pt>
+[30 <./sec4/images/Signaldarstellung.jpg>] [31]
+<sec4/images/Schaltungsaufbau.jpg, id=918, 690.32906pt x 331.99031pt>
 File: sec4/images/Schaltungsaufbau.jpg Graphic file (type jpg)
 <use sec4/images/Schaltungsaufbau.jpg>
 Package pdftex.def Info: sec4/images/Schaltungsaufbau.jpg  used on input line 2
-43.
+45.
 (pdftex.def)             Requested size: 418.96548pt x 201.4905pt.
 Package acronym Info: Label `acro:PWLFile' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 250.
+although it is yet undefined on input line 252.
+ [32 <./sec4/images/Schaltungsaufbau.jpg>]
 <sec4/images/Spannungsverlauf_TP.jpg, id=931, 587.19376pt x 186.6975pt>
 File: sec4/images/Spannungsverlauf_TP.jpg Graphic file (type jpg)
 <use sec4/images/Spannungsverlauf_TP.jpg>
 Package pdftex.def Info: sec4/images/Spannungsverlauf_TP.jpg  used on input lin
-e 259.
-(pdftex.def)             Requested size: 396.91325pt x 126.1977pt.
- [33 <./sec4/images/Schaltungsaufbau.jpg>]
-<sec4/images/TP.png, id=942, 803.0pt x 504.88625pt>
+e 261.
+(pdftex.def)             Requested size: 392.50551pt x 124.7961pt.
+<sec4/images/TP.png, id=932, 803.0pt x 504.88625pt>
 File: sec4/images/TP.png Graphic file (type png)
 <use sec4/images/TP.png>
-Package pdftex.def Info: sec4/images/TP.png  used on input line 267.
-(pdftex.def)             Requested size: 396.91325pt x 249.56122pt.
+Package pdftex.def Info: sec4/images/TP.png  used on input line 269.
+(pdftex.def)             Requested size: 388.09775pt x 244.0221pt.
 Package acronym Info: Label `acro:TI' newly defined as it shall be overridden
-although it is yet undefined on input line 274.
+although it is yet undefined on input line 276.
 Package acronym Info: Label `acro:opamp' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 274.
+although it is yet undefined on input line 276.
 Package acronym Info: Label `acro:OPV' newly defined as it shall be overridden
-although it is yet undefined on input line 274.
-<sec4/images/OPV_Pinbelegung.jpg, id=948, 260.47313pt x 184.43906pt>
+although it is yet undefined on input line 276.
+ [33 <./sec4/images/Spannungsverlauf_TP.jpg> <./sec4/images/TP.png (PNG copy)>]
+<sec4/images/OPV_Pinbelegung.jpg, id=947, 260.47313pt x 184.43906pt>
 File: sec4/images/OPV_Pinbelegung.jpg Graphic file (type jpg)
 <use sec4/images/OPV_Pinbelegung.jpg>
 Package pdftex.def Info: sec4/images/OPV_Pinbelegung.jpg  used on input line 27
-7.
+9.
 (pdftex.def)             Requested size: 220.50887pt x 156.1407pt.
- [34 <./sec4/images/Spannungsverlauf_TP.jpg> <./sec4/images/TP.png (PNG copy)>]
- [35 <./sec4/images/OPV_Pinbelegung.jpg>]
-<sec4/images/inp_inref_opv_out.png, id=963, 803.0pt x 504.88625pt>
+ [34 <./sec4/images/OPV_Pinbelegung.jpg>]
+<sec4/images/inp_inref_opv_out.png, id=962, 803.0pt x 504.88625pt>
 File: sec4/images/inp_inref_opv_out.png Graphic file (type png)
 <use sec4/images/inp_inref_opv_out.png>
 Package pdftex.def Info: sec4/images/inp_inref_opv_out.png  used on input line 
 294.
 (pdftex.def)             Requested size: 418.96548pt x 263.4283pt.
- [36 <./sec4/images/inp_inref_opv_out.png (PNG copy)>]
-<sec4/images/Platine.jpg, id=971, 2143.00626pt x 3193.9325pt>
+ [35 <./sec4/images/inp_inref_opv_out.png (PNG copy)>]
+<sec4/images/Platine.jpg, id=973, 1584.92125pt x 2436.10126pt>
 File: sec4/images/Platine.jpg Graphic file (type jpg)
 <use sec4/images/Platine.jpg>
-Package pdftex.def Info: sec4/images/Platine.jpg  used on input line 311.
-(pdftex.def)             Requested size: 198.45662pt x 295.77528pt.
-<sec4/images/Platinendesign.jpg, id=972, 222.07968pt x 344.03531pt>
+Package pdftex.def Info: sec4/images/Platine.jpg  used on input line 308.
+(pdftex.def)             Requested size: 176.40439pt x 271.13158pt.
+<sec4/images/Platinendesign.jpg, id=974, 436.63126pt x 664.73344pt>
 File: sec4/images/Platinendesign.jpg Graphic file (type jpg)
 <use sec4/images/Platinendesign.jpg>
-Package pdftex.def Info: sec4/images/Platinendesign.jpg  used on input line 312
+Package pdftex.def Info: sec4/images/Platinendesign.jpg  used on input line 309
 .
-(pdftex.def)             Requested size: 176.40439pt x 273.27579pt.
- [37]
-<sec4/images/Problematik_stop_throttle.png, id=979, 803.0pt x 504.88625pt>
+(pdftex.def)             Requested size: 176.40439pt x 268.55627pt.
+ [36 <./sec4/images/Platine.jpg> <./sec4/images/Platinendesign.jpg>] [37]
+<sec4/images/Problematik_stop_throttle.png, id=991, 803.0pt x 504.88625pt>
 File: sec4/images/Problematik_stop_throttle.png Graphic file (type png)
 <use sec4/images/Problematik_stop_throttle.png>
 Package pdftex.def Info: sec4/images/Problematik_stop_throttle.png  used on inp
 ut line 325.
 (pdftex.def)             Requested size: 418.96548pt x 263.4283pt.
- [38 <./sec4/images/Platine.jpg> <./sec4/images/Platinendesign.jpg>] [39 <./sec
-4/images/Problematik_stop_throttle.png (PNG copy)>]
-<sec4/images/Schaltungserweiterung.jpg, id=996, 605.26125pt x 380.92313pt>
+ [38 <./sec4/images/Problematik_stop_throttle.png (PNG copy)>]
+<sec4/images/Schaltungserweiterung.jpg, id=1002, 605.26125pt x 380.92313pt>
 File: sec4/images/Schaltungserweiterung.jpg Graphic file (type jpg)
 <use sec4/images/Schaltungserweiterung.jpg>
 Package pdftex.def Info: sec4/images/Schaltungserweiterung.jpg  used on input l
-ine 347.
+ine 337.
 (pdftex.def)             Requested size: 436.60997pt x 274.78174pt.
-<sec4/images/rpm_defines.jpg, id=997, 443.40656pt x 159.59625pt>
+ [39 <./sec4/images/Schaltungserweiterung.jpg>]
+<sec4/images/rpm_defines.jpg, id=1014, 443.40656pt x 159.59625pt>
 File: sec4/images/rpm_defines.jpg Graphic file (type jpg)
 <use sec4/images/rpm_defines.jpg>
-Package pdftex.def Info: sec4/images/rpm_defines.jpg  used on input line 361.
+Package pdftex.def Info: sec4/images/rpm_defines.jpg  used on input line 362.
 (pdftex.def)             Requested size: 352.81552pt x 126.99773pt.
- [40 <./sec4/images/Schaltungserweiterung.jpg>]
-Overfull \hbox (45.11351pt too wide) in paragraph at lines 373--374
-\T1/cmr/m/n/10.95 Callback-Table wird als Pointer-Array in der CTI-MER2_Init de
-r Funk-ti-on CTI-MER_RegisterCallBack
- []
-
-<sec4/images/rpmmeas_init_ctimer2_init.jpg, id=1006, 554.82281pt x 659.46375pt>
+<sec4/images/rpmmeas_init_ctimer2_init.jpg, id=1016, 550.30594pt x 697.10437pt>
 
 File: sec4/images/rpmmeas_init_ctimer2_init.jpg Graphic file (type jpg)
 <use sec4/images/rpmmeas_init_ctimer2_init.jpg>
 Package pdftex.def Info: sec4/images/rpmmeas_init_ctimer2_init.jpg  used on inp
-ut line 378.
-(pdftex.def)             Requested size: 396.91325pt x 471.77463pt.
-[41 <./sec4/images/rpm_defines.jpg>]
-<sec4/images/isr.jpg, id=1013, 394.47375pt x 344.78813pt>
+ut line 374.
+(pdftex.def)             Requested size: 396.91325pt x 502.80826pt.
+ [40 <./sec4/images/rpm_defines.jpg>] [41 <./sec4/images/rpmmeas_init_ctimer2_i
+nit.jpg>]
+<sec4/images/isr.jpg, id=1031, 394.47375pt x 344.78813pt>
 File: sec4/images/isr.jpg Graphic file (type jpg)
 <use sec4/images/isr.jpg>
-Package pdftex.def Info: sec4/images/isr.jpg  used on input line 390.
-(pdftex.def)             Requested size: 273.42883pt x 238.98782pt.
- [42 <./sec4/images/rpmmeas_init_ctimer2_init.jpg>]
-<sec4/images/calculation.jpg, id=1021, 417.05812pt x 365.11406pt>
+Package pdftex.def Info: sec4/images/isr.jpg  used on input line 388.
+(pdftex.def)             Requested size: 352.81552pt x 308.37564pt.
+ [42 <./sec4/images/isr.jpg>]
+<sec4/images/calculation.jpg, id=1039, 417.05812pt x 365.11406pt>
 File: sec4/images/calculation.jpg Graphic file (type jpg)
 <use sec4/images/calculation.jpg>
-Package pdftex.def Info: sec4/images/calculation.jpg  used on input line 401.
-(pdftex.def)             Requested size: 273.42883pt x 239.38823pt.
-
-Overfull \hbox (65.44102pt too wide) in paragraph at lines 408--409
-[]\T1/cmr/m/n/10.95 Im letz-ten Ab-schnitt der RPM-MEAS_Init wer-den an die zwe
-i Funk-tio-nen rpm-Meas_average_val_left
- []
-
-
-Overfull \hbox (1.58406pt too wide) in paragraph at lines 408--409
-\T1/cmr/m/n/10.95 Aus den er-fass-ten Da-ten kann dar-aus der Mit-tel-wert ave
--ra-ge-val_left bzw. ave-ra-ge-val_right
- []
-
-[43 <./sec4/images/isr.jpg> <./sec4/images/calculation.jpg>] [44])
-(sec5/sec5.tex
-<sec5/images/Servo.jpg, id=1042, 399.4925pt x 426.59375pt>
+Package pdftex.def Info: sec4/images/calculation.jpg  used on input line 399.
+(pdftex.def)             Requested size: 352.81552pt x 308.88875pt.
+ [43 <./sec4/images/calculation.jpg>]) (sec5/sec5.tex
+<sec5/images/Servo.jpg, id=1052, 399.4925pt x 426.59375pt>
 File: sec5/images/Servo.jpg Graphic file (type jpg)
 <use sec5/images/Servo.jpg>
 Package pdftex.def Info: sec5/images/Servo.jpg  used on input line 20.
 (pdftex.def)             Requested size: 220.50887pt x 235.46698pt.
- [45 <./sec5/images/Servo.jpg>]
-<sec5/images/MontageLenkungskomponenten.jpg, id=1056, 5068.9375pt x 2455.1725pt
+ [44 <./sec5/images/Servo.jpg>]
+<sec5/images/MontageLenkungskomponenten.jpg, id=1067, 5068.9375pt x 2455.1725pt
 >
 File: sec5/images/MontageLenkungskomponenten.jpg Graphic file (type jpg)
 <use sec5/images/MontageLenkungskomponenten.jpg>
 Package pdftex.def Info: sec5/images/MontageLenkungskomponenten.jpg  used on in
 put line 35.
 (pdftex.def)             Requested size: 396.91325pt x 192.22197pt.
- [46 <./sec5/images/MontageLenkungskomponenten.jpg>]
-<sec5/images/ServoH.png, id=1066, 531.78674pt x 115.632pt>
+ [45 <./sec5/images/MontageLenkungskomponenten.jpg>]
+<sec5/images/ServoH.png, id=1077, 531.78674pt x 115.632pt>
 File: sec5/images/ServoH.png Graphic file (type png)
 <use sec5/images/ServoH.png>
 Package pdftex.def Info: sec5/images/ServoH.png  used on input line 48.
 (pdftex.def)             Requested size: 396.91325pt x 86.30562pt.
-<sec5/images/ServoC0.png, id=1074, 561.297pt x 40.953pt>
+<sec5/images/ServoC0.png, id=1085, 561.297pt x 40.953pt>
 File: sec5/images/ServoC0.png Graphic file (type png)
 <use sec5/images/ServoC0.png>
 Package pdftex.def Info: sec5/images/ServoC0.png  used on input line 60.
 (pdftex.def)             Requested size: 418.96548pt x 30.56905pt.
-<sec5/images/ServoC1.png, id=1080, 601.64775pt x 448.074pt>
+<sec5/images/ServoC1.png, id=1091, 601.64775pt x 448.074pt>
 File: sec5/images/ServoC1.png Graphic file (type png)
 <use sec5/images/ServoC1.png>
 Package pdftex.def Info: sec5/images/ServoC1.png  used on input line 70.
 (pdftex.def)             Requested size: 418.96548pt x 312.02927pt.
- [47 <./sec5/images/ServoH.png> <./sec5/images/ServoC0.png>]
-<sec5/images/ServoC2.png, id=1095, 420.97275pt x 201.1515pt>
+ [46 <./sec5/images/ServoH.png> <./sec5/images/ServoC0.png>]
+<sec5/images/ServoC2.png, id=1106, 420.97275pt x 201.1515pt>
 File: sec5/images/ServoC2.png Graphic file (type png)
 <use sec5/images/ServoC2.png>
 Package pdftex.def Info: sec5/images/ServoC2.png  used on input line 82.
 (pdftex.def)             Requested size: 374.86775pt x 179.12248pt.
-
-[48 <./sec5/images/ServoC1.png>] [49 <./sec5/images/ServoC2.png>])
-(sec6/sec6.tex
-<sec6/images/Display_PCB.png, id=1115, 328.22626pt x 268.75406pt>
+ [47 <./sec5/images/ServoC1.png>] [48 <./sec5/images/ServoC2.png>]) (sec6/sec6.
+tex
+<sec6/images/Display_PCB.png, id=1126, 328.22626pt x 268.75406pt>
 File: sec6/images/Display_PCB.png Graphic file (type png)
 <use sec6/images/Display_PCB.png>
 Package pdftex.def Info: sec6/images/Display_PCB.png  used on input line 22.
 (pdftex.def)             Requested size: 330.76329pt x 270.83662pt.
-<sec6/images/Display_PCB2.png, id=1116, 342.5297pt x 181.42781pt>
+<sec6/images/Display_PCB2.png, id=1127, 342.5297pt x 181.42781pt>
 File: sec6/images/Display_PCB2.png Graphic file (type png)
 <use sec6/images/Display_PCB2.png>
 Package pdftex.def Info: sec6/images/Display_PCB2.png  used on input line 30.
 (pdftex.def)             Requested size: 396.91325pt x 210.24878pt.
- [50 <./sec6/images/Display_PCB.png>] [51 <./sec6/images/Display_PCB2.png>]
+ [49 <./sec6/images/Display_PCB.png>] [50 <./sec6/images/Display_PCB2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[52] [53]
+[51] [52]
 Package acronym Info: Label `acro:I2C' newly defined as it shall be overridden
 although it is yet undefined on input line 76.
 Package acronym Info: Label `acro:RAM' newly defined as it shall be overridden
 although it is yet undefined on input line 79.
- [54]
+ [53]
 Package acronym Info: Label `acro:DMA' newly defined as it shall be overridden
 although it is yet undefined on input line 164.
 
@@ -1798,43 +1766,43 @@ Overfull \hbox (0.68803pt too wide) in paragraph at lines 164--165
 u-zei-gen-de Da-ten and das [][]
  []
 
-[55] [56] [57]
+[54] [55] [56]
 Overfull \hbox (3.88019pt too wide) in paragraph at lines 215--216
 \T1/cmr/m/n/10.95 auf ein Cha-rak-terar-ray �ber-ge-ben wird. Da in der Funk-ti
 -on die Funk-ti-on ssd1309_write_char
  []
 
-[58] [59]) (sec7/sec7.tex
-<sec7/images/CamPinning.png, id=1220, 953.81343pt x 325.96782pt>
+[57] [58]) (sec7/sec7.tex
+<sec7/images/CamPinning.png, id=1231, 953.81343pt x 325.96782pt>
 File: sec7/images/CamPinning.png Graphic file (type png)
 <use sec7/images/CamPinning.png>
 Package pdftex.def Info: sec7/images/CamPinning.png  used on input line 24.
 (pdftex.def)             Requested size: 396.91325pt x 135.64716pt.
- [60 <./sec7/images/CamPinning.png>]
-<sec7/images/CamWaveform.png, id=1235, 890.5772pt x 299.61937pt>
+ [59 <./sec7/images/CamPinning.png>]
+<sec7/images/CamWaveform.png, id=1246, 890.5772pt x 299.61937pt>
 File: sec7/images/CamWaveform.png Graphic file (type png)
 <use sec7/images/CamWaveform.png>
 Package pdftex.def Info: sec7/images/CamWaveform.png  used on input line 34.
 (pdftex.def)             Requested size: 418.96548pt x 140.9537pt.
-<sec7/images/TimingWaveform.png, id=1239, 692.5875pt x 205.5178pt>
+<sec7/images/TimingWaveform.png, id=1250, 692.5875pt x 205.5178pt>
 File: sec7/images/TimingWaveform.png Graphic file (type png)
 <use sec7/images/TimingWaveform.png>
 Package pdftex.def Info: sec7/images/TimingWaveform.png  used on input line 44.
 
 (pdftex.def)             Requested size: 418.96548pt x 124.32454pt.
- [61 <./sec7/images/CamWaveform.png> <./sec7/images/TimingWaveform.png>]
-<sec7/images/CAMProcedure.png, id=1251, 919.0335pt x 439.6425pt>
+ [60 <./sec7/images/CamWaveform.png> <./sec7/images/TimingWaveform.png>]
+<sec7/images/CAMProcedure.png, id=1262, 919.0335pt x 439.6425pt>
 File: sec7/images/CAMProcedure.png Graphic file (type png)
 <use sec7/images/CAMProcedure.png>
 Package pdftex.def Info: sec7/images/CAMProcedure.png  used on input line 60.
 (pdftex.def)             Requested size: 441.01773pt x 210.96562pt.
- [62 <./sec7/images/CAMProcedure.png>]
-<sec7/images/code/camerah.png, id=1261, 438.438pt x 135.50626pt>
+ [61 <./sec7/images/CAMProcedure.png>]
+<sec7/images/code/camerah.png, id=1271, 438.438pt x 135.50626pt>
 File: sec7/images/code/camerah.png Graphic file (type png)
 <use sec7/images/code/camerah.png>
 Package pdftex.def Info: sec7/images/code/camerah.png  used on input line 74.
 (pdftex.def)             Requested size: 418.96548pt x 129.49522pt.
-<sec7/images/code/CAMInit.png, id=1263, 470.35725pt x 207.174pt>
+<sec7/images/code/CAMInit.png, id=1273, 470.35725pt x 207.174pt>
 File: sec7/images/code/CAMInit.png Graphic file (type png)
 <use sec7/images/code/CAMInit.png>
 Package pdftex.def Info: sec7/images/code/CAMInit.png  used on input line 88.
@@ -1845,94 +1813,94 @@ Underfull \hbox (badness 1292) in paragraph at lines 91--91
 s-funk-ti-on zur Kamera-
  []
 
-[63 <./sec7/images/code/camerah.png> <./sec7/images/code/CAMInit.png>]
-<sec7/images/code/CTIMER0Init.png, id=1274, 597.432pt x 268.6035pt>
+[62 <./sec7/images/code/camerah.png> <./sec7/images/code/CAMInit.png>]
+<sec7/images/code/CTIMER0Init.png, id=1285, 597.432pt x 268.6035pt>
 File: sec7/images/code/CTIMER0Init.png Graphic file (type png)
 <use sec7/images/code/CTIMER0Init.png>
 Package pdftex.def Info: sec7/images/code/CTIMER0Init.png  used on input line 1
 01.
 (pdftex.def)             Requested size: 441.01773pt x 198.28804pt.
- [64 <./sec7/images/code/CTIMER0Init.png>]
-<sec7/images/code/SCTimerClockConfig.png, id=1282, 507.69675pt x 245.11575pt>
+ [63 <./sec7/images/code/CTIMER0Init.png>]
+<sec7/images/code/SCTimerClockConfig.png, id=1293, 507.69675pt x 245.11575pt>
 File: sec7/images/code/SCTimerClockConfig.png Graphic file (type png)
 <use sec7/images/code/SCTimerClockConfig.png>
 Package pdftex.def Info: sec7/images/code/SCTimerClockConfig.png  used on input
  line 130.
 (pdftex.def)             Requested size: 441.01773pt x 212.92357pt.
-<sec7/images/code/SCTimerCamCLKInit.png, id=1284, 508.299pt x 334.851pt>
+<sec7/images/code/SCTimerCamCLKInit.png, id=1295, 508.299pt x 334.851pt>
 File: sec7/images/code/SCTimerCamCLKInit.png Graphic file (type png)
 <use sec7/images/code/SCTimerCamCLKInit.png>
 Package pdftex.def Info: sec7/images/code/SCTimerCamCLKInit.png  used on input 
 line 144.
 (pdftex.def)             Requested size: 418.96548pt x 276.00511pt.
- [65 <./sec7/images/code/SCTimerClockConfig.png>]
-<sec7/images/code/SCTimerSIEventsInit.png, id=1294, 487.22025pt x 339.669pt>
+ [64 <./sec7/images/code/SCTimerClockConfig.png>]
+<sec7/images/code/SCTimerSIEventsInit.png, id=1305, 487.22025pt x 339.669pt>
 File: sec7/images/code/SCTimerSIEventsInit.png Graphic file (type png)
 <use sec7/images/code/SCTimerSIEventsInit.png>
 Package pdftex.def Info: sec7/images/code/SCTimerSIEventsInit.png  used on inpu
 t line 160.
 (pdftex.def)             Requested size: 418.96548pt x 292.08372pt.
- [66 <./sec7/images/code/SCTimerCamCLKInit.png>]
-<sec7/images/code/CTIMER0IRQHandler.png, id=1302, 442.65375pt x 216.20775pt>
+ [65 <./sec7/images/code/SCTimerCamCLKInit.png>]
+<sec7/images/code/CTIMER0IRQHandler.png, id=1313, 442.65375pt x 216.20775pt>
 File: sec7/images/code/CTIMER0IRQHandler.png Graphic file (type png)
 <use sec7/images/code/CTIMER0IRQHandler.png>
 Package pdftex.def Info: sec7/images/code/CTIMER0IRQHandler.png  used on input 
 line 172.
 (pdftex.def)             Requested size: 418.96548pt x 204.6473pt.
- [67 <./sec7/images/code/SCTimerSIEventsInit.png> <./sec7/images/code/CTIMER0IR
+ [66 <./sec7/images/code/SCTimerSIEventsInit.png> <./sec7/images/code/CTIMER0IR
 QHandler.png>]
-<sec7/images/code/SCTimerADCTriggerInit.png, id=1312, 570.933pt x 202.95825pt>
+<sec7/images/code/SCTimerADCTriggerInit.png, id=1323, 570.933pt x 202.95825pt>
 File: sec7/images/code/SCTimerADCTriggerInit.png Graphic file (type png)
 <use sec7/images/code/SCTimerADCTriggerInit.png>
 Package pdftex.def Info: sec7/images/code/SCTimerADCTriggerInit.png  used on in
 put line 189.
 (pdftex.def)             Requested size: 418.96548pt x 148.94179pt.
-<sec7/images/code/ADCConfig.png, id=1314, 631.158pt x 703.428pt>
+<sec7/images/code/ADCConfig.png, id=1325, 631.158pt x 703.428pt>
 File: sec7/images/code/ADCConfig.png Graphic file (type png)
 <use sec7/images/code/ADCConfig.png>
 Package pdftex.def Info: sec7/images/code/ADCConfig.png  used on input line 202
 .
 (pdftex.def)             Requested size: 418.96548pt x 466.93654pt.
- [68 <./sec7/images/code/SCTimerADCTriggerInit.png>] [69 <./sec7/images/code/AD
+ [67 <./sec7/images/code/SCTimerADCTriggerInit.png>] [68 <./sec7/images/code/AD
 CConfig.png>]
-<sec7/images/code/ADCCalibration.png, id=1335, 545.6385pt x 341.47575pt>
+<sec7/images/code/ADCCalibration.png, id=1346, 545.6385pt x 341.47575pt>
 File: sec7/images/code/ADCCalibration.png Graphic file (type png)
 <use sec7/images/code/ADCCalibration.png>
 Package pdftex.def Info: sec7/images/code/ADCCalibration.png  used on input lin
 e 219.
 (pdftex.def)             Requested size: 418.96548pt x 262.20245pt.
-<sec7/images/code/ADC0SEQAIRQHandler.png, id=1336, 458.9145pt x 173.448pt>
+<sec7/images/code/ADC0SEQAIRQHandler.png, id=1347, 458.9145pt x 173.448pt>
 File: sec7/images/code/ADC0SEQAIRQHandler.png Graphic file (type png)
 <use sec7/images/code/ADC0SEQAIRQHandler.png>
 Package pdftex.def Info: sec7/images/code/ADC0SEQAIRQHandler.png  used on input
  line 231.
 (pdftex.def)             Requested size: 418.96548pt x 158.35136pt.
-<sec7/images/code/PixelCalc.png, id=1338, 580.569pt x 186.09525pt>
+<sec7/images/code/PixelCalc.png, id=1349, 580.569pt x 186.09525pt>
 File: sec7/images/code/PixelCalc.png Graphic file (type png)
 <use sec7/images/code/PixelCalc.png>
 Package pdftex.def Info: sec7/images/code/PixelCalc.png  used on input line 245
 .
 (pdftex.def)             Requested size: 418.96548pt x 134.29514pt.
 
-[70 <./sec7/images/code/ADCCalibration.png> <./sec7/images/code/ADC0SEQAIRQHand
-ler.png>] [71 <./sec7/images/code/PixelCalc.png>]) (sec8/sec8.tex
+[69 <./sec7/images/code/ADCCalibration.png> <./sec7/images/code/ADC0SEQAIRQHand
+ler.png>] [70 <./sec7/images/code/PixelCalc.png>]) (sec8/sec8.tex
 Underfull \hbox (badness 1424) in paragraph at lines 18--19
 \T1/cmr/m/n/10.95 un-te-ren Fahr-zeu-ge-be-ne (sie-he Ab-bil-dung
  []
 
-<sec8/images/Leistungsverteilerplatine.jpg, id=1354, 1876.00874pt x 2890.8pt>
+<sec8/images/Leistungsverteilerplatine.jpg, id=1365, 1876.00874pt x 2890.8pt>
 File: sec8/images/Leistungsverteilerplatine.jpg Graphic file (type jpg)
 <use sec8/images/Leistungsverteilerplatine.jpg>
 Package pdftex.def Info: sec8/images/Leistungsverteilerplatine.jpg  used on inp
 ut line 23.
 (pdftex.def)             Requested size: 145.09457pt x 223.54947pt.
-<sec8/images/Signalverteilerplatine.jpeg, id=1357, 1204.5pt x 903.375pt>
+<sec8/images/Signalverteilerplatine.jpeg, id=1368, 1204.5pt x 903.375pt>
 File: sec8/images/Signalverteilerplatine.jpeg Graphic file (type jpg)
 <use sec8/images/Signalverteilerplatine.jpeg>
 Package pdftex.def Info: sec8/images/Signalverteilerplatine.jpeg  used on input
  line 39.
 (pdftex.def)             Requested size: 308.71106pt x 231.53613pt.
-[72 <./sec8/images/Leistungsverteilerplatine.jpg>] [73 <./sec8/images/Signalver
+[71 <./sec8/images/Leistungsverteilerplatine.jpg>] [72 <./sec8/images/Signalver
 teilerplatine.jpeg>]) (sec11/sec11.tex
 Overfull \hbox (2.58559pt too wide) in paragraph at lines 17--31
 \T1/cmr/m/n/10.95 **Optimierung der Dreh-zahl-mes-sung mit ei-ner zwei-stu-fi-g
@@ -1944,7 +1912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--31
 
  []
 
-[74]) (inserts/graphics/graphics.tex (Projektbericht_main.lof [6]
+[73]) (inserts/graphics/graphics.tex (Projektbericht_main.lof [6]
 Overfull \hbox (1.75327pt too wide) in paragraph at lines 70--70
  [][] [][][]\T1/cmr/m/n/10.95 Funktionen SER-VO_Init, CTI-MER1_Init und SER-VO_
 Demo der Da-tei drive.c[][] [][]  
@@ -1962,7 +1930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--37
  []
 
 ) [9]) (attachement/attachement.tex [10]
-<attachement/PinAssignment.png, id=1515, 345.08925pt x 690.78075pt>
+<attachement/PinAssignment.png, id=1527, 345.08925pt x 690.78075pt>
 File: attachement/PinAssignment.png Graphic file (type png)
 <use attachement/PinAssignment.png>
 Package pdftex.def Info: attachement/PinAssignment.png  used on input line 28.
@@ -1974,16 +1942,12 @@ Overfull \vbox (25.28302pt too high) has occurred while \output is active []
 [11 <./attachement/PinAssignment.png>]) (Projektbericht_main.aux)
 Package rerunfilecheck Info: File `Projektbericht_main.out' has not changed.
 (rerunfilecheck)             Checksum: AC59D2D457209DF65EF5A67D2B156356;4669.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 40303 strings out of 480202
- 1058229 string characters out of 2877025
- 1435062 words of memory out of 3000000
- 55870 multiletter control sequences out of 15000+200000
+ 40306 strings out of 480202
+ 1058282 string characters out of 2877025
+ 1434689 words of memory out of 3000000
+ 55874 multiletter control sequences out of 15000+200000
  551932 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,13n,90p,2989b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2007,9 +1971,9 @@ is/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
 C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on Projektbericht_main.pdf (85 pages, 35785887 bytes).
+Output written on Projektbericht_main.pdf (84 pages, 35519522 bytes).
 PDF statistics:
- 2125 PDF objects out of 2487 (max. 8388607)
- 288 named destinations out of 1000 (max. 500000)
+ 2135 PDF objects out of 2487 (max. 8388607)
+ 287 named destinations out of 1000 (max. 500000)
  971 words of extra memory for PDF output out of 10000 (max. 10000000)
 
