@@ -32,6 +32,8 @@
 \@writefile{toc}{\contentsline {section}{Inhaltsverzeichnis}{III}{section*.2}\protected@file@percent }
 \acronymused{OLED}
 \acronymused{OLED}
+\acronymused{HMI}
+\acronymused{EEPROM}
 \@writefile{toc}{\contentsline {section}{Abkürzungsverzeichnis}{V}{section*.4}\protected@file@percent }
 \newacro{BLDCMot}[\AC@hyperlink{BLDCMot}{BLDC-Motor}]{Brushless Direct Current Motor}
 \newacroplural{BLDCMot}[\AC@hyperlink{BLDCMot}{BLDC-Motoren}]{Brushless Direct Current Motoren}
@@ -52,7 +54,9 @@
 \newacro{PWLFile}[\AC@hyperlink{PWLFile}{PWL-File}]{Piecewise Linear Function in LTspice}
 \newacro{OPV}[\AC@hyperlink{OPV}{OPV}]{Operationsverstärker}
 \newacro{TI}[\AC@hyperlink{TI}{TI}]{Texas Instruments}
+\newacro{HMI}[\AC@hyperlink{HMI}{HMI}]{Human-Machine Interface}
 \newacro{opamp}[\AC@hyperlink{opamp}{op amp}]{(Dual) Operational Amplifier}
+\newacro{UART}[\AC@hyperlink{UART}{UART}]{Universal Asynchronous Receiver Transmitter}
 \citation{MWil}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Einführung}{1}{section.1}\protected@file@percent }
 \newlabel{Sec1}{{1}{1}{Einführung}{section.1}{}}
@@ -120,12 +124,12 @@
 \newlabel{fig:PlatinenHalterungKonstruktion}{{18}{9}{Konstruktionsbild der Platinen-Halterung des Bedienungsboards}{figure.caption.25}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Konstruktionsbild der Abdeckung des Bedienungsboards}}{9}{figure.caption.26}\protected@file@percent }
 \newlabel{fig:DisplayAbdeckungKonstruktion}{{19}{9}{Konstruktionsbild der Abdeckung des Bedienungsboards}{figure.caption.26}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Konstruktionsbild des Drucktasters}}{9}{figure.caption.27}\protected@file@percent }
-\newlabel{fig:DruckTasterKonstruktion}{{20}{9}{Konstruktionsbild des Drucktasters}{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Konstruktionsbild der Taster-Verlängerung}}{9}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:DruckTasterKonstruktion}{{20}{9}{Konstruktionsbild der Taster-Verlängerung}{figure.caption.27}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Gedruckte Controller-Halterung}}{10}{figure.caption.28}\protected@file@percent }
 \newlabel{fig:ControllerHalterungDruck}{{21}{10}{Gedruckte Controller-Halterung}{figure.caption.28}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Gedruckte Drucktaster-Verlängerung}}{10}{figure.caption.29}\protected@file@percent }
-\newlabel{fig:DruckTasterDruck}{{22}{10}{Gedruckte Drucktaster-Verlängerung}{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Gedruckte Taster-Verlängerung}}{10}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:DruckTasterDruck}{{22}{10}{Gedruckte Taster-Verlängerung}{figure.caption.29}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Gedruckte Platinen-Abdeckung des Bedienungsboards}}{10}{figure.caption.30}\protected@file@percent }
 \newlabel{fig:DisplayAbdeckungDruck}{{23}{10}{Gedruckte Platinen-Abdeckung des Bedienungsboards}{figure.caption.30}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Gedruckte Platinen-Halterung für das Bedienungsboard}}{10}{figure.caption.31}\protected@file@percent }
@@ -148,8 +152,8 @@
 \newlabel{fig:PlatinenHalterungenKonstruktion}{{30}{13}{Konstruktionsbild einer einfachen Platinenhalterung}{figure.caption.37}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Gedruckte Platinenhalterungen}}{13}{figure.caption.38}\protected@file@percent }
 \newlabel{fig:PlatinenHalterungenDruck}{{31}{13}{Gedruckte Platinenhalterungen}{figure.caption.38}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Mit den Platinenhalterungen montierte Versorgungsspannungs-Verteilerplatine }}{13}{figure.caption.39}\protected@file@percent }
-\newlabel{fig:PlatinenHalterungenMontage}{{32}{13}{Mit den Platinenhalterungen montierte Versorgungsspannungs-Verteilerplatine}{figure.caption.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Mit den Platinenhalterungen montierte Leistungsverteilerplatine }}{13}{figure.caption.39}\protected@file@percent }
+\newlabel{fig:PlatinenHalterungenMontage}{{32}{13}{Mit den Platinenhalterungen montierte Leistungsverteilerplatine}{figure.caption.39}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.6}Kamerahalterung}{14}{subsubsection.2.2.6}\protected@file@percent }
 \newlabel{Sec2Sub2SubSub6}{{2.2.6}{14}{Kamerahalterung}{subsubsection.2.2.6}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces Kameramontage-Komponente der Kamera-Halterung}}{14}{figure.caption.40}\protected@file@percent }
@@ -178,38 +182,38 @@
 \newlabel{Sec3}{{3}{17}{Controllerplatine und Programmiertool}{section.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces Controllerplatine LPCXpresso54628 ~\cite {Semic}}}{17}{figure.caption.48}\protected@file@percent }
 \newlabel{fig:Controllerplatine}{{39}{17}{Controllerplatine LPCXpresso54628 ~\protect \cite {Semic}}{figure.caption.48}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Antrieb des Fahrzeugs}{18}{section.4}\protected@file@percent }
-\newlabel{Sec4}{{4}{18}{Antrieb des Fahrzeugs}{section.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Antrieb des Fahrzeugs}{19}{section.4}\protected@file@percent }
+\newlabel{Sec4}{{4}{19}{Antrieb des Fahrzeugs}{section.4}{}}
 \acronymused{BLDCMot}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}BLDC-Antrieb und Motorcontroller}{18}{subsection.4.1}\protected@file@percent }
-\newlabel{Sec4Sub1}{{4.1}{18}{BLDC-Antrieb und Motorcontroller}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}BLDC-Antrieb und Motorcontroller}{19}{subsection.4.1}\protected@file@percent }
+\newlabel{Sec4Sub1}{{4.1}{19}{BLDC-Antrieb und Motorcontroller}{subsection.4.1}{}}
 \acronymused{BLDCMot}
 \AC@undonewlabel{acro:RC}
-\newlabel{acro:RC}{{4.1}{18}{BLDC-Antrieb und Motorcontroller}{section*.49}{}}
+\newlabel{acro:RC}{{4.1}{19}{BLDC-Antrieb und Motorcontroller}{section*.49}{}}
 \acronymused{RC}
 \AC@undonewlabel{acro:ESC}
-\newlabel{acro:ESC}{{4.1}{18}{BLDC-Antrieb und Motorcontroller}{section*.50}{}}
+\newlabel{acro:ESC}{{4.1}{19}{BLDC-Antrieb und Motorcontroller}{section*.50}{}}
 \acronymused{ESC}
 \AC@undonewlabel{acro:PWM}
-\newlabel{acro:PWM}{{4.1}{18}{BLDC-Antrieb und Motorcontroller}{section*.51}{}}
+\newlabel{acro:PWM}{{4.1}{19}{BLDC-Antrieb und Motorcontroller}{section*.51}{}}
 \acronymused{PWM}
 \acronymused{PWM}
-\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces Skizze zur Beschaltung eines \ac {ESC}s und \ac {BLDCMot}s}}{18}{figure.caption.52}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces Skizze zur Beschaltung eines \ac {ESC}s und \ac {BLDCMot}s}}{19}{figure.caption.52}\protected@file@percent }
 \acronymused{ESC}
 \acronymused{BLDCMot}
 \acronymused{ESC}
 \acronymused{PWM}
 \acronymused{BLDCMot}
-\newlabel{fig:SkizzeAntrieb}{{40}{18}{Skizze zur Beschaltung eines \ac {ESC}s und \ac {BLDCMot}s}{figure.caption.52}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Montage der Antriebskomponenten}{19}{subsection.4.2}\protected@file@percent }
-\newlabel{Sec4Sub2}{{4.2}{19}{Montage der Antriebskomponenten}{subsection.4.2}{}}
+\newlabel{fig:SkizzeAntrieb}{{40}{19}{Skizze zur Beschaltung eines \ac {ESC}s und \ac {BLDCMot}s}{figure.caption.52}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Montage der Antriebskomponenten}{20}{subsection.4.2}\protected@file@percent }
+\newlabel{Sec4Sub2}{{4.2}{20}{Montage der Antriebskomponenten}{subsection.4.2}{}}
 \acronymused{BLDCMot}
-\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces Montage der Antriebskomponenten}}{19}{figure.caption.53}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces Montage der Antriebskomponenten}}{20}{figure.caption.53}\protected@file@percent }
 \acronymused{BLDCMot}
 \acronymused{BLDCMot}
-\newlabel{fig:MontageMotorUebersetzung}{{41}{19}{Montage der Antriebskomponenten}{figure.caption.53}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Konfiguration der Motorcontroller}{20}{subsection.4.3}\protected@file@percent }
-\newlabel{Sec4Sub3}{{4.3}{20}{Konfiguration der Motorcontroller}{subsection.4.3}{}}
+\newlabel{fig:MontageMotorUebersetzung}{{41}{20}{Montage der Antriebskomponenten}{figure.caption.53}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Konfiguration der Motorcontroller}{21}{subsection.4.3}\protected@file@percent }
+\newlabel{Sec4Sub3}{{4.3}{21}{Konfiguration der Motorcontroller}{subsection.4.3}{}}
 \acronymused{ESC}
 \acronymused{PWM}
 \acronymused{ESC}
@@ -218,10 +222,10 @@
 \acronymused{ESC}
 \acronymused{BLDCMot}
 \acronymused{PWM}
-\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces Initialisierungssequenz der \ac {ESC}s}}{20}{figure.caption.54}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces Initialisierungssequenz der \ac {ESC}s}}{21}{figure.caption.54}\protected@file@percent }
 \acronymused{ESC}
 \acronymused{PWM}
-\newlabel{fig:initESC}{{42}{20}{Initialisierungssequenz der \ac {ESC}s}{figure.caption.54}{}}
+\newlabel{fig:initESC}{{42}{21}{Initialisierungssequenz der \ac {ESC}s}{figure.caption.54}{}}
 \acronymused{ESC}
 \acronymused{PWM}
 \acronymused{ESC}
@@ -229,56 +233,56 @@
 \acronymused{ESC}
 \acronymused{ESC}
 \acronymused{ESC}
-\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces Programmierung des Arduino Nano zur \ac {ESC}-Konfiguration}}{21}{figure.caption.55}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces Programmierung des Arduino Nano zur \ac {ESC}-Konfiguration}}{22}{figure.caption.55}\protected@file@percent }
 \acronymused{ESC}
-\newlabel{fig:ConfigBLHeliSuite}{{43}{21}{Programmierung des Arduino Nano zur \ac {ESC}-Konfiguration}{figure.caption.55}{}}
+\newlabel{fig:ConfigBLHeliSuite}{{43}{22}{Programmierung des Arduino Nano zur \ac {ESC}-Konfiguration}{figure.caption.55}{}}
 \acronymused{ESC}
 \acronymused{ESC}
 \acronymused{ESC}
-\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces Parameter der neuen \ac {ESC}-Konfiguration}}{21}{figure.caption.56}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces Parameter der neuen \ac {ESC}-Konfiguration}}{22}{figure.caption.56}\protected@file@percent }
 \acronymused{ESC}
-\newlabel{fig:BLHeliSuite}{{44}{21}{Parameter der neuen \ac {ESC}-Konfiguration}{figure.caption.56}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Programmierung des Antriebsbausteins}{22}{subsection.4.4}\protected@file@percent }
-\newlabel{Sec4Sub4}{{4.4}{22}{Programmierung des Antriebsbausteins}{subsection.4.4}{}}
-\acronymused{ESC}
-\acronymused{PWM}
-\@writefile{lof}{\contentsline {figure}{\numberline {45}{\ignorespaces Relevante Zeilen der Datei \glqq {}drive.h\grqq {}}}{22}{figure.caption.57}\protected@file@percent }
+\newlabel{fig:BLHeliSuite}{{44}{22}{Parameter der neuen \ac {ESC}-Konfiguration}{figure.caption.56}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Programmierung des Antriebsbausteins}{23}{subsection.4.4}\protected@file@percent }
+\newlabel{Sec4Sub4}{{4.4}{23}{Programmierung des Antriebsbausteins}{subsection.4.4}{}}
 \acronymused{ESC}
 \acronymused{PWM}
-\newlabel{fig:DriveH}{{45}{22}{Relevante Zeilen der Datei \glqq {}drive.h\grqq {}}{figure.caption.57}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {45}{\ignorespaces Relevante Zeilen der Datei \glqq {}drive.h\grqq {}}}{23}{figure.caption.57}\protected@file@percent }
+\acronymused{ESC}
+\acronymused{PWM}
+\newlabel{fig:DriveH}{{45}{23}{Relevante Zeilen der Datei \glqq {}drive.h\grqq {}}{figure.caption.57}{}}
 \acronymused{PWM}
 \AC@undonewlabel{acro:CPU}
-\newlabel{acro:CPU}{{4.4}{22}{Programmierung des Antriebsbausteins}{section*.58}{}}
+\newlabel{acro:CPU}{{4.4}{23}{Programmierung des Antriebsbausteins}{section*.58}{}}
 \acronymused{CPU}
 \acronymused{ESC}
 \acronymused{PWM}
 \acronymused{ESC}
 \acronymused{PWM}
 \AC@undonewlabel{acro:EEPROM}
-\newlabel{acro:EEPROM}{{4.4}{22}{Programmierung des Antriebsbausteins}{section*.59}{}}
+\newlabel{acro:EEPROM}{{4.4}{23}{Programmierung des Antriebsbausteins}{section*.59}{}}
 \acronymused{EEPROM}
-\@writefile{lof}{\contentsline {figure}{\numberline {46}{\ignorespaces Extremwerte der Antriebsgeschwindigkeit als Parameter aus dem \ac {EEPROM}}}{23}{figure.caption.60}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {46}{\ignorespaces Extremwerte der Antriebsgeschwindigkeit als Parameter aus dem \ac {EEPROM}}}{24}{figure.caption.60}\protected@file@percent }
 \acronymused{EEPROM}
-\newlabel{fig:DriveC0}{{46}{23}{Extremwerte der Antriebsgeschwindigkeit als Parameter aus dem \ac {EEPROM}}{figure.caption.60}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {47}{\ignorespaces Funktionen BLDC\_Init und CTIMER3\_Init der Datei \glqq {}drive.c\grqq {}}}{23}{figure.caption.61}\protected@file@percent }
-\newlabel{fig:DriveC1}{{47}{23}{Funktionen BLDC\_Init und CTIMER3\_Init der Datei \glqq {}drive.c\grqq {}}{figure.caption.61}{}}
+\newlabel{fig:DriveC0}{{46}{24}{Extremwerte der Antriebsgeschwindigkeit als Parameter aus dem \ac {EEPROM}}{figure.caption.60}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {47}{\ignorespaces Funktionen BLDC\_Init und CTIMER3\_Init der Datei \glqq {}drive.c\grqq {}}}{24}{figure.caption.61}\protected@file@percent }
+\newlabel{fig:DriveC1}{{47}{24}{Funktionen BLDC\_Init und CTIMER3\_Init der Datei \glqq {}drive.c\grqq {}}{figure.caption.61}{}}
 \acronymused{PWM}
 \acronymused{PWM}
 \acronymused{PWM}
 \acronymused{PWM}
 \acronymused{ESC}
 \acronymused{ESC}
-\@writefile{lof}{\contentsline {figure}{\numberline {48}{\ignorespaces Funktion BLDC\_Init\_Task der Datei \glqq {}drive.c\grqq {}}}{25}{figure.caption.62}\protected@file@percent }
-\acronymused{ESC}
-\newlabel{fig:DriveC2}{{48}{25}{Funktion BLDC\_Init\_Task der Datei \glqq {}drive.c\grqq {}}{figure.caption.62}{}}
 \acronymused{ESC}
 \acronymused{ESC}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Drehzahlmessung}{26}{subsection.4.5}\protected@file@percent }
-\newlabel{Sec4Sub5}{{4.5}{26}{Drehzahlmessung}{subsection.4.5}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}Erörterung der Notwendigkeit einer Drehzahlmessung}{26}{subsubsection.4.5.1}\protected@file@percent }
-\newlabel{Sec:NotwendigkeitDrehzahlmessung}{{4.5.1}{26}{Erörterung der Notwendigkeit einer Drehzahlmessung}{subsubsection.4.5.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {48}{\ignorespaces Funktion BLDC\_Init\_Task der Datei \glqq {}drive.c\grqq {}}}{26}{figure.caption.62}\protected@file@percent }
+\acronymused{ESC}
+\newlabel{fig:DriveC2}{{48}{26}{Funktion BLDC\_Init\_Task der Datei \glqq {}drive.c\grqq {}}{figure.caption.62}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Drehzahlmessung}{27}{subsection.4.5}\protected@file@percent }
+\newlabel{Sec4Sub5}{{4.5}{27}{Drehzahlmessung}{subsection.4.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}Erörterung der Notwendigkeit einer Drehzahlmessung}{27}{subsubsection.4.5.1}\protected@file@percent }
+\newlabel{Sec:NotwendigkeitDrehzahlmessung}{{4.5.1}{27}{Erörterung der Notwendigkeit einer Drehzahlmessung}{subsubsection.4.5.1}{}}
 \AC@undonewlabel{acro:DCMot}
-\newlabel{acro:DCMot}{{4.5.1}{26}{Erörterung der Notwendigkeit einer Drehzahlmessung}{section*.63}{}}
+\newlabel{acro:DCMot}{{4.5.1}{27}{Erörterung der Notwendigkeit einer Drehzahlmessung}{section*.63}{}}
 \acronymused{DCMot}
 \acronymused{DCMot}
 \acronymused{DCMot}
@@ -286,91 +290,91 @@
 \acronymused{DCMot}
 \acronymused{BLDCMot}
 \acronymused{BLDCMot}
-\@writefile{lof}{\contentsline {figure}{\numberline {49}{\ignorespaces Messaufbau zur Prüfung der Spannungsabhängigkeit der \acp {BLDCMot}}}{26}{figure.caption.64}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {49}{\ignorespaces Messaufbau zur Prüfung der Spannungsabhängigkeit der \acp {BLDCMot}}}{27}{figure.caption.64}\protected@file@percent }
 \acronymused{BLDCMot}
-\newlabel{fig:Pruefstand01}{{49}{26}{Messaufbau zur Prüfung der Spannungsabhängigkeit der \acp {BLDCMot}}{figure.caption.64}{}}
+\newlabel{fig:Pruefstand01}{{49}{27}{Messaufbau zur Prüfung der Spannungsabhängigkeit der \acp {BLDCMot}}{figure.caption.64}{}}
 \acronymused{DCMot}
 \acronymused{DCMot}
 \acronymused{ESC}
 \acronymused{BLDCMot}
-\newlabel{eq4.1}{{1}{27}{Erörterung der Notwendigkeit einer Drehzahlmessung}{equation.4.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Messreihe 1: Spannungsabhängigkeit Drehzahl}}{27}{table.caption.65}\protected@file@percent }
-\newlabel{tab:PruefstandMess01}{{1}{27}{Messreihe 1: Spannungsabhängigkeit Drehzahl}{table.caption.65}{}}
+\newlabel{eq4.1}{{1}{28}{Erörterung der Notwendigkeit einer Drehzahlmessung}{equation.4.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Messreihe 1: Spannungsabhängigkeit Drehzahl}}{28}{table.caption.65}\protected@file@percent }
+\newlabel{tab:PruefstandMess01}{{1}{28}{Messreihe 1: Spannungsabhängigkeit Drehzahl}{table.caption.65}{}}
 \acronymused{BLDCMot}
 \acronymused{DCMot}
 \acronymused{BLDCMot}
 \acronymused{DCMot}
 \acronymused{ESC}
 \acronymused{PWM}
-\@writefile{lof}{\contentsline {figure}{\numberline {50}{\ignorespaces Spannungsabhängigkeit der Drehzahl von der Versorgungsspannung}}{28}{figure.caption.66}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {50}{\ignorespaces Spannungsabhängigkeit der Drehzahl von der Versorgungsspannung}}{29}{figure.caption.66}\protected@file@percent }
 \acronymused{BLDCMot}
-\newlabel{fig:Pruefstand02}{{50}{28}{Spannungsabhängigkeit der Drehzahl von der Versorgungsspannung}{figure.caption.66}{}}
+\newlabel{fig:Pruefstand02}{{50}{29}{Spannungsabhängigkeit der Drehzahl von der Versorgungsspannung}{figure.caption.66}{}}
 \acronymused{ESC}
 \acronymused{BLDCMot}
 \acronymused{BLDCMot}
 \acronymused{BLDCMot}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2}Auswahl des Messprinzips}{29}{subsubsection.4.5.2}\protected@file@percent }
-\newlabel{Sec4Sub5Sub2}{{4.5.2}{29}{Auswahl des Messprinzips}{subsubsection.4.5.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2}Auswahl des Messprinzips}{30}{subsubsection.4.5.2}\protected@file@percent }
+\newlabel{Sec4Sub5Sub2}{{4.5.2}{30}{Auswahl des Messprinzips}{subsubsection.4.5.2}{}}
 \acronymused{BLDCMot}
 \acronymused{BLDCMot}
-\@writefile{lof}{\contentsline {figure}{\numberline {51}{\ignorespaces Varianten der Drehzahlerfassung bei vorherigen Fahrzeugversionen}}{29}{figure.caption.67}\protected@file@percent }
-\newlabel{fig:Vorgaengerfahrzeug}{{51}{29}{Varianten der Drehzahlerfassung bei vorherigen Fahrzeugversionen}{figure.caption.67}{}}
-\acronymused{BLDCMot}
-\acronymused{ESC}
-\@writefile{lof}{\contentsline {figure}{\numberline {52}{\ignorespaces Phaseneingangssignal und Ausgangssignal der Tiefpass-/Komparatorschaltung}}{30}{figure.caption.68}\protected@file@percent }
-\newlabel{fig:Signaldarstellung}{{52}{30}{Phaseneingangssignal und Ausgangssignal der Tiefpass-/Komparatorschaltung}{figure.caption.68}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {51}{\ignorespaces Varianten der Drehzahlerfassung bei vorherigen Fahrzeugversionen}}{30}{figure.caption.67}\protected@file@percent }
+\newlabel{fig:Vorgaengerfahrzeug}{{51}{30}{Varianten der Drehzahlerfassung bei vorherigen Fahrzeugversionen}{figure.caption.67}{}}
 \acronymused{BLDCMot}
 \acronymused{ESC}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.3}Hardware für die Drehzahlmessung}{32}{subsubsection.4.5.3}\protected@file@percent }
-\newlabel{Sec4Sub5Sub3}{{4.5.3}{32}{Hardware für die Drehzahlmessung}{subsubsection.4.5.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {53}{\ignorespaces Schaltplan der Tiefpass-/Komparatorschaltung aus LTspice XVII}}{32}{figure.caption.69}\protected@file@percent }
-\newlabel{fig:Schaltungsaufbau}{{53}{32}{Schaltplan der Tiefpass-/Komparatorschaltung aus LTspice XVII}{figure.caption.69}{}}
+\acronymused{BLDCMot}
+\acronymused{ESC}
+\@writefile{lof}{\contentsline {figure}{\numberline {52}{\ignorespaces Phaseneingangssignal und Ausgangssignal der Tiefpass-/Komparatorschaltung}}{32}{figure.caption.68}\protected@file@percent }
+\newlabel{fig:Signaldarstellung}{{52}{32}{Phaseneingangssignal und Ausgangssignal der Tiefpass-/Komparatorschaltung}{figure.caption.68}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.3}Hardware für die Drehzahlmessung}{33}{subsubsection.4.5.3}\protected@file@percent }
+\newlabel{Sec4Sub5Sub3}{{4.5.3}{33}{Hardware für die Drehzahlmessung}{subsubsection.4.5.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {53}{\ignorespaces Schaltplan der Tiefpass-/Komparatorschaltung aus LTspice XVII}}{33}{figure.caption.69}\protected@file@percent }
+\newlabel{fig:Schaltungsaufbau}{{53}{33}{Schaltplan der Tiefpass-/Komparatorschaltung aus LTspice XVII}{figure.caption.69}{}}
 \AC@undonewlabel{acro:PWLFile}
-\newlabel{acro:PWLFile}{{4.5.3}{32}{Hardware für die Drehzahlmessung}{section*.70}{}}
+\newlabel{acro:PWLFile}{{4.5.3}{33}{Hardware für die Drehzahlmessung}{section*.70}{}}
 \acronymused{PWLFile}
-\newlabel{eq4.2}{{2}{33}{Hardware für die Drehzahlmessung}{equation.4.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {54}{\ignorespaces Simulationsergebnis des Phasensignals nach dessen Tiefpassfilterung}}{33}{figure.caption.71}\protected@file@percent }
-\newlabel{fig:SpannungsverlaufTPSpice}{{54}{33}{Simulationsergebnis des Phasensignals nach dessen Tiefpassfilterung}{figure.caption.71}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {55}{\ignorespaces Messergebnis des Phasensignals nach dessen Tiefpassfilterung}}{33}{figure.caption.72}\protected@file@percent }
-\newlabel{fig:SpannungsverlaufTPReal}{{55}{33}{Messergebnis des Phasensignals nach dessen Tiefpassfilterung}{figure.caption.72}{}}
+\citation{OPVModel}
+\newlabel{eq4.2}{{2}{34}{Hardware für die Drehzahlmessung}{equation.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {54}{\ignorespaces Simulationsergebnis des Phasensignals nach dessen Tiefpassfilterung}}{34}{figure.caption.71}\protected@file@percent }
+\newlabel{fig:SpannungsverlaufTPSpice}{{54}{34}{Simulationsergebnis des Phasensignals nach dessen Tiefpassfilterung}{figure.caption.71}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {55}{\ignorespaces Messergebnis des Phasensignals nach dessen Tiefpassfilterung}}{34}{figure.caption.72}\protected@file@percent }
+\newlabel{fig:SpannungsverlaufTPReal}{{55}{34}{Messergebnis des Phasensignals nach dessen Tiefpassfilterung}{figure.caption.72}{}}
 \AC@undonewlabel{acro:TI}
-\newlabel{acro:TI}{{4.5.3}{34}{Hardware für die Drehzahlmessung}{section*.73}{}}
+\newlabel{acro:TI}{{4.5.3}{35}{Hardware für die Drehzahlmessung}{section*.73}{}}
 \acronymused{TI}
-\AC@undonewlabel{acro:opamp}
-\newlabel{acro:opamp}{{4.5.3}{34}{Hardware für die Drehzahlmessung}{section*.74}{}}
-\acronymused{opamp}
 \AC@undonewlabel{acro:OPV}
-\newlabel{acro:OPV}{{4.5.3}{34}{Hardware für die Drehzahlmessung}{section*.75}{}}
-\acronymused{OPV}
-\acronymused{OPV}
-\@writefile{lof}{\contentsline {figure}{\numberline {56}{\ignorespaces Pinbelegung des Operationsverstärkers LM358A}}{34}{figure.caption.76}\protected@file@percent }
-\newlabel{fig:OPVPinbelegung}{{56}{34}{Pinbelegung des Operationsverstärkers LM358A}{figure.caption.76}{}}
+\newlabel{acro:OPV}{{4.5.3}{35}{Hardware für die Drehzahlmessung}{section*.74}{}}
 \acronymused{OPV}
 \acronymused{OPV}
 \acronymused{OPV}
+\@writefile{lof}{\contentsline {figure}{\numberline {56}{\ignorespaces Pinbelegung des Operationsverstärkers LM358A}}{35}{figure.caption.75}\protected@file@percent }
+\newlabel{fig:OPVPinbelegung}{{56}{35}{Pinbelegung des Operationsverstärkers LM358A}{figure.caption.75}{}}
 \acronymused{OPV}
-\@writefile{lof}{\contentsline {figure}{\numberline {57}{\ignorespaces Beispielhafte Messung des OPV-Ausgangssignals bei V+ = 5,0V;}}{35}{figure.caption.77}\protected@file@percent }
-\newlabel{fig:inpInrefOpvOut}{{57}{35}{Beispielhafte Messung des OPV-Ausgangssignals bei V+ = 5,0V;}{figure.caption.77}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {58}{\ignorespaces Schaltung der Drehzahlmessung und zugehöriger Stromlaufplan}}{36}{figure.caption.78}\protected@file@percent }
-\newlabel{fig:DrehzahlmessSignalvertPlat}{{58}{36}{Schaltung der Drehzahlmessung und zugehöriger Stromlaufplan}{figure.caption.78}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.4}Ausblick Schaltungserweiterung}{38}{subsubsection.4.5.4}\protected@file@percent }
-\newlabel{Sec4Sub5Sub4}{{4.5.4}{38}{Ausblick Schaltungserweiterung}{subsubsection.4.5.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {59}{\ignorespaces Fehlerhafte Rechtecksignal-Erzeugung bei niedrigen Drehzahlen}}{38}{figure.caption.79}\protected@file@percent }
-\newlabel{fig:ProblematikStopThrottle}{{59}{38}{Fehlerhafte Rechtecksignal-Erzeugung bei niedrigen Drehzahlen}{figure.caption.79}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {60}{\ignorespaces Schaltplan der Tiefpass-/Komparatorschaltung nach der Schaltungserweiterung}}{39}{figure.caption.80}\protected@file@percent }
-\newlabel{fig:Schaltungserweiterung}{{60}{39}{Schaltplan der Tiefpass-/Komparatorschaltung nach der Schaltungserweiterung}{figure.caption.80}{}}
-\newlabel{eq4.3}{{3}{39}{Ausblick Schaltungserweiterung}{equation.4.3}{}}
-\newlabel{eq4.4}{{4}{39}{Ausblick Schaltungserweiterung}{equation.4.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.5}Programmierung des Drehzahlmessungsbausteins}{40}{subsubsection.4.5.5}\protected@file@percent }
-\newlabel{Sec4Sub5Sub5}{{4.5.5}{40}{Programmierung des Drehzahlmessungsbausteins}{subsubsection.4.5.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {61}{\ignorespaces Relevante Zeilen der Datei \glqq {}rpmMeas.h\grqq {}}}{40}{figure.caption.81}\protected@file@percent }
-\newlabel{fig:rpmMeasH}{{61}{40}{Relevante Zeilen der Datei \glqq {}rpmMeas.h\grqq {}}{figure.caption.81}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {62}{\ignorespaces Funktionen RPMMEAS\_Init und CTIMER2\_Init in der Datei \glqq {}rpmMeas.c\grqq {}}}{41}{figure.caption.82}\protected@file@percent }
-\newlabel{fig:rpmMeasC0}{{62}{41}{Funktionen RPMMEAS\_Init und CTIMER2\_Init in der Datei \glqq {}rpmMeas.c\grqq {}}{figure.caption.82}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {63}{\ignorespaces Interrupt Service Routinen für Zeitermittlung zwischen zwei Capture-Flanken}}{42}{figure.caption.83}\protected@file@percent }
-\newlabel{fig:isr}{{63}{42}{Interrupt Service Routinen für Zeitermittlung zwischen zwei Capture-Flanken}{figure.caption.83}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {64}{\ignorespaces Funktionen zur Berechnung des Mittelwerts der Zeiten zwischen den Capture-Flanken}}{43}{figure.caption.84}\protected@file@percent }
-\newlabel{fig:calculation}{{64}{43}{Funktionen zur Berechnung des Mittelwerts der Zeiten zwischen den Capture-Flanken}{figure.caption.84}{}}
+\acronymused{OPV}
+\acronymused{OPV}
+\acronymused{OPV}
+\acronymused{OPV}
+\@writefile{lof}{\contentsline {figure}{\numberline {57}{\ignorespaces Beispielhafte Messung des OPV-Ausgangssignals bei V+ = 5,0V;}}{36}{figure.caption.76}\protected@file@percent }
+\newlabel{fig:inpInrefOpvOut}{{57}{36}{Beispielhafte Messung des OPV-Ausgangssignals bei V+ = 5,0V;}{figure.caption.76}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {58}{\ignorespaces Schaltung der Drehzahlmessung und zugehöriges Layout}}{37}{figure.caption.77}\protected@file@percent }
+\newlabel{fig:DrehzahlmessSignalvertPlat}{{58}{37}{Schaltung der Drehzahlmessung und zugehöriges Layout}{figure.caption.77}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.4}Programmierung des Drehzahlmessungsbausteins}{38}{subsubsection.4.5.4}\protected@file@percent }
+\newlabel{Sec4Sub5Sub5}{{4.5.4}{38}{Programmierung des Drehzahlmessungsbausteins}{subsubsection.4.5.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {59}{\ignorespaces Relevante Zeilen der Datei \glqq {}rpmMeas.h\grqq {}}}{38}{figure.caption.78}\protected@file@percent }
+\newlabel{fig:rpmMeasH}{{59}{38}{Relevante Zeilen der Datei \glqq {}rpmMeas.h\grqq {}}{figure.caption.78}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {60}{\ignorespaces Funktionen RPMMEAS\_Init und CTIMER2\_Init in der Datei \glqq {}rpmMeas.c\grqq {}}}{39}{figure.caption.79}\protected@file@percent }
+\newlabel{fig:rpmMeasC0}{{60}{39}{Funktionen RPMMEAS\_Init und CTIMER2\_Init in der Datei \glqq {}rpmMeas.c\grqq {}}{figure.caption.79}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {61}{\ignorespaces Interrupt Service Routinen für Zeitermittlung zwischen zwei Capture-Flanken}}{40}{figure.caption.80}\protected@file@percent }
+\newlabel{fig:isr}{{61}{40}{Interrupt Service Routinen für Zeitermittlung zwischen zwei Capture-Flanken}{figure.caption.80}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {62}{\ignorespaces Funktionen zur Berechnung des Mittelwerts der Zeiten zwischen den Capture-Flanken}}{41}{figure.caption.81}\protected@file@percent }
+\newlabel{fig:calculation}{{62}{41}{Funktionen zur Berechnung des Mittelwerts der Zeiten zwischen den Capture-Flanken}{figure.caption.81}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.5}Ausblick Schaltungserweiterung}{42}{subsubsection.4.5.5}\protected@file@percent }
+\newlabel{Sec4Sub5Sub4}{{4.5.5}{42}{Ausblick Schaltungserweiterung}{subsubsection.4.5.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {63}{\ignorespaces Fehlerhafte Rechtecksignal-Erzeugung bei niedrigen Drehzahlen}}{42}{figure.caption.82}\protected@file@percent }
+\newlabel{fig:ProblematikStopThrottle}{{63}{42}{Fehlerhafte Rechtecksignal-Erzeugung bei niedrigen Drehzahlen}{figure.caption.82}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {64}{\ignorespaces Schaltplan der Tiefpass-/Komparatorschaltung nach der Schaltungserweiterung}}{43}{figure.caption.83}\protected@file@percent }
+\newlabel{fig:Schaltungserweiterung}{{64}{43}{Schaltplan der Tiefpass-/Komparatorschaltung nach der Schaltungserweiterung}{figure.caption.83}{}}
+\newlabel{eq4.3}{{3}{43}{Ausblick Schaltungserweiterung}{equation.4.3}{}}
+\newlabel{eq4.4}{{4}{43}{Ausblick Schaltungserweiterung}{equation.4.4}{}}
 \citation{DIYE}
 \citation{DIYE}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Lenkung des Fahrzeugs}{44}{section.5}\protected@file@percent }
@@ -380,76 +384,85 @@
 \acronymused{BLDCMot}
 \acronymused{PWM}
 \acronymused{PWM}
-\@writefile{lof}{\contentsline {figure}{\numberline {65}{\ignorespaces Servomotor mit Anschlussleitungen~\cite  {DIYE}}}{44}{figure.caption.85}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {65}{\ignorespaces Servomotor mit Anschlussleitungen~\cite  {DIYE}}}{44}{figure.caption.84}\protected@file@percent }
 \acronymused{PWM}
-\newlabel{fig:ServoMotor}{{65}{44}{Servomotor mit Anschlussleitungen~\cite {DIYE}}{figure.caption.85}{}}
+\newlabel{fig:ServoMotor}{{65}{44}{Servomotor mit Anschlussleitungen~\cite {DIYE}}{figure.caption.84}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Montage der Lenkungskomponenten}{45}{subsection.5.2}\protected@file@percent }
 \newlabel{Sec5Sub2}{{5.2}{45}{Montage der Lenkungskomponenten}{subsection.5.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {66}{\ignorespaces Montage der Lenkungskomponenten}}{45}{figure.caption.86}\protected@file@percent }
-\newlabel{fig:MontageLenkungskomponenten}{{66}{45}{Montage der Lenkungskomponenten}{figure.caption.86}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {66}{\ignorespaces Montage der Lenkungskomponenten}}{45}{figure.caption.85}\protected@file@percent }
+\newlabel{fig:MontageLenkungskomponenten}{{66}{45}{Montage der Lenkungskomponenten}{figure.caption.85}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Programmierung des Lenkungsbausteins}{46}{subsection.5.3}\protected@file@percent }
 \newlabel{Sec5Sub3}{{5.3}{46}{Programmierung des Lenkungsbausteins}{subsection.5.3}{}}
 \acronymused{PWM}
-\@writefile{lof}{\contentsline {figure}{\numberline {67}{\ignorespaces Relevante Zeilen der Datei \glqq {}servo.h\grqq {}}}{46}{figure.caption.87}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {67}{\ignorespaces Relevante Zeilen der Datei \glqq {}servo.h\grqq {}}}{46}{figure.caption.86}\protected@file@percent }
 \acronymused{PWM}
-\newlabel{fig:ServoH}{{67}{46}{Relevante Zeilen der Datei \glqq {}servo.h\grqq {}}{figure.caption.87}{}}
+\newlabel{fig:ServoH}{{67}{46}{Relevante Zeilen der Datei \glqq {}servo.h\grqq {}}{figure.caption.86}{}}
 \acronymused{PWM}
 \acronymused{CPU}
 \acronymused{PWM}
 \acronymused{EEPROM}
-\@writefile{lof}{\contentsline {figure}{\numberline {68}{\ignorespaces Extremwerte der Lenkwinkel als Parameter aus dem \ac {EEPROM}}}{46}{figure.caption.88}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {68}{\ignorespaces Extremwerte der Lenkwinkel als Parameter aus dem \ac {EEPROM}}}{46}{figure.caption.87}\protected@file@percent }
 \acronymused{EEPROM}
-\newlabel{fig:ServoC0}{{68}{46}{Extremwerte der Lenkwinkel als Parameter aus dem \ac {EEPROM}}{figure.caption.88}{}}
+\newlabel{fig:ServoC0}{{68}{46}{Extremwerte der Lenkwinkel als Parameter aus dem \ac {EEPROM}}{figure.caption.87}{}}
 \acronymused{PWM}
 \acronymused{PWM}
 \acronymused{PWM}
-\@writefile{lof}{\contentsline {figure}{\numberline {69}{\ignorespaces Funktionen SERVO\_Init, CTIMER1\_Init und SERVO\_Demo der Datei \glqq {}drive.c\grqq {}}}{47}{figure.caption.89}\protected@file@percent }
-\newlabel{fig:ServoC1}{{69}{47}{Funktionen SERVO\_Init, CTIMER1\_Init und SERVO\_Demo der Datei \glqq {}drive.c\grqq {}}{figure.caption.89}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {69}{\ignorespaces Funktionen SERVO\_Init, CTIMER1\_Init und SERVO\_Demo der Datei \glqq {}drive.c\grqq {}}}{47}{figure.caption.88}\protected@file@percent }
+\newlabel{fig:ServoC1}{{69}{47}{Funktionen SERVO\_Init, CTIMER1\_Init und SERVO\_Demo der Datei \glqq {}drive.c\grqq {}}{figure.caption.88}{}}
 \acronymused{PWM}
 \acronymused{PWM}
-\@writefile{lof}{\contentsline {figure}{\numberline {70}{\ignorespaces SERVO\_Demo Task der Datei \glqq {}drive.c\grqq {}}}{48}{figure.caption.90}\protected@file@percent }
-\newlabel{fig:ServoC2}{{70}{48}{SERVO\_Demo Task der Datei \glqq {}drive.c\grqq {}}{figure.caption.90}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Bedienungsboard}{49}{section.6}\protected@file@percent }
-\newlabel{Sec6}{{6}{49}{Bedienungsboard}{section.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {70}{\ignorespaces SERVO\_Demo Task der Datei \glqq {}drive.c\grqq {}}}{48}{figure.caption.89}\protected@file@percent }
+\newlabel{fig:ServoC2}{{70}{48}{SERVO\_Demo Task der Datei \glqq {}drive.c\grqq {}}{figure.caption.89}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Bedienungs-Board}{49}{section.6}\protected@file@percent }
+\newlabel{Sec6}{{6}{49}{Bedienungs-Board}{section.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Schaltplan}{49}{subsection.6.1}\protected@file@percent }
 \newlabel{Sec6Sub1}{{6.1}{49}{Schaltplan}{subsection.6.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {71}{\ignorespaces Schaltplan des Bedienungsboards 1}}{49}{figure.caption.91}\protected@file@percent }
-\newlabel{fig:BedienungsBoard1}{{71}{49}{Schaltplan des Bedienungsboards 1}{figure.caption.91}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {72}{\ignorespaces Schaltplan des Bedienungsboards 2}}{50}{figure.caption.92}\protected@file@percent }
-\newlabel{fig:BedienungsBoard2}{{72}{50}{Schaltplan des Bedienungsboards 2}{figure.caption.92}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {71}{\ignorespaces Schaltplan des Bedienungs-Boards 1}}{49}{figure.caption.90}\protected@file@percent }
+\newlabel{fig:BedienungsBoard1}{{71}{49}{Schaltplan des Bedienungs-Boards 1}{figure.caption.90}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {72}{\ignorespaces Schaltplan des Bedienungs-Boards 2}}{50}{figure.caption.91}\protected@file@percent }
+\newlabel{fig:BedienungsBoard2}{{72}{50}{Schaltplan des Bedienungs-Boards 2}{figure.caption.91}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Programmierung der Steuerelemente}{50}{subsection.6.2}\protected@file@percent }
 \newlabel{Sec6Sub3}{{6.2}{50}{Programmierung der Steuerelemente}{subsection.6.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {73}{\ignorespaces Flussablaufdiagramm Taster und Drehencoder einlesen}}{51}{figure.caption.93}\protected@file@percent }
-\newlabel{fig:FlussablaufEncTaster}{{73}{51}{Flussablaufdiagramm Taster und Drehencoder einlesen}{figure.caption.93}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Taster auswerten}{51}{subsubsection.6.2.1}\protected@file@percent }
-\newlabel{sec:Taster}{{6.2.1}{51}{Taster auswerten}{subsubsection.6.2.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Taster auswerten}{50}{subsubsection.6.2.1}\protected@file@percent }
+\newlabel{sec:Taster}{{6.2.1}{50}{Taster auswerten}{subsubsection.6.2.1}{}}
+\citation{Debounce}
+\@writefile{lof}{\contentsline {figure}{\numberline {73}{\ignorespaces Flussablaufdiagramm Taster und Drehencoder einlesen}}{51}{figure.caption.92}\protected@file@percent }
+\newlabel{fig:FlussablaufEncTaster}{{73}{51}{Flussablaufdiagramm Taster und Drehencoder einlesen}{figure.caption.92}{}}
+\citation{ENC}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Drehencoder auswerten}{52}{subsubsection.6.2.2}\protected@file@percent }
 \newlabel{sec:Drehencoder}{{6.2.2}{52}{Drehencoder auswerten}{subsubsection.6.2.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Programmierung der Anzeige}{53}{subsection.6.3}\protected@file@percent }
 \newlabel{Sec6Sub2}{{6.3}{53}{Programmierung der Anzeige}{subsection.6.3}{}}
 \acronymused{OLED}
 \AC@undonewlabel{acro:I2C}
-\newlabel{acro:I2C}{{6.3}{53}{Programmierung der Anzeige}{section*.94}{}}
+\newlabel{acro:I2C}{{6.3}{53}{Programmierung der Anzeige}{section*.93}{}}
 \acronymused{I2C}
 \acronymused{I2C}
 \acronymused{OLED}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.1}Funktionsweise des \acl {OLED}s}{53}{subsubsection.6.3.1}\protected@file@percent }
 \newlabel{sec:FunktionOLED}{{6.3.1}{53}{Funktionsweise des \acl {OLED}s}{subsubsection.6.3.1}{}}
 \AC@undonewlabel{acro:RAM}
-\newlabel{acro:RAM}{{6.3.1}{53}{Funktionsweise des \acl {OLED}s}{section*.95}{}}
+\newlabel{acro:RAM}{{6.3.1}{53}{Funktionsweise des \acl {OLED}s}{section*.94}{}}
 \acronymused{RAM}
 \acronymused{RAM}
 \acronymused{RAM}
-\@writefile{lof}{\contentsline {figure}{\numberline {74}{\ignorespaces Schaltplan OLED}}{54}{figure.caption.96}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {74}{\ignorespaces Schaltplan OLED}}{54}{figure.caption.95}\protected@file@percent }
 \acronymused{OLED}
-\newlabel{fig:OLEDSchaltplan}{{74}{54}{Schaltplan OLED}{figure.caption.96}{}}
+\newlabel{fig:OLEDSchaltplan}{{74}{54}{Schaltplan OLED}{figure.caption.95}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.2}I2C Ansteuerung}{54}{subsubsection.6.3.2}\protected@file@percent }
 \newlabel{sec:OLEDI2C}{{6.3.2}{54}{I2C Ansteuerung}{subsubsection.6.3.2}{}}
 \acronymused{OLED}
 \acronymused{I2C}
+\AC@undonewlabel{acro:UART}
+\newlabel{acro:UART}{{6.3.2}{54}{I2C Ansteuerung}{section*.96}{}}
+\acronymused{UART}
+\acronymused{I2C}
+\citation{Semic}
+\citation{SSD1309}
+\newlabel{eq:I2CTakt}{{5}{55}{I2C Ansteuerung}{equation.6.5}{}}
 \acronymused{I2C}
 \AC@undonewlabel{acro:DMA}
-\newlabel{acro:DMA}{{6.3.2}{54}{I2C Ansteuerung}{section*.97}{}}
+\newlabel{acro:DMA}{{6.3.2}{55}{I2C Ansteuerung}{section*.97}{}}
 \acronymused{DMA}
 \acronymused{DMA}
 \acronymused{I2C}
@@ -457,98 +470,140 @@
 \acronymused{I2C}
 \acronymused{DMA}
 \acronymused{OLED}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.3}Konfiguration des Displays}{55}{subsubsection.6.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.3}Konfiguration des Displays}{56}{subsubsection.6.3.3}\protected@file@percent }
 \acronymused{OLED}
 \acronymused{RAM}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Initialisierungswert \ac {OLED}}}{56}{table.caption.98}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Initialisierungswert \ac {OLED}}}{57}{table.caption.98}\protected@file@percent }
 \acronymused{I2C}
 \acronymused{OLED}
-\newlabel{tab:InitOLED}{{2}{56}{Initialisierungswert \ac {OLED}}{table.caption.98}{}}
+\newlabel{tab:InitOLED}{{2}{57}{Initialisierungswert \ac {OLED}}{table.caption.98}{}}
 \acronymused{OLED}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Darstellungen auf dem \acl {OLED}}{56}{subsection.6.4}\protected@file@percent }
-\newlabel{sec:OLEDDarstellen}{{6.4}{56}{Darstellungen auf dem \acl {OLED}}{subsection.6.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Darstellungen auf dem \acl {OLED}}{57}{subsection.6.4}\protected@file@percent }
+\newlabel{sec:OLEDDarstellen}{{6.4}{57}{Darstellungen auf dem \acl {OLED}}{subsection.6.4}{}}
 \acronymused{OLED}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.1}Pixelansteuerung}{57}{subsubsection.6.4.1}\protected@file@percent }
 \newlabel{sec:OLEDPixel}{{6.4.1}{57}{Pixelansteuerung}{subsubsection.6.4.1}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.2}Rechteck zeichnen}{57}{subsubsection.6.4.2}\protected@file@percent }
 \newlabel{sec:OLEDRect}{{6.4.2}{57}{Rechteck zeichnen}{subsubsection.6.4.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.3}Buchstabe darstellen}{57}{subsubsection.6.4.3}\protected@file@percent }
-\newlabel{sec:OLEDBuchstabe}{{6.4.3}{57}{Buchstabe darstellen}{subsubsection.6.4.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.4}Text darstellen}{57}{subsubsection.6.4.4}\protected@file@percent }
-\newlabel{sec:OLEDText}{{6.4.4}{57}{Text darstellen}{subsubsection.6.4.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.5}Bilder darstellen}{57}{subsubsection.6.4.5}\protected@file@percent }
-\newlabel{sec:OLEDBild}{{6.4.5}{57}{Bilder darstellen}{subsubsection.6.4.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Menuführung}{58}{subsection.6.5}\protected@file@percent }
-\newlabel{sec:OLEDMenu}{{6.5}{58}{Menuführung}{subsection.6.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.3}Buchstabe darstellen}{58}{subsubsection.6.4.3}\protected@file@percent }
+\newlabel{sec:OLEDBuchstabe}{{6.4.3}{58}{Buchstabe darstellen}{subsubsection.6.4.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.4}Text darstellen}{58}{subsubsection.6.4.4}\protected@file@percent }
+\newlabel{sec:OLEDText}{{6.4.4}{58}{Text darstellen}{subsubsection.6.4.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.4.5}Bilder darstellen}{58}{subsubsection.6.4.5}\protected@file@percent }
+\newlabel{sec:OLEDBild}{{6.4.5}{58}{Bilder darstellen}{subsubsection.6.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Menüführung}{58}{subsection.6.5}\protected@file@percent }
+\newlabel{sec:OLEDMenu}{{6.5}{58}{Menüführung}{subsection.6.5}{}}
+\acronymused{OLED}
+\acronymused{BLDCMot}
+\acronymused{HMI}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6}Aufbau des \aclp {HMI}}{59}{subsection.6.6}\protected@file@percent }
+\AC@undonewlabel{acro:HMI}
+\newlabel{acro:HMI}{{6.6}{59}{Aufbau des \aclp {HMI}}{section*.99}{}}
+\acronymused{HMI}
+\acronymused{OLED}
+\acronymused{NXP}
+\acronymused{BLDCMot}
+\acronymused{PWM}
+\acronymused{BLDCMot}
+\acronymused{BLDCMot}
+\acronymused{OLED}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.7}Anleitung zum Hinzufügen eines neuen Menüs}{60}{subsection.6.7}\protected@file@percent }
+\newlabel{sec:MenüHinzufügen}{{6.7}{60}{Anleitung zum Hinzufügen eines neuen Menüs}{subsection.6.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {75}{\ignorespaces Schritt 1: Erstellen eines neuen Menüeintrags}}{61}{figure.caption.100}\protected@file@percent }
+\newlabel{fig:AddMenu1}{{75}{61}{Schritt 1: Erstellen eines neuen Menüeintrags}{figure.caption.100}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {76}{\ignorespaces Schritt 2: Erhöhen der Anzahl der Menüeinträge um eins}}{61}{figure.caption.101}\protected@file@percent }
+\newlabel{fig:AddMenu2}{{76}{61}{Schritt 2: Erhöhen der Anzahl der Menüeinträge um eins}{figure.caption.101}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {77}{\ignorespaces Schritt 3: Erstellen einer Funktion zum Menüaufruf}}{61}{figure.caption.102}\protected@file@percent }
+\newlabel{fig:AddMenuFunktion}{{77}{61}{Schritt 3: Erstellen einer Funktion zum Menüaufruf}{figure.caption.102}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {78}{\ignorespaces Schritt 4.1: Liste mit Einträgen des neuen Menüs erstellen}}{62}{figure.caption.103}\protected@file@percent }
+\newlabel{fig:AddMenu3}{{78}{62}{Schritt 4.1: Liste mit Einträgen des neuen Menüs erstellen}{figure.caption.103}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {79}{\ignorespaces Schritt 4.2: Hinzufügen des Menü Handlers im Header}}{62}{figure.caption.104}\protected@file@percent }
+\newlabel{fig:AddMenuPrototyp}{{79}{62}{Schritt 4.2: Hinzufügen des Menü Handlers im Header}{figure.caption.104}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {80}{\ignorespaces Schritt 5: Deklarieren der notwendige Variablen und Funktionen für die neuen Untermenüs}}{62}{figure.caption.105}\protected@file@percent }
+\newlabel{fig:PageFunction}{{80}{62}{Schritt 5: Deklarieren der notwendige Variablen und Funktionen für die neuen Untermenüs}{figure.caption.105}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {81}{\ignorespaces Anzeige des neu erstellten Menüs auf dem \ac {OLED}ü}}{63}{figure.caption.106}\protected@file@percent }
+\acronymused{OLED}
+\newlabel{fig:NewMenu}{{81}{63}{Anzeige des neu erstellten Menüs auf dem \ac {OLED}ü}{figure.caption.106}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {82}{\ignorespaces Mit der Funktion \glqq func\_Page\grqq {} erzeugter, voll gefüllter Bildschirm}}{63}{figure.caption.107}\protected@file@percent }
+\newlabel{fig:funcPage}{{82}{63}{Mit der Funktion \glqq func\_Page\grqq {} erzeugter, voll gefüllter Bildschirm}{figure.caption.107}{}}
+\acronymused{EEPROM}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.8}Verwendung des \aclp {EEPROM}}{63}{subsection.6.8}\protected@file@percent }
+\newlabel{sec:EEPROM}{{6.8}{63}{Verwendung des \aclp {EEPROM}}{subsection.6.8}{}}
+\acronymused{OLED}
+\acronymused{EEPROM}
+\acronymused{EEPROM}
+\acronymused{EEPROM}
+\acronymused{EEPROM}
+\acronymused{EEPROM}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.9}Ausblick zur Programmierung des Displays}{64}{subsection.6.9}\protected@file@percent }
+\newlabel{sec:DispAusblick}{{6.9}{64}{Ausblick zur Programmierung des Displays}{subsection.6.9}{}}
+\acronymused{OLED}
 \citation{Taos}
 \citation{Taos}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Streckenerkennung des Fahrzeugs}{59}{section.7}\protected@file@percent }
-\newlabel{Sec7}{{7}{59}{Streckenerkennung des Fahrzeugs}{section.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Kamera des Fahrzeugs}{59}{subsection.7.1}\protected@file@percent }
-\newlabel{Sec7Sub1}{{7.1}{59}{Kamera des Fahrzeugs}{subsection.7.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {75}{\ignorespaces Pinbelegung der Taos Zeilenkamera TSL1401R-LF ~\cite {Taos}}}{59}{figure.caption.99}\protected@file@percent }
-\newlabel{fig:CamPinning}{{75}{59}{Pinbelegung der Taos Zeilenkamera TSL1401R-LF ~\protect \cite {Taos}}{figure.caption.99}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Streckenerkennung des Fahrzeugs}{65}{section.7}\protected@file@percent }
+\newlabel{Sec7}{{7}{65}{Streckenerkennung des Fahrzeugs}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Kamera des Fahrzeugs}{65}{subsection.7.1}\protected@file@percent }
+\newlabel{Sec7Sub1}{{7.1}{65}{Kamera des Fahrzeugs}{subsection.7.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {83}{\ignorespaces Pinbelegung der Taos Zeilenkamera TSL1401R-LF ~\cite {Taos}}}{65}{figure.caption.108}\protected@file@percent }
+\newlabel{fig:CamPinning}{{83}{65}{Pinbelegung der Taos Zeilenkamera TSL1401R-LF ~\protect \cite {Taos}}{figure.caption.108}{}}
 \citation{Taos}
 \citation{Taos}
 \citation{Taos}
 \citation{Taos}
-\@writefile{lof}{\contentsline {figure}{\numberline {76}{\ignorespaces Zeitverlauf einzelner Pixeltransfers aus Sicht der Kamera ~\cite {Taos}}}{60}{figure.caption.100}\protected@file@percent }
-\newlabel{fig:CamWaveform}{{76}{60}{Zeitverlauf einzelner Pixeltransfers aus Sicht der Kamera ~\protect \cite {Taos}}{figure.caption.100}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {77}{\ignorespaces Zeitverlauf eines vollständigen Bildtransfers aus Sicht der Kamera ~\cite {Taos}}}{60}{figure.caption.101}\protected@file@percent }
-\newlabel{fig:TimingWaveform}{{77}{60}{Zeitverlauf eines vollständigen Bildtransfers aus Sicht der Kamera ~\protect \cite {Taos}}{figure.caption.101}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Ablauf einer Bildaufnahme}{61}{subsection.7.2}\protected@file@percent }
-\newlabel{Sec7Sub2}{{7.2}{61}{Ablauf einer Bildaufnahme}{subsection.7.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {78}{\ignorespaces Zeitlicher Ablauf einer einzelnen Bildaufnahme aus Sicht des Controllers}}{61}{figure.caption.102}\protected@file@percent }
-\newlabel{fig:CAMProcedure}{{78}{61}{Zeitlicher Ablauf einer einzelnen Bildaufnahme aus Sicht des Controllers}{figure.caption.102}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Programmierung der zyklischen Bildaufnahme}{62}{subsection.7.3}\protected@file@percent }
-\newlabel{Sec7Sub3}{{7.3}{62}{Programmierung der zyklischen Bildaufnahme}{subsection.7.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {79}{\ignorespaces Prototypen der Kamerafunktionen in der Datei \glqq {}camera.h\grqq {}}}{62}{figure.caption.103}\protected@file@percent }
-\newlabel{fig:camh}{{79}{62}{Prototypen der Kamerafunktionen in der Datei \glqq {}camera.h\grqq {}}{figure.caption.103}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {80}{\ignorespaces Funktion \glqq {}CAM\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{62}{figure.caption.104}\protected@file@percent }
-\newlabel{fig:CAMInit}{{80}{62}{Funktion \glqq {}CAM\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.104}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {81}{\ignorespaces Funktion \glqq {}CTIMER0\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{63}{figure.caption.105}\protected@file@percent }
-\newlabel{fig:CTIMER0Init}{{81}{63}{Funktion \glqq {}CTIMER0\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.105}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {82}{\ignorespaces Funktion \glqq {}SCTimer\_Clock\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{64}{figure.caption.106}\protected@file@percent }
-\newlabel{fig:SCTClockConfig}{{82}{64}{Funktion \glqq {}SCTimer\_Clock\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.106}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {83}{\ignorespaces Funktion \glqq {}SCTimer\_CamCLK\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{65}{figure.caption.107}\protected@file@percent }
-\newlabel{fig:SCTimerCamCLKInit}{{83}{65}{Funktion \glqq {}SCTimer\_CamCLK\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.107}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {84}{\ignorespaces Funktion \glqq {}SCTimer\_SIEvents\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{66}{figure.caption.108}\protected@file@percent }
-\newlabel{fig:SCTimerSIEventsInit}{{84}{66}{Funktion \glqq {}SCTimer\_SIEvents\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.108}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {85}{\ignorespaces Interrupt Service Routine \glqq {}CTIMER0\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{66}{figure.caption.109}\protected@file@percent }
-\newlabel{fig:CTIMER0IRQHandler}{{85}{66}{Interrupt Service Routine \glqq {}CTIMER0\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.109}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {86}{\ignorespaces Funktion \glqq {}SCTimer\_ADCTrigger\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{67}{figure.caption.110}\protected@file@percent }
-\newlabel{fig:SCTimerADCTriggerInit}{{86}{67}{Funktion \glqq {}SCTimer\_ADCTrigger\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.110}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {87}{\ignorespaces Funktion \glqq {}ADC\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{68}{figure.caption.111}\protected@file@percent }
-\newlabel{fig:ADCConfig}{{87}{68}{Funktion \glqq {}ADC\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.111}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {88}{\ignorespaces Funktion \glqq {}ADC\_Calibration\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{69}{figure.caption.112}\protected@file@percent }
-\newlabel{fig:ADCCalibration}{{88}{69}{Funktion \glqq {}ADC\_Calibration\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.112}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {89}{\ignorespaces Interrupt Service Routine \glqq {}ADC0\_SEQA\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{69}{figure.caption.113}\protected@file@percent }
-\newlabel{fig:ADC0SEQAIRGHandler}{{89}{69}{Interrupt Service Routine \glqq {}ADC0\_SEQA\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.113}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {90}{\ignorespaces Algorithmus für die Bestimmung der Spannungswerte und logischen Werte der Pixel}}{70}{figure.caption.114}\protected@file@percent }
-\newlabel{fig:PixelCalc}{{90}{70}{Algorithmus für die Bestimmung der Spannungswerte und logischen Werte der Pixel}{figure.caption.114}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Verteilerplatinen}{71}{section.8}\protected@file@percent }
-\newlabel{Sec8}{{8}{71}{Verteilerplatinen}{section.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Leistungsverteiler auf der unteren Fahrzeugebene}{71}{subsection.8.1}\protected@file@percent }
-\newlabel{Sec8Sub1}{{8.1}{71}{Leistungsverteiler auf der unteren Fahrzeugebene}{subsection.8.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {84}{\ignorespaces Zeitverlauf einzelner Pixeltransfers aus Sicht der Kamera ~\cite {Taos}}}{66}{figure.caption.109}\protected@file@percent }
+\newlabel{fig:CamWaveform}{{84}{66}{Zeitverlauf einzelner Pixeltransfers aus Sicht der Kamera ~\protect \cite {Taos}}{figure.caption.109}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {85}{\ignorespaces Zeitverlauf eines vollständigen Bildtransfers aus Sicht der Kamera ~\cite {Taos}}}{66}{figure.caption.110}\protected@file@percent }
+\newlabel{fig:TimingWaveform}{{85}{66}{Zeitverlauf eines vollständigen Bildtransfers aus Sicht der Kamera ~\protect \cite {Taos}}{figure.caption.110}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Ablauf einer Bildaufnahme}{67}{subsection.7.2}\protected@file@percent }
+\newlabel{Sec7Sub2}{{7.2}{67}{Ablauf einer Bildaufnahme}{subsection.7.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {86}{\ignorespaces Zeitlicher Ablauf einer einzelnen Bildaufnahme aus Sicht des Controllers}}{67}{figure.caption.111}\protected@file@percent }
+\newlabel{fig:CAMProcedure}{{86}{67}{Zeitlicher Ablauf einer einzelnen Bildaufnahme aus Sicht des Controllers}{figure.caption.111}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Programmierung der zyklischen Bildaufnahme}{68}{subsection.7.3}\protected@file@percent }
+\newlabel{Sec7Sub3}{{7.3}{68}{Programmierung der zyklischen Bildaufnahme}{subsection.7.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {87}{\ignorespaces Prototypen der Kamerafunktionen in der Datei \glqq {}camera.h\grqq {}}}{68}{figure.caption.112}\protected@file@percent }
+\newlabel{fig:camh}{{87}{68}{Prototypen der Kamerafunktionen in der Datei \glqq {}camera.h\grqq {}}{figure.caption.112}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {88}{\ignorespaces Funktion \glqq {}CAM\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{68}{figure.caption.113}\protected@file@percent }
+\newlabel{fig:CAMInit}{{88}{68}{Funktion \glqq {}CAM\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.113}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {89}{\ignorespaces Funktion \glqq {}CTIMER0\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{69}{figure.caption.114}\protected@file@percent }
+\newlabel{fig:CTIMER0Init}{{89}{69}{Funktion \glqq {}CTIMER0\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.114}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {90}{\ignorespaces Funktion \glqq {}SCTimer\_Clock\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{70}{figure.caption.115}\protected@file@percent }
+\newlabel{fig:SCTClockConfig}{{90}{70}{Funktion \glqq {}SCTimer\_Clock\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.115}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {91}{\ignorespaces Funktion \glqq {}SCTimer\_CamCLK\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{71}{figure.caption.116}\protected@file@percent }
+\newlabel{fig:SCTimerCamCLKInit}{{91}{71}{Funktion \glqq {}SCTimer\_CamCLK\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.116}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {92}{\ignorespaces Funktion \glqq {}SCTimer\_SIEvents\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{72}{figure.caption.117}\protected@file@percent }
+\newlabel{fig:SCTimerSIEventsInit}{{92}{72}{Funktion \glqq {}SCTimer\_SIEvents\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.117}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {93}{\ignorespaces Interrupt Service Routine \glqq {}CTIMER0\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{73}{figure.caption.118}\protected@file@percent }
+\newlabel{fig:CTIMER0IRQHandler}{{93}{73}{Interrupt Service Routine \glqq {}CTIMER0\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.118}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {94}{\ignorespaces Funktion \glqq {}SCTimer\_ADCTrigger\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{73}{figure.caption.119}\protected@file@percent }
+\newlabel{fig:SCTimerADCTriggerInit}{{94}{73}{Funktion \glqq {}SCTimer\_ADCTrigger\_Init\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.119}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {95}{\ignorespaces Funktion \glqq {}ADC\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{74}{figure.caption.120}\protected@file@percent }
+\newlabel{fig:ADCConfig}{{95}{74}{Funktion \glqq {}ADC\_Config\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.120}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {96}{\ignorespaces Funktion \glqq {}ADC\_Calibration\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{75}{figure.caption.121}\protected@file@percent }
+\newlabel{fig:ADCCalibration}{{96}{75}{Funktion \glqq {}ADC\_Calibration\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.121}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {97}{\ignorespaces Interrupt Service Routine \glqq {}ADC0\_SEQA\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}}{76}{figure.caption.122}\protected@file@percent }
+\newlabel{fig:ADC0SEQAIRGHandler}{{97}{76}{Interrupt Service Routine \glqq {}ADC0\_SEQA\_IRQHandler\grqq {} aus der Datei \glqq {}camera.c\grqq {}}{figure.caption.122}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {98}{\ignorespaces Algorithmus für die Bestimmung der Spannungswerte und logischen Werte der Pixel}}{76}{figure.caption.123}\protected@file@percent }
+\newlabel{fig:PixelCalc}{{98}{76}{Algorithmus für die Bestimmung der Spannungswerte und logischen Werte der Pixel}{figure.caption.123}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Verteilerplatinen}{77}{section.8}\protected@file@percent }
+\newlabel{Sec8}{{8}{77}{Verteilerplatinen}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Leistungsverteiler auf der unteren Fahrzeugebene}{77}{subsection.8.1}\protected@file@percent }
+\newlabel{Sec8Sub1}{{8.1}{77}{Leistungsverteiler auf der unteren Fahrzeugebene}{subsection.8.1}{}}
 \acronymused{ESC}
-\@writefile{lof}{\contentsline {figure}{\numberline {91}{\ignorespaces Leistungsverteilerplatine auf der unteren Fahrzeugebene}}{71}{figure.caption.115}\protected@file@percent }
-\newlabel{fig:Leistungsverteilerplatine}{{91}{71}{Leistungsverteilerplatine auf der unteren Fahrzeugebene}{figure.caption.115}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Signalverteilerplatine auf der oberen Fahrzeugebene}{71}{subsection.8.2}\protected@file@percent }
-\newlabel{Sec8Sub2}{{8.2}{71}{Signalverteilerplatine auf der oberen Fahrzeugebene}{subsection.8.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {92}{\ignorespaces Signalverteilerplatine auf der oberen Fahrzeugebene}}{72}{figure.caption.116}\protected@file@percent }
-\newlabel{fig:Signalverteilerplatine}{{92}{72}{Signalverteilerplatine auf der oberen Fahrzeugebene}{figure.caption.116}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {9}Zusammenfassung, Fazit und Ausblick}{73}{section.9}\protected@file@percent }
-\newlabel{Sec11}{{9}{73}{Zusammenfassung, Fazit und Ausblick}{section.9}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Zusammenfassung und Fazit}{73}{subsection.9.1}\protected@file@percent }
-\newlabel{Sec11Sub1}{{9.1}{73}{Zusammenfassung und Fazit}{subsection.9.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Ausblick}{73}{subsection.9.2}\protected@file@percent }
-\newlabel{Sec11Sub2}{{9.2}{73}{Ausblick}{subsection.9.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {99}{\ignorespaces Leistungsverteilerplatine auf der unteren Fahrzeugebene}}{77}{figure.caption.124}\protected@file@percent }
+\newlabel{fig:Leistungsverteilerplatine}{{99}{77}{Leistungsverteilerplatine auf der unteren Fahrzeugebene}{figure.caption.124}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Signalverteilerplatine auf der oberen Fahrzeugebene}{78}{subsection.8.2}\protected@file@percent }
+\newlabel{Sec8Sub2}{{8.2}{78}{Signalverteilerplatine auf der oberen Fahrzeugebene}{subsection.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {100}{\ignorespaces Signalverteilerplatine auf der oberen Fahrzeugebene}}{78}{figure.caption.125}\protected@file@percent }
+\newlabel{fig:Signalverteilerplatine}{{100}{78}{Signalverteilerplatine auf der oberen Fahrzeugebene}{figure.caption.125}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Zusammenfassung, Fazit und Ausblick}{79}{section.9}\protected@file@percent }
+\newlabel{Sec11}{{9}{79}{Zusammenfassung, Fazit und Ausblick}{section.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Zusammenfassung und Fazit}{79}{subsection.9.1}\protected@file@percent }
+\newlabel{Sec11Sub1}{{9.1}{79}{Zusammenfassung und Fazit}{subsection.9.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Ausblick}{79}{subsection.9.2}\protected@file@percent }
+\newlabel{Sec11Sub2}{{9.2}{79}{Ausblick}{subsection.9.2}{}}
 \citation{Semic}
 \@writefile{toc}{\contentsline {section}{Abbildungsverzeichnis}{VI}{subsection.9.2}\protected@file@percent }
 \citation{DIYE}
-\citation{Taos}
-\citation{Taos}
-\citation{Taos}
 \acronymused{ESC}
 \acronymused{BLDCMot}
 \acronymused{ESC}
@@ -557,15 +612,23 @@
 \acronymused{EEPROM}
 \acronymused{BLDCMot}
 \acronymused{EEPROM}
+\citation{Taos}
+\citation{Taos}
+\citation{Taos}
+\acronymused{OLED}
 \bibstyle{alphadin}
 \bibdata{Projektbericht_Cites}
 \bibcite{DIYE}{DIY21}
+\bibcite{ENC}{mika}
+\bibcite{Debounce}{mikb}
 \bibcite{Semic}{Sem19}
+\bibcite{SSD1309}{SSD11}
 \bibcite{Taos}{Tao06}
+\bibcite{OPVModel}{TI}
 \bibcite{MWil}{Wil20}
-\@writefile{toc}{\contentsline {section}{Quellenverzeichnis}{IX}{section*.117}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{Anhang}{X}{section*.118}\protected@file@percent }
-\newlabel{SecAtt1}{{9.2}{X}{Anhang 1: Schaltplan}{section*.119}{}}
-\newlabel{SecAtt2}{{9.2}{XI}{Anhang 2: Pin Assignment}{section*.120}{}}
-\newlabel{Att:PinAssignment}{{\caption@xref {Att:PinAssignment}{ on input line 30}}{XI}{Anhang 2: Pin Assignment}{figure.caption.121}{}}
-\gdef \@abspage@last{84}
+\@writefile{toc}{\contentsline {section}{Quellenverzeichnis}{IX}{section*.126}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{Anhang}{X}{section*.127}\protected@file@percent }
+\newlabel{SecAtt1}{{9.2}{X}{Anhang 1: Schaltplan}{section*.128}{}}
+\newlabel{SecAtt2}{{9.2}{XI}{Anhang 2: Pin Assignment}{section*.129}{}}
+\newlabel{Att:PinAssignment}{{\caption@xref {Att:PinAssignment}{ on input line 30}}{XI}{Anhang 2: Pin Assignment}{figure.caption.130}{}}
+\gdef \@abspage@last{90}

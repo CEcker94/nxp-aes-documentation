@@ -16,47 +16,51 @@
 \contentsline {subsubsection}{\numberline {2.2.6}Kamerahalterung}{14}{subsubsection.2.2.6}%
 \contentsline {subsubsection}{\numberline {2.2.7}Antriebs-Abdeckung}{15}{subsubsection.2.2.7}%
 \contentsline {section}{\numberline {3}Controllerplatine und Programmiertool}{17}{section.3}%
-\contentsline {section}{\numberline {4}Antrieb des Fahrzeugs}{18}{section.4}%
-\contentsline {subsection}{\numberline {4.1}BLDC-Antrieb und Motorcontroller}{18}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Montage der Antriebskomponenten}{19}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Konfiguration der Motorcontroller}{20}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Programmierung des Antriebsbausteins}{22}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Drehzahlmessung}{26}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Erörterung der Notwendigkeit einer Drehzahlmessung}{26}{subsubsection.4.5.1}%
-\contentsline {subsubsection}{\numberline {4.5.2}Auswahl des Messprinzips}{29}{subsubsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.3}Hardware für die Drehzahlmessung}{32}{subsubsection.4.5.3}%
-\contentsline {subsubsection}{\numberline {4.5.4}Ausblick Schaltungserweiterung}{38}{subsubsection.4.5.4}%
-\contentsline {subsubsection}{\numberline {4.5.5}Programmierung des Drehzahlmessungsbausteins}{40}{subsubsection.4.5.5}%
+\contentsline {section}{\numberline {4}Antrieb des Fahrzeugs}{19}{section.4}%
+\contentsline {subsection}{\numberline {4.1}BLDC-Antrieb und Motorcontroller}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Montage der Antriebskomponenten}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Konfiguration der Motorcontroller}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Programmierung des Antriebsbausteins}{23}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Drehzahlmessung}{27}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Erörterung der Notwendigkeit einer Drehzahlmessung}{27}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Auswahl des Messprinzips}{30}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Hardware für die Drehzahlmessung}{33}{subsubsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.4}Programmierung des Drehzahlmessungsbausteins}{38}{subsubsection.4.5.4}%
+\contentsline {subsubsection}{\numberline {4.5.5}Ausblick Schaltungserweiterung}{42}{subsubsection.4.5.5}%
 \contentsline {section}{\numberline {5}Lenkung des Fahrzeugs}{44}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Servoantrieb}{44}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Montage der Lenkungskomponenten}{45}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Programmierung des Lenkungsbausteins}{46}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Bedienungsboard}{49}{section.6}%
+\contentsline {section}{\numberline {6}Bedienungs-Board}{49}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Schaltplan}{49}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Programmierung der Steuerelemente}{50}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Taster auswerten}{51}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1}Taster auswerten}{50}{subsubsection.6.2.1}%
 \contentsline {subsubsection}{\numberline {6.2.2}Drehencoder auswerten}{52}{subsubsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.3}Programmierung der Anzeige}{53}{subsection.6.3}%
 \contentsline {subsubsection}{\numberline {6.3.1}Funktionsweise des \acl {OLED}s}{53}{subsubsection.6.3.1}%
 \contentsline {subsubsection}{\numberline {6.3.2}I2C Ansteuerung}{54}{subsubsection.6.3.2}%
-\contentsline {subsubsection}{\numberline {6.3.3}Konfiguration des Displays}{55}{subsubsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.4}Darstellungen auf dem \acl {OLED}}{56}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.3.3}Konfiguration des Displays}{56}{subsubsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.4}Darstellungen auf dem \acl {OLED}}{57}{subsection.6.4}%
 \contentsline {subsubsection}{\numberline {6.4.1}Pixelansteuerung}{57}{subsubsection.6.4.1}%
 \contentsline {subsubsection}{\numberline {6.4.2}Rechteck zeichnen}{57}{subsubsection.6.4.2}%
-\contentsline {subsubsection}{\numberline {6.4.3}Buchstabe darstellen}{57}{subsubsection.6.4.3}%
-\contentsline {subsubsection}{\numberline {6.4.4}Text darstellen}{57}{subsubsection.6.4.4}%
-\contentsline {subsubsection}{\numberline {6.4.5}Bilder darstellen}{57}{subsubsection.6.4.5}%
-\contentsline {subsection}{\numberline {6.5}Menuführung}{58}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Streckenerkennung des Fahrzeugs}{59}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Kamera des Fahrzeugs}{59}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Ablauf einer Bildaufnahme}{61}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Programmierung der zyklischen Bildaufnahme}{62}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Verteilerplatinen}{71}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Leistungsverteiler auf der unteren Fahrzeugebene}{71}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Signalverteilerplatine auf der oberen Fahrzeugebene}{71}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Zusammenfassung, Fazit und Ausblick}{73}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Zusammenfassung und Fazit}{73}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Ausblick}{73}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Buchstabe darstellen}{58}{subsubsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.4}Text darstellen}{58}{subsubsection.6.4.4}%
+\contentsline {subsubsection}{\numberline {6.4.5}Bilder darstellen}{58}{subsubsection.6.4.5}%
+\contentsline {subsection}{\numberline {6.5}Menüführung}{58}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Aufbau des \aclp {HMI}}{59}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Anleitung zum Hinzufügen eines neuen Menüs}{60}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Verwendung des \aclp {EEPROM}}{63}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Ausblick zur Programmierung des Displays}{64}{subsection.6.9}%
+\contentsline {section}{\numberline {7}Streckenerkennung des Fahrzeugs}{65}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Kamera des Fahrzeugs}{65}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Ablauf einer Bildaufnahme}{67}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Programmierung der zyklischen Bildaufnahme}{68}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Verteilerplatinen}{77}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Leistungsverteiler auf der unteren Fahrzeugebene}{77}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Signalverteilerplatine auf der oberen Fahrzeugebene}{78}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Zusammenfassung, Fazit und Ausblick}{79}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Zusammenfassung und Fazit}{79}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Ausblick}{79}{subsection.9.2}%
 \contentsline {section}{Abbildungsverzeichnis}{VI}{subsection.9.2}%
-\contentsline {section}{Quellenverzeichnis}{IX}{section*.117}%
-\contentsline {section}{Anhang}{X}{section*.118}%
+\contentsline {section}{Quellenverzeichnis}{IX}{section*.126}%
+\contentsline {section}{Anhang}{X}{section*.127}%

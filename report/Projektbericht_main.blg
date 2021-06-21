@@ -11,50 +11,56 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Projektbericht_Cites.bib
 Warning--to sort, need author, organization, or key in Semic
+Warning--to sort, need author, organization, or key in SSD1309
 Warning--to sort, need author, organization, or key in Taos
+Warning--empty year in ENC
+Warning--empty year in Debounce
 Warning--empty edition in Semic
 Warning--empty address in Semic
+Warning--empty edition in SSD1309
+Warning--empty address in SSD1309
 Warning--empty edition in Taos
 Warning--empty address in Taos
-You've used 4 entries,
+Warning--empty year in OPVModel
+You've used 8 entries,
             4793 wiz_defined-function locations,
-            910 strings with 6986 characters,
-and the built_in function-call counts, 1424 in all, are:
-= -- 151
-> -- 18
-< -- 13
-+ -- 13
-- -- 4
-* -- 86
-:= -- 232
-add.period$ -- 4
-call.type$ -- 4
-change.case$ -- 14
-chr.to.int$ -- 4
-cite$ -- 12
-duplicate$ -- 58
-empty$ -- 129
-format.name$ -- 12
-if$ -- 307
-int.to.chr$ -- 1
+            929 strings with 7521 characters,
+and the built_in function-call counts, 2801 in all, are:
+= -- 300
+> -- 43
+< -- 24
++ -- 25
+- -- 10
+* -- 172
+:= -- 459
+add.period$ -- 7
+call.type$ -- 8
+change.case$ -- 29
+chr.to.int$ -- 7
+cite$ -- 23
+duplicate$ -- 113
+empty$ -- 244
+format.name$ -- 29
+if$ -- 604
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 32
-num.names$ -- 6
-pop$ -- 18
+missing$ -- 26
+newline$ -- 54
+num.names$ -- 15
+pop$ -- 47
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 45
 quote$ -- 0
-skip$ -- 77
+skip$ -- 138
 stack$ -- 0
-substring$ -- 59
-swap$ -- 8
-text.length$ -- 4
-text.prefix$ -- 2
+substring$ -- 113
+swap$ -- 17
+text.length$ -- 10
+text.prefix$ -- 4
 top$ -- 0
-type$ -- 44
-warning$ -- 6
-while$ -- 6
-width$ -- 8
-write$ -- 57
-(There were 6 warnings)
+type$ -- 88
+warning$ -- 12
+while$ -- 15
+width$ -- 11
+write$ -- 106
+(There were 12 warnings)
