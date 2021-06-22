@@ -13,28 +13,22 @@
 
 \subsection{Zusammenfassung und Fazit}\label{Sec11Sub1}
 
+Der Bausatz des Fahrzeugs wurde erfolgreich zusammengesetzt und jedes der 3D-Anbauteile konnte konstruiert, gedruckt und montiert werden. Nach der ebenfalls erfolgreichen Implementierung der Fahrzeuglenkung konnte auch die Software für die Ansteuerung der Antriebe vollständig programmiert werden. Durch die Umkonfiguration der ESCs wurde auch das Problem der nicht funktionierenden Start-Sequenz der BLDC-Motoren gelöst. Jetzt ist es möglich, die Motoren zu initialisieren, anzusteuern und dabei in der Drehzahl zu variieren. Im Anschluss daran sind die Vor- und Nachteile von verschiedenen Drehzahlregelungen eruiert worden. Die Hardware-Implementierung der letztendlich erwählten Methode wurde dann mithilfe einer Lochrasterplatine realisiert, bevor auch die Implementierung der Software dafür erfolgreich beendet werden konnte. Die Entwicklung und Programmierung des Bedienungsboards konnte trotz einiger Schwierigkeiten bei der Initialisierung der verwendeten \ac{I2C}-Schnittstelle ebenfalls bewältigt worden. Die Menüführung zum Auslesen und Verändern der Fahrzeugparameter ist, soweit bereits möglich, erledigt. Zu guter Letzt wurde auch die zyklische Bildaufnahme mit der Zeilenkamera zur Funktionalität des Fahrzeugs hinzugefügt. Eine Teilnahme am NXP Cup ist mit dem aktuellen Stand des Fahrzeugs allerdings noch nicht möglich, da die Streckenerkennung mithilfe der Kamera-Daten und die Regelung des Lenkwinkels und der Fahrzeuggeschwindigkeit noch nicht implementiert werden konnten. Die Erstellung der Hardware des Fahrzeugs ist, ausgenommen der Hinderniserkennung, vollständig abgeschlossen.\vspace{11pt}
+
+Die bisher realisierten Funktionen sind in diesem Bericht umfangreich erklärt und im Programm ausführlich kommentiert worden. Bei der Programmierung wurde auf eine nachvollziehbare Benennung der Funktionen und Variablen geachtet.\vspace{11pt}
+
+Zusammenfassend ist zu sagen, dass die Entwicklung während der beiden Semester gut vorangeschritten ist. Da das übergeordnete Ziel von Anfang an ein ordentliches und nachvollziehbares Ergebnis war, war die Teilnahme am NXP Cup 2021 leider nicht mehr möglich.
+
+\newpage
 \subsection{Ausblick}\label{Sec11Sub2}
 
-**Test verschiedener Kameralinsen\\
-**Programmierung der automatischen Belichtungszeitanpassung (evtl. Regelung)\\
-**zweite Kamera für weiter vorausschauende Streckenerkennung (hilft z.B. bei Kreuzungen)\\
-**Kamera --> Ergebnisanzeige auf Display (Visualisierung)\\
+Bei der Fortführung dieses Projekts können und müssen noch einige Funktionen entwickelt bzw. optimiert werden. Zum einen ist es bei der Zeilenkamera sinnvoll, verschiedene Linsen zu testen und deren Vor- und Nachteile zu erörtern. Ein weiterer Entwicklungsschritt bei der Kamera ist die bereits erwähnte, automatische Belichtungszeitanpassung. Auch die Verwendung einer zweiten Kamera kann durchaus von Vorteil sein. Als letzter Punkt in Bezug auf die Kamera sollten die vom ADC aufgenommenen Pixelwerte zur Live-Überwachung auf dem Display dargestellt werden.\vspace{11pt}
 
-**Optimierung der Drehzahlmessung mit einer zweistufigen OPV-Referenzspannungsschaltung\\
-Tiefpassschaltung anpassen --> aktiver Tiefpass, statt zweistufiger OPV-Referenzspannungsschaltung\\
-**Obere Verteilerplatine professionell fertigen\\
+Für die Lösung der Problematik, dass nicht der gesamte Drehzahlbereich gemessen werden kann, sollte eine zusätzliche, zuschaltbare Referenzspannungsstufe implementiert werden oder der Tiefpass ersetzt werden. Bei der Ersetzung des Tiefpasses kann entweder die Grenzfrequenz angepasst oder ein aktiver Tiefpass verwendet werden. In jedem Fall ist es durchaus zu empfehlen, die Drehzahlmessschaltung mitsamt der Signalverteilung professionell zu fertigen.\vspace{11pt}
 
-**Fahrgeräusche reduzieren\\
+Bei der Inbetriebnahme der Antriebe konnte erkannt werden, dass das Drehverhalten beider Reifen unterschiedlich ist. Zur Lösung dieses Problems kann entweder das Getriebe ersetzt (z.B. durch einen Keilriemen) oder die Reibung der beiden Antriebe bestmöglich aufeinander abgestimmt werden.\vspace{11pt}
 
-**Implementierung der Drehzahlregelung\\
-**Implementierung der Streckenregelung\\
-**Stop bei Ziellinie implementieren\\
-**Inbetriebnahme des Fahrzeugs\\
-
-**Hinderniserkennung mit Ultraschallboard\\
-**Anderes Batteriepaket\\
-
-
+Weitere Entwicklungsschritte, welche für die Teilnahme am NXP-Cup notwendig sind, sind die Implementierung einer Drehzahl- und Lenkwinkelregelung und einer Erkennung der Ziellinie, aber auch die Einbindung des Ultraschallboards zur Hinderniserkennung. Zuallerletzt kann auch der verwendete Nickel-Metallhydrid-Akku durch einen Lithium-Ionen-Akku mit einer größeren Energiedichte ersetzt werden, um bei gleicher Spannung Gewicht zu sparen.
 
 
 \newpage

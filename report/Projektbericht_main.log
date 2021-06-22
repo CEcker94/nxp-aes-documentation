@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  21 JUN 2021 19:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  23 JUN 2021 01:28
 entering extended mode
 **./Projektbericht_main.tex
 (Projektbericht_main.tex
@@ -1921,43 +1921,12 @@ Package pdftex.def Info: sec8/images/Signalverteilerplatine.jpeg  used on input
  line 40.
 (pdftex.def)             Requested size: 308.71106pt x 231.53613pt.
  [78 <./sec8/images/Signalverteilerplatine.jpeg>]) (sec11/sec11.tex
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
-
+Overfull \hbox (4.01927pt too wide) in paragraph at lines 16--17
+[]\T1/cmr/m/n/10.95 Der Bau-satz des Fahr-zeugs wur-de er-folg-reich zu-sam-men
+-ge-setzt und je-des der 3D-Anbauteile
  []
 
-
-Overfull \hbox (19.58559pt too wide) in paragraph at lines 23--26
-[]\T1/cmr/m/n/10.95 **Optimierung der Dreh-zahl-mes-sung mit ei-ner zwei-stu-fi
--gen OPV-Referenzspannungsschaltung 
- []
-
-
-Overfull \hbox (32.75844pt too wide) in paragraph at lines 23--26
-\T1/cmr/m/n/10.95 Tiefpassschaltung an-pas-sen --> ak-ti-ver Tief-pass, statt z
-wei-stu-fi-ger OPV-Referenzspannungsschaltung 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
-
- []
-
-[79]) (inserts/graphics/graphics.tex (Projektbericht_main.lof [6]
+[79] [80]) (inserts/graphics/graphics.tex (Projektbericht_main.lof [6]
 Overfull \hbox (1.75327pt too wide) in paragraph at lines 70--70
  [][] [][][]\T1/cmr/m/n/10.95 Funktionen SER-VO_Init, CTI-MER1_Init und SER-VO_
 Demo der Da-tei drive.c[][] [][]  
@@ -1974,25 +1943,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--65
  k e r -[] i n n o v
  []
 
-) [9]) (attachement/attachement.tex [10]
-<attachement/PinAssignment.png, id=1674, 345.08925pt x 690.78075pt>
+) [9]) (attachement/attachement.tex
+<attachement/Schaltplan1.png, id=1676, 625.58719pt x 981.6675pt>
+File: attachement/Schaltplan1.png Graphic file (type png)
+<use attachement/Schaltplan1.png>
+Package pdftex.def Info: attachement/Schaltplan1.png  used on input line 17.
+(pdftex.def)             Requested size: 383.68326pt x 602.08173pt.
+<attachement/Schaltplan2.png, id=1677, 575.14874pt x 1024.57782pt>
+File: attachement/Schaltplan2.png Graphic file (type png)
+<use attachement/Schaltplan2.png>
+Package pdftex.def Info: attachement/Schaltplan2.png  used on input line 22.
+(pdftex.def)             Requested size: 374.86775pt x 667.81248pt.
+ [10 <./attachement/Schaltplan1.png>]
+Overfull \vbox (9.53055pt too high) has occurred while \output is active []
+
+
+[11 <./attachement/Schaltplan2.png>]
+<attachement/PinAssignment.png, id=1693, 345.08925pt x 690.78075pt>
 File: attachement/PinAssignment.png Graphic file (type png)
 <use attachement/PinAssignment.png>
-Package pdftex.def Info: attachement/PinAssignment.png  used on input line 28.
+Package pdftex.def Info: attachement/PinAssignment.png  used on input line 36.
 (pdftex.def)             Requested size: 330.76329pt x 662.15118pt.
 
 Overfull \vbox (39.5094pt too high) has occurred while \output is active []
 
 
-[11 <./attachement/PinAssignment.png>]) (Projektbericht_main.aux)
+[12 <./attachement/PinAssignment.png>]) (Projektbericht_main.aux)
 Package rerunfilecheck Info: File `Projektbericht_main.out' has not changed.
 (rerunfilecheck)             Checksum: E65950DB4F9831011ED1ED73A67791A6;5063.
  ) 
 Here is how much of TeX's memory you used:
- 40432 strings out of 480202
- 1060778 string characters out of 2877025
- 1437298 words of memory out of 3000000
- 55961 multiletter control sequences out of 15000+200000
+ 40454 strings out of 480202
+ 1061301 string characters out of 2877025
+ 1437478 words of memory out of 3000000
+ 55977 multiletter control sequences out of 15000+200000
  551932 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  81i,12n,90p,2660b,1433s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2017,9 +2001,9 @@ C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmmi8.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Projektbericht_main.pdf (90 pages, 36081140 bytes).
+Output written on Projektbericht_main.pdf (92 pages, 36199067 bytes).
 PDF statistics:
- 2307 PDF objects out of 2487 (max. 8388607)
- 318 named destinations out of 1000 (max. 500000)
- 1043 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2326 PDF objects out of 2487 (max. 8388607)
+ 322 named destinations out of 1000 (max. 500000)
+ 1053 words of extra memory for PDF output out of 10000 (max. 10000000)
 

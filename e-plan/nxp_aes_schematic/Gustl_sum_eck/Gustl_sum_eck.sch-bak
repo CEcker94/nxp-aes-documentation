@@ -1,0 +1,379 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 12
+Title ""
+Date "2021-01-11"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1800 3350 1000 1500
+U 5FF81A48
+F0 "Display_PCB" 50
+F1 "Display_PCB.sch" 50
+F2 "ENC_A" O R 2800 3500 50 
+F3 "ENC_B" O R 2800 3600 50 
+F4 "ENC_SW" O R 2800 3700 50 
+F5 "Buzzer" I R 2800 4100 50 
+F6 "SDA" I R 2800 4300 50 
+F7 "SCL" I R 2800 4400 50 
+F8 "nRst" I R 2800 4600 50 
+F9 "SW" O R 2800 3900 50 
+$EndSheet
+$Sheet
+S 8100 2650 600  550 
+U 5FF8364A
+F0 "ESC_left" 50
+F1 "ESC.sch" 50
+F2 "BAT+" I L 8100 2750 50 
+F3 "BAT-" I L 8100 2850 50 
+F4 "Sig" I L 8100 3000 50 
+F5 "U" O R 8700 2800 50 
+F6 "V" O R 8700 2900 50 
+F7 "W" O R 8700 3000 50 
+F8 "GND" I L 8100 3100 50 
+$EndSheet
+$Sheet
+S 9200 2700 550  400 
+U 5FF83763
+F0 "BLDC_left" 50
+F1 "BLDC.sch" 50
+F2 "U" I L 9200 2800 50 
+F3 "V" I L 9200 2900 50 
+F4 "W" I L 9200 3000 50 
+$EndSheet
+Wire Wire Line
+	8700 2800 9200 2800
+Wire Wire Line
+	8700 2900 9200 2900
+Wire Wire Line
+	8700 3000 8800 3000
+$Comp
+L Device:Battery BT1
+U 1 1 5FF84B7F
+P 1650 1350
+F 0 "BT1" H 1758 1396 50  0000 L CNN
+F 1 "Battery" H 1758 1305 50  0000 L CNN
+F 2 "" V 1650 1410 50  0001 C CNN
+F 3 "~" V 1650 1410 50  0001 C CNN
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8100 1750 500  450 
+U 5FF8887D
+F0 "Sheet5FF8887C" 50
+F1 "Servo.sch" 50
+F2 "+5V" I L 8100 1850 50 
+F3 "Sig" I L 8100 2100 50 
+F4 "GND" I L 8100 1950 50 
+$EndSheet
+$Sheet
+S 4600 1750 600  400 
+U 5FF84A44
+F0 "Master_Bec_Boy" 50
+F1 "Master_Bec_Boy.sch" 50
+F2 "+BAT" I L 4600 1900 50 
+F3 "-BAT" I L 4600 2000 50 
+F4 "+5V" O R 5200 1850 50 
+F5 "GND" O R 5200 1950 50 
+$EndSheet
+Wire Wire Line
+	5200 1850 5950 1850
+Wire Wire Line
+	5200 1950 5950 1950
+$Sheet
+S 8100 3500 600  550 
+U 5FFA8C4B
+F0 "ESC_right" 50
+F1 "ESC.sch" 50
+F2 "BAT+" I L 8100 3600 50 
+F3 "BAT-" I L 8100 3700 50 
+F4 "Sig" I L 8100 3850 50 
+F5 "U" O R 8700 3650 50 
+F6 "V" O R 8700 3750 50 
+F7 "W" O R 8700 3850 50 
+F8 "GND" I L 8100 3950 50 
+$EndSheet
+$Sheet
+S 9200 3550 550  400 
+U 5FFA8C50
+F0 "BLDC_right" 50
+F1 "BLDC.sch" 50
+F2 "U" I L 9200 3650 50 
+F3 "V" I L 9200 3750 50 
+F4 "W" I L 9200 3850 50 
+$EndSheet
+Wire Wire Line
+	8700 3650 9200 3650
+Wire Wire Line
+	8700 3750 9200 3750
+Wire Wire Line
+	8700 3850 8950 3850
+Wire Wire Line
+	4850 2850 5950 2850
+Wire Wire Line
+	5950 2950 4850 2950
+Wire Wire Line
+	2800 3500 3550 3500
+Wire Wire Line
+	2800 3600 3550 3600
+Wire Wire Line
+	2800 3700 3550 3700
+Wire Wire Line
+	3550 3900 2800 3900
+Wire Wire Line
+	2800 4100 3550 4100
+Wire Wire Line
+	3550 4300 2800 4300
+Wire Wire Line
+	2800 4400 3550 4400
+Wire Wire Line
+	3550 4600 2800 4600
+Wire Wire Line
+	7300 1850 8100 1850
+Wire Wire Line
+	8100 1950 7300 1950
+Wire Wire Line
+	7300 2100 8100 2100
+Wire Wire Line
+	8100 3000 7300 3000
+Wire Wire Line
+	7300 3100 8100 3100
+Wire Wire Line
+	7300 3850 8100 3850
+Wire Wire Line
+	7300 3950 8100 3950
+Wire Notes Line width 4
+	6000 1850 7250 1850
+Wire Notes Line width 4
+	6000 1950 7250 1950
+Wire Notes Line width 4
+	6000 3250 6550 3250
+Wire Notes Line width 4
+	6550 3250 6550 2100
+Wire Notes Line width 4
+	6550 2100 7250 2100
+Wire Notes Line width 4
+	6000 3400 6700 3400
+Wire Notes Line width 4
+	6700 3400 6700 3000
+Wire Notes Line width 4
+	6700 3000 7250 3000
+Wire Notes Line width 4
+	6000 3500 6850 3500
+Wire Notes Line width 4
+	6850 3500 6850 3850
+Wire Notes Line width 4
+	6850 3850 7250 3850
+Wire Wire Line
+	4850 3250 5950 3250
+$Sheet
+S 3550 2600 1300 2400
+U 5FF81999
+F0 "MCU" 50
+F1 "LPCXpresso.sch" 50
+F2 "P3.20\\J09.09" I L 3550 3500 50 
+F3 "P3.22\\J09.11" I L 3550 3600 50 
+F4 "P3.21\\J09.13" I L 3550 3700 50 
+F5 "P3.30\\J09.15" I L 3550 3900 50 
+F6 "P2.01\\J09.17" O L 3550 4100 50 
+F7 "P3.23\\J09.03" O L 3550 4300 50 
+F8 "P3.24\\J09.01" O L 3550 4400 50 
+F9 "nRst\\J10.10" O L 3550 4600 50 
+F10 "+5V_USB" O R 4850 2850 50 
+F11 "GND_USB" O R 4850 2950 50 
+F12 "P3.10\\J13.07" O R 4850 3400 50 
+F13 "P0.27\\J13.12" O R 4850 3500 50 
+F14 "P3.2\\J13.11" O R 4850 3250 50 
+F15 "P0.25\\J13.4" I R 4850 4300 50 
+F16 "P0.24\\J13.6" I R 4850 4150 50 
+F17 "P3.27\\J13.13" I R 4850 4650 50 
+F18 "P0.16\\J12.2" I R 4850 4750 50 
+F19 "P3_26\\J13.15" I R 4850 4850 50 
+F20 "GND" I R 4850 4950 50 
+F21 "3.3V" I R 4850 4550 50 
+$EndSheet
+Wire Wire Line
+	4850 3400 5950 3400
+Wire Wire Line
+	4850 3500 5950 3500
+$Sheet
+S 2100 1000 900  950 
+U 60D04258
+F0 "Power_Distribution" 50
+F1 "Power_distribution.sch" 50
+F2 "Vbat+" I L 2100 1100 50 
+F3 "V+_ESC_L" O R 3000 1100 50 
+F4 "V+_ESC_R" O R 3000 1200 50 
+F5 "V+_MB" O R 3000 1300 50 
+F6 "V+_LDO" O R 3000 1400 50 
+F7 "V-_ESC_L" O R 3000 1550 50 
+F8 "V-_ESC_R" O R 3000 1650 50 
+F9 "V-_MB" O R 3000 1750 50 
+F10 "V-_LDO" O R 3000 1850 50 
+F11 "Vbat-" I L 2100 1550 50 
+$EndSheet
+Text Label 3450 1100 2    50   ~ 0
+V+_ESC_L
+Text Label 3450 1200 2    50   ~ 0
+V+_ESC_R
+Text Label 3450 1300 2    50   ~ 0
+V+_MB
+Text Label 3450 1400 2    50   ~ 0
+V+_LDO
+Text Label 3450 1550 2    50   ~ 0
+V-_ESC_L
+Text Label 3450 1650 2    50   ~ 0
+V-_ESC_R
+Text Label 3450 1750 2    50   ~ 0
+V-_MB
+Text Label 3450 1850 2    50   ~ 0
+V-_LDO
+Wire Wire Line
+	3000 1100 3450 1100
+Wire Wire Line
+	3000 1200 3450 1200
+Wire Wire Line
+	3000 1300 3450 1300
+Wire Wire Line
+	3000 1400 3450 1400
+Wire Wire Line
+	3000 1550 3450 1550
+Wire Wire Line
+	3000 1650 3450 1650
+Wire Wire Line
+	3000 1750 3450 1750
+Wire Wire Line
+	3000 1850 3450 1850
+Wire Wire Line
+	2100 1100 1650 1100
+Wire Wire Line
+	1650 1100 1650 1150
+Wire Wire Line
+	2100 1550 1650 1550
+Text Label 7650 2750 0    50   ~ 0
+V+_ESC_L
+Text Label 7650 3600 0    50   ~ 0
+V+_ESC_R
+Text Label 4300 1900 0    50   ~ 0
+V+_MB
+Text Label 5600 1500 0    50   ~ 0
+V+_LDO
+Text Label 7650 2850 0    50   ~ 0
+V-_ESC_L
+Text Label 7650 3700 0    50   ~ 0
+V-_ESC_R
+Text Label 4300 2000 0    50   ~ 0
+V+_MB
+Text Label 5600 1600 0    50   ~ 0
+V-_LDO
+Wire Wire Line
+	5600 1600 5950 1600
+Wire Wire Line
+	5600 1500 5950 1500
+Wire Wire Line
+	4300 1900 4600 1900
+Wire Wire Line
+	4300 2000 4600 2000
+Wire Wire Line
+	7650 2750 8100 2750
+Wire Wire Line
+	7650 2850 8100 2850
+Wire Wire Line
+	7650 3600 8100 3600
+Wire Wire Line
+	7650 3700 8100 3700
+$Sheet
+S 5950 1400 1350 3050
+U 5FF8AA4F
+F0 "Distribution_PCB" 50
+F1 "Distribution_PCB.sch" 50
+F2 "ESC_left" O R 7300 3000 50 
+F3 "ESC_right" O R 7300 3850 50 
+F4 "Servo" O R 7300 2100 50 
+F5 "MCU_ESC_left" I L 5950 3400 50 
+F6 "MCU_ESC_right" I L 5950 3500 50 
+F7 "MCU_Servo" I L 5950 3250 50 
+F8 "+5V_Servo_out" O R 7300 1850 50 
+F9 "+5V_Servo_in" I L 5950 1850 50 
+F10 "GND" I L 5950 1950 50 
+F11 "GND_Servo" O R 7300 1950 50 
+F12 "GND_ESC_left" O R 7300 3100 50 
+F13 "GND_ESC_right" O R 7300 3950 50 
+F14 "+5V_USB" O L 5950 2850 50 
+F15 "GND_USB" O L 5950 2950 50 
+F16 "+BAT" I L 5950 1500 50 
+F17 "-BAT" I L 5950 1600 50 
+F18 "RPM_L" O L 5950 4150 50 
+F19 "RPM_R" O L 5950 4300 50 
+F20 "Phase_L" I R 7300 4150 50 
+F21 "Phase_R" I R 7300 4300 50 
+$EndSheet
+Wire Wire Line
+	8950 3850 8950 4300
+Wire Wire Line
+	8950 4300 7300 4300
+Connection ~ 8950 3850
+Wire Wire Line
+	8950 3850 9200 3850
+Wire Wire Line
+	8800 3000 8800 4150
+Wire Wire Line
+	8800 4150 7300 4150
+Connection ~ 8800 3000
+Wire Wire Line
+	8800 3000 9200 3000
+Wire Wire Line
+	5950 4150 4850 4150
+Wire Wire Line
+	4850 4300 5950 4300
+$Sheet
+S 5550 5000 600  1100
+U 60E61A1F
+F0 "Camera" 50
+F1 "Camera.sch" 50
+F2 "GND" I L 5550 5600 50 
+F3 "CAM_SI" I L 5550 5450 50 
+F4 "CAM_A0" I L 5550 5350 50 
+F5 "Vcc" I L 5550 5100 50 
+F6 "CAM_CLK" I L 5550 5250 50 
+$EndSheet
+Wire Wire Line
+	4850 4550 5450 4550
+Wire Wire Line
+	5350 4650 4850 4650
+Wire Wire Line
+	4850 4750 5250 4750
+Wire Wire Line
+	5150 4850 4850 4850
+Wire Wire Line
+	4850 4950 5050 4950
+Wire Wire Line
+	5450 4550 5450 5100
+Wire Wire Line
+	5450 5100 5550 5100
+Wire Wire Line
+	5350 4650 5350 5250
+Wire Wire Line
+	5350 5250 5550 5250
+Wire Wire Line
+	5250 4750 5250 5350
+Wire Wire Line
+	5250 5350 5550 5350
+Wire Wire Line
+	5150 4850 5150 5450
+Wire Wire Line
+	5150 5450 5550 5450
+Wire Wire Line
+	5050 4950 5050 5600
+Wire Wire Line
+	5050 5600 5550 5600
+$EndSCHEMATC
