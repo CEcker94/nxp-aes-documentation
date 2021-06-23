@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  23 JUN 2021 01:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.19)  23 JUN 2021 11:52
 entering extended mode
 **./Projektbericht_main.tex
 (Projektbericht_main.tex
@@ -1920,13 +1920,8 @@ File: sec8/images/Signalverteilerplatine.jpeg Graphic file (type jpg)
 Package pdftex.def Info: sec8/images/Signalverteilerplatine.jpeg  used on input
  line 40.
 (pdftex.def)             Requested size: 308.71106pt x 231.53613pt.
- [78 <./sec8/images/Signalverteilerplatine.jpeg>]) (sec11/sec11.tex
-Overfull \hbox (4.01927pt too wide) in paragraph at lines 16--17
-[]\T1/cmr/m/n/10.95 Der Bau-satz des Fahr-zeugs wur-de er-folg-reich zu-sam-men
--ge-setzt und je-des der 3D-Anbauteile
- []
-
-[79] [80]) (inserts/graphics/graphics.tex (Projektbericht_main.lof [6]
+ [78 <./sec8/images/Signalverteilerplatine.jpeg>]) (sec11/sec11.tex [79] [80])
+(inserts/graphics/graphics.tex (Projektbericht_main.lof [6]
 Overfull \hbox (1.75327pt too wide) in paragraph at lines 70--70
  [][] [][][]\T1/cmr/m/n/10.95 Funktionen SER-VO_Init, CTI-MER1_Init und SER-VO_
 Demo der Da-tei drive.c[][] [][]  
@@ -2001,7 +1996,7 @@ C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmmi8.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Projektbericht_main.pdf (92 pages, 36199067 bytes).
+Output written on Projektbericht_main.pdf (92 pages, 36199046 bytes).
 PDF statistics:
  2326 PDF objects out of 2487 (max. 8388607)
  322 named destinations out of 1000 (max. 500000)
